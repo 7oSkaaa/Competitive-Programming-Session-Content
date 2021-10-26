@@ -1,10 +1,5 @@
 # Advanced STLS
 
-Date: September 30, 2021
-Instructor: Ahmed Hossam
-Topic: Stls
-Type: Advanced
-
 ## Videos
 
 [Session Part #1](https://cisuezedu.sharepoint.com/:v:/s/ICPCSCUPhase2/ESHh0Qhu64JAuJ3vf5gVyQwBsW79XKFJ2TFEWHZRX-Y9_Q?e=PEj7R1)
