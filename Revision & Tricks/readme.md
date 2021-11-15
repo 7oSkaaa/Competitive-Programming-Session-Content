@@ -1,7 +1,7 @@
 # Revision & Tips
 
 - [**Session Video Part #1**](https://cisuezedu.sharepoint.com/:v:/s/Group2/EZp1N6UKMP9GveGLjSlVJzcBBCzYznk30_fnQOEt9YH7tg?e=VB0XKp)
-- [***Session Video Part #2***](https://cisuezedu.sharepoint.com/:v:/s/Group2/ESY8TpFQsRJKqOWU9qmmrRQBm5WuSEYx671QLcLjFZF3yg?e=q1DgH4)
+- [**Session Video Part #2**](https://cisuezedu.sharepoint.com/:v:/s/Group2/ESY8TpFQsRJKqOWU9qmmrRQBm5WuSEYx671QLcLjFZF3yg?e=q1DgH4)
 
 ## **Postfix & Prefix**
 
