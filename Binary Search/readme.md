@@ -2,7 +2,7 @@
 
 ## Videos
 
-**[Session Video](https://cisuezedu.sharepoint.com/:v:/s/Group2/ESaItfoQ4VNBuiTu6E2acjEBjLPW5kSzIw-uYkPEXr9lIA?e=eFHPWD)**
+**[Session Video](https://drive.google.com/file/d/1F2KlMuLknoxw9izjyIROUARBR7ibcgWX/view?usp=sharing)**
 
 [**Ternary Search**](https://www.youtube.com/watch?v=Z-1Z-1utYuI&t=676s)
 
