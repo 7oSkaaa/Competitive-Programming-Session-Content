@@ -2,7 +2,7 @@
 
 ## Videos
 
-[Session](https://cisuezedu.sharepoint.com/:v:/s/Group2/EaNcnW7z61RFlvVRJ7uXkpoB4H3Fl35eUVsOHsv65XtNsg?e=GDn9Aq)
+[Session Video](https://drive.google.com/file/d/1S1uq4X2utieRIdlRAlPRWaLhDQYkXVeL/view?usp=sharing)
 
 [Modular Arithmetic (4Kids Playlist)](https://www.youtube.com/watch?v=jJVaDl_dePk&ab_channel=ArabicCompetitiveProgramming)
 
