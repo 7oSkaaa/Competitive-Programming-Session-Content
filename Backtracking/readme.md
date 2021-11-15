@@ -4,7 +4,7 @@
 
 [Mostafa Saad](https://www.youtube.com/watch?v=hLXVhRzqq18&t=23s&ab_channel=ArabicCompetitiveProgramming)
 
-[Session Video](https://cisuezedu.sharepoint.com/:f:/s/ICPCSCUPhase2/EiR0X7TVBnxBqSmCvl4RAr4BKGPGM9PD4k47C0kp6UjTEA?e=xzjs9y)
+[Session Video](https://drive.google.com/file/d/1OYZ2tdZxXnIRYJbwCrdl1YaHmyOkXlqM/view?usp=sharing)
 
 ## Problems
 
