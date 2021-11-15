@@ -1,5 +1,9 @@
 # Thinking session notes
 
+## Video
+[Session Video](https://www.youtube.com/watch?v=UA9-CaD3758&t=3s)
+[Playlist Mostafa Sadd](https://www.youtube.com/playlist?list=PLPt2dINI2MIa3AdNEfMlWS-RXqkpMdUC3)
+
 ## Content
 
 - [ ] Problems we face
