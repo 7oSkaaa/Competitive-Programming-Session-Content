@@ -2,9 +2,7 @@
 
 ## Videos
 
-[Session Part #1](https://cisuezedu.sharepoint.com/:v:/s/ICPCSCUPhase2/ESHh0Qhu64JAuJ3vf5gVyQwBsW79XKFJ2TFEWHZRX-Y9_Q?e=PEj7R1)
-
-[Session Part #2](https://cisuezedu.sharepoint.com/:v:/r/sites/ICPCSCUPhase2/Shared%20Documents/General/Recordings/Advanced%20STLS-20210930_160153-Meeting%20Recording.mp4?csf=1&web=1&e=NMDN9J)
+[Session Video](https://drive.google.com/file/d/1RnYjB6KG96ftb5AcWRyAUQJrIgP-zxoT/view?usp=sharing)
 
 [William Fiset](https://www.youtube.com/watch?v=wptevk0bshY&ab_channel=WilliamFiset) (PQ)
 
