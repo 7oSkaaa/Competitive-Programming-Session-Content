@@ -1,6 +1,6 @@
 # Number Theory
 
-## [Session Video](https://cisuezedu.sharepoint.com/:v:/s/Group2/EYsd9zkKobpIhMXChEr-dyYB1zO9nh5AnJbuyj0N9Pf8Uw?e=paHfff)
+## **[Session Video](https://drive.google.com/file/d/1E7RQEr2p07RlE3UmRcwYiAxmzCzL81WN/view?usp=sharing)**
 
 ## **Modular Arithmetic**
 
