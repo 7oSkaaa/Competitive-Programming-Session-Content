@@ -2,7 +2,7 @@
 
 ## Videos
 
-[**Session Video**](https://cisuezedu.sharepoint.com/:v:/s/ICPCSCUPhase2/EYaVus1ob1pCkeY5BnXGJDwBOciXfgbaGp-YzEH33wf2nA?e=TiNZvb)
+[**Session Video**](https://drive.google.com/file/d/1pEvS8ZUyBdjIRtEtv4Qr8e5dSE5iGSTb/view?usp=sharing)
 
 [**Erricho**](https://www.youtube.com/watch?v=xXKL9YBWgCY&t=1s&ab_channel=Errichto)
 
