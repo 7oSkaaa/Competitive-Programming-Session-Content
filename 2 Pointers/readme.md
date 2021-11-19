@@ -48,7 +48,7 @@
 
 [Blanced Tunnel](https://codeforces.com/contest/1237/problem/B)
 
-[Blanced Team](https://codeforces.com/contest/1133/submission/109003131)
+[Blanced Team](https://codeforces.com/contest/1133/problem/C)
 
 [Books](https://codeforces.com/contest/279/problem/B)
 
