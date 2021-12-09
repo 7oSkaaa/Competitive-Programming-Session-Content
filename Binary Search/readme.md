@@ -48,6 +48,9 @@
 
 [Different Divisors](https://codeforces.com/contest/1474/submission/104842449)
 
+[Friends and Cookies](https://codeforces.com/gym/101810/problem/B)
+
+
 ### Ternary Search Problems
 
 [Approximation](https://codeforces.com/group/MEqF8b6wBT/contest/324245/problem/V)
