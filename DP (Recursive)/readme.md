@@ -23,4 +23,8 @@
 - [X and Beasts](https://codeforces.com/gym/101028/problem/J)
 - [The Crazy Jumper](https://codeforces.com/problemset/gymProblem/101532/I)
 - [House Robber](https://leetcode.com/problems/house-robber/)
-
+- [Dice Combination](https://cses.fi/problemset/task/1633)
+- [Coin Combination 1](https://cses.fi/problemset/task/1635)
+- [Coin Combination 2](https://cses.fi/problemset/task/1636)
+- [Removing Digits](https://cses.fi/problemset/task/1637)
+- [Money Sums](https://cses.fi/problemset/task/1745)
