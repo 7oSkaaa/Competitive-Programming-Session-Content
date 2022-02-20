@@ -3,7 +3,7 @@
 ## Video:
 
 - [Mostafa Saad](https://www.youtube.com/watch?v=gFdP6X4CyKU&list=PLPt2dINI2MIattDutu7IOAMlUuLeN8k2p&index=1)
-- [Mostafa Saad](https://www.youtube.com/watch?v=gFdP6X4CyKU&list=PLPt2dINI2MIattDutu7IOAMlUuLeN8k2p&index=2)
+- [Mostafa Saad](https://www.youtube.com/watch?v=1j3srLj-C5Q&list=PLPt2dINI2MIattDutu7IOAMlUuLeN8k2p&index=2)
 - [A Dev' Story](https://youtu.be/rgGq6sELoZc)
 
 
