@@ -28,3 +28,5 @@
 - [Coin Combination 2](https://cses.fi/problemset/task/1636)
 - [Removing Digits](https://cses.fi/problemset/task/1637)
 - [Money Sums](https://cses.fi/problemset/task/1745)
+- [Jumping Takahashi](https://atcoder.jp/contests/abc240/tasks/abc240_c)
+- [FG operation](https://atcoder.jp/contests/abc220/tasks/abc220_d)
