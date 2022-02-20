@@ -31,3 +31,4 @@
 - [Jumping Takahashi](https://atcoder.jp/contests/abc240/tasks/abc240_c)
 - [FG operation](https://atcoder.jp/contests/abc220/tasks/abc220_d)
 - [Broke Collector](https://codeforces.com/group/Gb7ARsml3C/contest/339111/problem/H)
+- [Playing with Sequences](https://codeforces.com/group/Gb7ARsml3C/contest/339111/problem/F)
