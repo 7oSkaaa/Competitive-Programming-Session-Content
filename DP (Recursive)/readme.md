@@ -2,7 +2,7 @@
 
 ## Video:
 
-- [Session Video](https://cisuezedu.sharepoint.com/:v:/s/ICPCSCUPhase2/EZIW-4SCCNtJpjQLNINZFFYB4yYKePH6F_GAdf9rj9eBEg?e=g6S4M7)
+- [Session Video](https://drive.google.com/file/d/1gC2brzWeWhrKQrLoTfrNBodoIyPzaeqB/view?usp=sharing)
 - [Mostafa Saad](https://www.youtube.com/watch?v=gFdP6X4CyKU&list=PLPt2dINI2MIattDutu7IOAMlUuLeN8k2p&index=1)
 - [Mostafa Saad](https://www.youtube.com/watch?v=1j3srLj-C5Q&list=PLPt2dINI2MIattDutu7IOAMlUuLeN8k2p&index=2)
 - [A Dev' Story](https://youtu.be/rgGq6sELoZc)
