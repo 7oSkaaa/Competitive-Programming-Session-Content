@@ -33,3 +33,6 @@
 - [FG operation](https://atcoder.jp/contests/abc220/tasks/abc220_d)
 - [Broke Collector](https://codeforces.com/group/Gb7ARsml3C/contest/339111/problem/H)
 - [Playing with Sequences](https://codeforces.com/group/Gb7ARsml3C/contest/339111/problem/F)
+- [Choose Elements](https://atcoder.jp/contests/abc245/tasks/abc245_c)
+- [By Elevator or Stairs?](https://codeforces.com/contest/1249/problem/E)
+- [1111gal password](https://atcoder.jp/contests/abc242/tasks/abc242_c)
