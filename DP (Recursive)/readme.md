@@ -36,3 +36,4 @@
 - [Choose Elements](https://atcoder.jp/contests/abc245/tasks/abc245_c)
 - [By Elevator or Stairs?](https://codeforces.com/contest/1249/problem/E)
 - [1111gal password](https://atcoder.jp/contests/abc242/tasks/abc242_c)
+- [Minimum White Tiles After Covering With Carpets](https://leetcode.com/contest/biweekly-contest-74/problems/minimum-white-tiles-after-covering-with-carpets/)
