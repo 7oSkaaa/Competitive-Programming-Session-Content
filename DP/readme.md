@@ -3,6 +3,7 @@
 ## Video:
 
 - [Session Video -> Recursive](https://drive.google.com/file/d/1gC2brzWeWhrKQrLoTfrNBodoIyPzaeqB/view?usp=sharing)
+- [Session Video -> Iterative](https://drive.google.com/file/d/1Ko9Kwaf0yzZ5uKQp34wNO90Nv4Q0C_dy/view?usp=sharing)
 - [Mostafa Saad](https://www.youtube.com/watch?v=gFdP6X4CyKU&list=PLPt2dINI2MIattDutu7IOAMlUuLeN8k2p&index=1)
 - [Mostafa Saad](https://www.youtube.com/watch?v=1j3srLj-C5Q&list=PLPt2dINI2MIattDutu7IOAMlUuLeN8k2p&index=2)
 - [A Dev' Story](https://youtu.be/rgGq6sELoZc)
