@@ -5,7 +5,7 @@ Solve the 2 sheets and see the videos
 
 ## **Videos:**
 
-[Session Video](https://drive.google.com/file/d/1lLFaZ7b6R7gGRwOTggEsx1a6V3UCHZKf/view)
+[Session Video](https://drive.google.com/file/d/1gfLOAVvNWwfjAVk6d2RIOpTA-ad5DZCq/view?usp=sharing)
 
 [Adel Nasim #1](https://www.youtube.com/watch?v=MMY077l9awA)
 
