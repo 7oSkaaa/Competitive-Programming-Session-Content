@@ -10,7 +10,7 @@ You have to see the two parts of the session
 
 ## Problems
 
-[STL - Sheet](https://www.notion.so/68d077037e125527549822f278c88260)
+[STL - Sheet](https://codeforces.com/contests/323462)
 
 ## External links
 
