@@ -174,3 +174,24 @@ You can read about [policy based data structures](https://codeforces.com/blog/en
 ## Sheet to Solve
 
 - [ICPC SCU Phase 2 --- Week #1](https://vjudge.net/contest/517904) 
+
+
+<details>
+  <summary><h3>Additional Material to Study</h3></summary>
+
+### Videos:
+
+- [Priority_Queue](https://www.youtube.com/watch?v=0zr0JqSw7ic)
+- [Multiset](https://www.youtube.com/watch?v=iJCnqHrkPq8)
+- [Orderd_Set](https://www.youtube.com/watch?v=IWyIwLFucU4)
+
+### Articles:
+
+- [Priority_Queue](https://www.geeksforgeeks.org/priority-queue-in-cpp-stl/?ref=gcse)
+- [Multiset](https://www.geeksforgeeks.org/multiset-in-cpp-stl/?ref=gcse)
+- [Orderd_Set](https://www.geeksforgeeks.org/ordered-set-gnu-c-pbds/)
+	
+</details>
+
+### [Session Video](https://drive.google.com/file/d/1ozD5LAPW8moTmTHqYirYcAWkCAR-1jGL/view?usp=sharing)
+
