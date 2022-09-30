@@ -10,7 +10,7 @@
   - [Monotonic Stack](#monotonic-stacks) 
   - [Deque](#deque)
   - [Sheet](#sheet-to-solve)
-  - [Session](#session-videohttpsdrivegooglecomfiled1ozd5lapw8motmthqyirycawkcar-1jglviewuspsharing)
+  - [Session](#session-video)
  
 <br>
 
