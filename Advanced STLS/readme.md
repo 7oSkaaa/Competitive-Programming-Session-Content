@@ -9,8 +9,8 @@
 - **[Additional Points](#additional-points)** (If we have time)
   - [Monotonic Stack](#monotonic-stacks) 
   - [Deque](#deque)
-  - [Sheet](#sheet-to-solve)
-  - [Session](#session-video)
+- [Sheet](#sheet-to-solve)
+- [Session](#session-video)
  
 <br>
 
