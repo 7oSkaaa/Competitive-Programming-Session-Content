@@ -3,12 +3,14 @@
 <br><br><br>
 
 ## Outlines:
-- **Priority Queue**
-- **Multiset**
-- **Ordered Set**
-- **Additional Points** (If we have time)
-  - Monotonic Stack 
-  - Deque
+- **[Priority Queue](#priority-queue)**
+- **[Multiset](#multiset)**
+- **[Ordered Set](#ordered-set)**
+- **[Additional Points](#additional-points)** (If we have time)
+  - [Monotonic Stack](#monotonic-stacks) 
+  - [Deque](#deque)
+  - [Sheet](#sheet-to-solve)
+  - [Session](#session-videohttpsdrivegooglecomfiled1ozd5lapw8motmthqyirycawkcar-1jglviewuspsharing)
  
 <br>
 
