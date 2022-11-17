@@ -1,5 +1,15 @@
 <h1 align=center> Miscellaneous
 
+<br><br><br>
+
+## Outlines:
+- ***[Monotonic Stacks](#monotonic-stacks)***
+- ***[Coordinate Compression](#coordinate-compression)***
+- ***[Mod Inverse](#mod-inverse)***
+- ***[Meet in Middle](#meet-in-middle)***
+
+<br><br>
+
 ## Monotonic Stacks
 
 ###  Videos
@@ -14,6 +24,8 @@
 
 ---
 
+<br><br>
+
 ## Coordinate Compression
 
 ###  Videos
@@ -27,6 +39,8 @@
 
 ---
 
+<br><br>
+
 ## Mod Inverse
 
 ###  Videos
@@ -39,6 +53,8 @@
 - [Binomial Coefficients](https://cses.fi/problemset/task/1079)
 
 ---
+
+<br><br>
 
 ## Meet in Middle
 
