@@ -8,7 +8,7 @@
 <br><br><br>
 
 ### Template
-- [Segment Tree](https://github.com/7oSkaaa/CP-Templates/blob/main/DSU.cpp)
+- [DSU](https://github.com/7oSkaaa/CP-Templates/blob/main/DSU.cpp)
 
 <br><br><br>
 
