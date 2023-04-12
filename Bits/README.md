@@ -3,6 +3,7 @@
 ## Videos
 
 [**Session Video**](https://drive.google.com/file/d/1pEvS8ZUyBdjIRtEtv4Qr8e5dSE5iGSTb/view?usp=sharing)
+[**Session Video 23'**](https://youtu.be/wmq4XA2VBhU)
 
 [**Erricho**](https://www.youtube.com/watch?v=xXKL9YBWgCY&t=1s&ab_channel=Errichto)
 
