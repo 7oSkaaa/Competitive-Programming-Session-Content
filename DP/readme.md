@@ -1,13 +1,10 @@
 # DP (Dynammic Programming)
 
-## Video:
+## Session:
 
-- [Session Video -> Recursive](https://drive.google.com/file/d/1gC2brzWeWhrKQrLoTfrNBodoIyPzaeqB/view?usp=sharing)
-- [Session Video -> Iterative](https://drive.google.com/file/d/1Ko9Kwaf0yzZ5uKQp34wNO90Nv4Q0C_dy/view?usp=sharing)
-- [Mostafa Saad](https://www.youtube.com/watch?v=gFdP6X4CyKU&list=PLPt2dINI2MIattDutu7IOAMlUuLeN8k2p&index=1)
-- [Mostafa Saad](https://www.youtube.com/watch?v=1j3srLj-C5Q&list=PLPt2dINI2MIattDutu7IOAMlUuLeN8k2p&index=2)
-- [A Dev' Story](https://youtu.be/rgGq6sELoZc)
-
+- [Recursive](https://drive.google.com/file/d/1gC2brzWeWhrKQrLoTfrNBodoIyPzaeqB/view?usp=sharing)
+- [Iterative](https://drive.google.com/file/d/1Ko9Kwaf0yzZ5uKQp34wNO90Nv4Q0C_dy/view?usp=sharing)
+- [BitMask & Iteretaive with Prefix Sum](https://youtu.be/DmtGtp8hBas)
 
 ## Problems:
 - [Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a)
@@ -38,3 +35,9 @@
 - [By Elevator or Stairs?](https://codeforces.com/contest/1249/problem/E)
 - [1111gal password](https://atcoder.jp/contests/abc242/tasks/abc242_c)
 - [Minimum White Tiles After Covering With Carpets](https://leetcode.com/contest/biweekly-contest-74/problems/minimum-white-tiles-after-covering-with-carpets/)
+-----------
+- [Distance Sequence](https://atcoder.jp/contests/abc253/tasks/abc253_e)
+- [Candies](https://atcoder.jp/contests/dp/tasks/dp_m)
+- [Matching](https://atcoder.jp/contests/dp/tasks/dp_o)
+- [Booster](https://atcoder.jp/contests/abc274/tasks/abc274_e)
+- [Elevator Rides](https://cses.fi/problemset/task/1653)
