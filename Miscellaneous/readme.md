@@ -4,7 +4,7 @@
 
 ## Session:
 - [Part 1](https://drive.google.com/file/d/1Emf4fe8VNOS-IYioeNnMSPgiX7TtrIsf/view?usp=sharing)
-- [Part 2](https://drive.google.com/file/d/1XALjINeFWw4WPn2hXpuOAMhTsZBjgDw_/view?usp=sharing)
+- [Part 2](https://youtu.be/vtcEK6k_u_E)
 
 <br><br><br>
 
