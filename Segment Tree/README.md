@@ -3,7 +3,7 @@
 <br><br><br>
 
 ### Session
-- [Session Video](https://drive.google.com/file/d/11aqYj3WHLSwTlRSbSmUcgJ5l4R1UqIOA/view?usp=share_link)
+- [Session Video](https://drive.google.com/file/d/1RWP4vxw1cpTmIfFfbrBSrFTf-eh9p5_I/view?usp=sharing)
 
 <br><br><br>
 
