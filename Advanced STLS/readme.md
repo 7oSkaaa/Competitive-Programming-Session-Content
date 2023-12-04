@@ -195,5 +195,5 @@ You can read about [policy based data structures](https://codeforces.com/blog/en
 	
 </details>
 
-### [Session Video](https://drive.google.com/file/d/1RWP4vxw1cpTmIfFfbrBSrFTf-eh9p5_I/view?usp=drive_link)
+### [Session Video](https://drive.google.com/file/d/1RnYjB6KG96ftb5AcWRyAUQJrIgP-zxoT/view?usp=sharing)
 
