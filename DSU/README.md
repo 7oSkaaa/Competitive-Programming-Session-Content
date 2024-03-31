@@ -1,4 +1,4 @@
-<h1 align="center"> Segment Tree </h1>
+<h1 align="center"> Disjoint Union Set </h1>
 
 <br><br><br>
 
