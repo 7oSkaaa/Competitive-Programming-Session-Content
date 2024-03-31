@@ -1,4 +1,4 @@
-<h1 align="center"> Disjoint Union Set </h1>
+<h1 align="center"> Disjoint Set Union </h1>
 
 <br><br><br>
 
