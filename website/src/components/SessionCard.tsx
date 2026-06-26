@@ -1,17 +1,14 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Code2, FileText, Play } from "lucide-react";
+import { ArrowRight, FileText, Play } from "lucide-react";
 import type { Session } from "@/types";
-import { CATEGORY_META } from "@/types";
 import PracticeStats from "@/components/PracticeStats";
-import { getSessionThumbnail } from "@/lib/utils";
+import SessionCardCover from "@/components/SessionCardCover";
 
 interface SessionCardProps {
   session: Session;
 }
 
 export default function SessionCard({ session }: SessionCardProps) {
-  const category = CATEGORY_META[session.category];
-  const thumbnail = getSessionThumbnail(session);
   const hasYouTube =
     session.youtubeChannelVideos.length > 0 ||
     session.sessionRecordings.some((v) => v.type === "youtube");
@@ -25,51 +22,15 @@ export default function SessionCard({ session }: SessionCardProps) {
       to={`/sessions/${session.id}`}
       className="group glass-hover flex flex-col overflow-hidden rounded-2xl"
     >
-      <div className="relative h-36 overflow-hidden">
-        {thumbnail ? (
-          <>
-            <img
-              src={thumbnail}
-              alt=""
-              loading="lazy"
-              className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-surface-raised via-surface-raised/20 to-transparent" />
-          </>
-        ) : (
-          <div
-            className={`flex h-full items-center justify-center bg-gradient-to-br ${category.color}`}
-          >
-            <div className="absolute inset-0 bg-grid-pattern bg-grid opacity-20" aria-hidden />
-            <Code2 className="relative h-14 w-14 text-white/90 drop-shadow-lg" strokeWidth={1.5} />
-          </div>
-        )}
-        <span
-          className={`absolute left-4 top-4 inline-flex rounded-full bg-gradient-to-r ${category.color} px-3 py-1 text-xs font-semibold text-white shadow-lg`}
-        >
-          {category.label}
-        </span>
-        {hasYouTube && (
-          <span className="absolute right-4 top-4 inline-flex items-center gap-1 rounded-full bg-black/50 px-2.5 py-1 text-[10px] font-medium text-white backdrop-blur-sm">
-            <Play className="h-3 w-3 fill-current" />
-            Video
-          </span>
-        )}
-      </div>
+      <SessionCardCover
+        session={session}
+        hasYouTube={hasYouTube}
+        hasDrive={hasDrive}
+      />
 
       <div className="flex flex-1 flex-col p-6">
         <div className="mb-3 flex flex-wrap gap-1.5">
           <PracticeStats stats={session.stats} variant="badges" />
-          {hasDrive && (
-            <span className="rounded-md bg-blue-500/10 px-2 py-0.5 text-[10px] font-medium text-blue-400">
-              Drive
-            </span>
-          )}
-          {session.folder.includes("ICPC SCU") && (
-            <span className="rounded-md bg-emerald-500/10 px-2 py-0.5 text-[10px] font-medium text-emerald-400">
-              ICPC SCU
-            </span>
-          )}
           {partCount > 1 && (
             <span className="rounded-md bg-violet-500/10 px-2 py-0.5 text-[10px] font-medium text-violet-400">
               {partCount} parts

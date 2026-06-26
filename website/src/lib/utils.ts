@@ -312,22 +312,6 @@ function extractIntroFromMarkdown(markdown: string): string | null {
 
 const SITE_URL = "https://7oSkaaa.github.io/Competitive-Programming-Session-Content";
 
-export function getSessionThumbnail(session: {
-  youtubeChannelVideos: { thumbnail: string }[];
-  sessionRecordings: { url: string; type: string }[];
-}): string | null {
-  if (session.youtubeChannelVideos[0]?.thumbnail) {
-    return session.youtubeChannelVideos[0].thumbnail;
-  }
-
-  for (const recording of session.sessionRecordings) {
-    const id = getYouTubeId(recording.url);
-    if (id) return `https://i.ytimg.com/vi/${id}/mqdefault.jpg`;
-  }
-
-  return null;
-}
-
 export function getSiteAssetUrl(path: string): string {
   const normalizedPath = path.startsWith("/") ? path : `/${path}`;
   return `${SITE_URL}${normalizedPath}`;

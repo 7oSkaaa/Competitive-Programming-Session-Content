@@ -288,6 +288,7 @@ async function main() {
       youtubeChannelId: YOUTUBE_CHANNEL_ID,
       links: {
         templates: "https://7oskaaa.github.io/CP-Templates/",
+        portfolio: "https://7oskaaa.github.io/Portfolio/",
         juniorSheet:
           "https://docs.google.com/spreadsheets/d/1iJZWP2nS_OB3kCTjq8L6TrJJ4o-5lhxDOyTaocSYc-k/edit#gid=84654839",
         juniorSheetAddon: "https://github.com/Waelahmed99/junior-sheet-add-on",

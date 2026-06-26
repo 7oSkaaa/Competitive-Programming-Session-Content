@@ -70,6 +70,7 @@ export interface SiteConfig {
   youtubeChannelId: string;
   links: {
     templates: string;
+    portfolio: string;
     juniorSheet: string;
     juniorSheetAddon: string;
     assiutSheet: string;

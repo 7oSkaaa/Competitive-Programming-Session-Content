@@ -3,9 +3,11 @@ import {
   ArrowRight,
   BookOpen,
   ClipboardList,
+  ExternalLink,
   Play,
   Sparkles,
   Target,
+  User,
 } from "lucide-react";
 import siteData from "@/data/site-data.json";
 import type { SiteData } from "@/types";
@@ -35,8 +37,16 @@ export default function Hero() {
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-slate-400">
               {data.config.description} Curated by{" "}
-              <span className="text-slate-200">{data.config.author}</span> —
-              videos, problem sheets, articles, and everything you need to level up.
+              <a
+                href={data.config.links.portfolio}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 font-medium text-slate-200 transition-colors hover:text-accent-light"
+              >
+                {data.config.author}
+                <ExternalLink className="h-3.5 w-3.5 opacity-70" />
+              </a>{" "}
+              — videos, problem sheets, articles, and everything you need to level up.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <a href="#youtube-sessions" className="btn-primary">
@@ -50,6 +60,15 @@ export default function Hero() {
               <Link to="/youtube" className="btn-ghost">
                 All Videos
               </Link>
+              <a
+                href={data.config.links.portfolio}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-ghost"
+              >
+                <User className="h-4 w-4" />
+                About Me
+              </a>
             </div>
           </div>
 
