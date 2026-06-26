@@ -38,6 +38,7 @@ export interface Session {
   tags: string[];
   description: string;
   sections: SessionSection[];
+  sessionRecordings: ResourceLink[];
   primaryVideos: ResourceLink[];
   youtubeChannelVideos: YouTubeVideo[];
   stats: SessionStats;

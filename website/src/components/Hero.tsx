@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 import {
   ArrowRight,
   BookOpen,
+  ClipboardList,
   Play,
   Sparkles,
   Target,
-  Zap,
 } from "lucide-react";
 import siteData from "@/data/site-data.json";
 import type { SiteData } from "@/types";
@@ -14,6 +14,7 @@ const data = siteData as SiteData;
 
 export default function Hero() {
   const totalProblems = data.sessions.reduce((s, x) => s + x.stats.problems, 0);
+  const totalSheets = data.sessions.reduce((s, x) => s + x.stats.sheets, 0);
   const totalVideos = data.youtubeVideos.length;
 
   return (
@@ -55,8 +56,8 @@ export default function Hero() {
           <div className="grid grid-cols-2 gap-4 lg:w-80 animate-stagger">
             <StatCard icon={BookOpen} value={data.sessions.length} label="Sessions" />
             <StatCard icon={Target} value={totalProblems} label="Problems" />
+            <StatCard icon={ClipboardList} value={totalSheets} label="Sheets" />
             <StatCard icon={Play} value={totalVideos} label="YT Videos" />
-            <StatCard icon={Zap} value="100+" label="Resources" accent />
           </div>
         </div>
       </div>

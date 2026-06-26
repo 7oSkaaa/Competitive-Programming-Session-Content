@@ -62,7 +62,19 @@
   }
 
   .prose-session {
-    @apply prose prose-invert max-w-none prose-headings:font-display prose-headings:tracking-tight prose-a:text-accent-light prose-a:no-underline hover:prose-a:underline prose-code:rounded prose-code:bg-white/10 prose-code:px-1.5 prose-code:py-0.5 prose-code:text-cyan-glow prose-pre:bg-surface-overlay;
+    @apply prose prose-invert max-w-none prose-headings:font-display prose-headings:tracking-tight prose-a:text-accent-light prose-a:no-underline hover:prose-a:underline prose-code:rounded prose-code:bg-white/10 prose-code:px-1.5 prose-code:py-0.5 prose-code:text-cyan-glow prose-code:before:content-none prose-code:after:content-none prose-pre:bg-surface-overlay;
+  }
+
+  .prose-session .katex {
+    color: rgb(226 232 240);
+  }
+
+  .prose-session details[open] summary {
+    @apply mb-4 border-b border-white/10 pb-3;
+  }
+
+  .prose-session img {
+    @apply rounded-xl border border-white/10;
   }
 }
 

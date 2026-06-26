@@ -1,4 +1,6 @@
-import type { LinkType, ResourceLink, SessionCategory } from "../types";
+import type { LinkType, ResourceLink, SessionCategory, SessionStats } from "../types";
+import { CATEGORY_META } from "../types";
+import { normalizeMarkdownForRender } from "./markdown";
 
 const LINK_PATTERN = /\[([^\]]+)\]\(([^)]+)\)/g;
 const HEADING_PATTERN = /^(#{1,3})\s+(.+)$/;
@@ -37,6 +39,37 @@ export function slugify(text: string): string {
     .trim();
 }
 
+function isIndividualProblemUrl(url: string): boolean {
+  if (url.includes("leetcode.com/problems/")) return true;
+  if (url.includes("cses.fi/problemset/task/")) return true;
+  if (/atcoder\.jp\/contests\/[^/]+\/tasks\//.test(url)) return true;
+  if (url.includes("spoj.com/problems/")) return true;
+  if (url.includes("codechef.com/problems/")) return true;
+  if (url.includes("vjudge.net/problem/")) return true;
+  if (/codeforces\.com\/.*\/problem\//.test(url)) return true;
+  if (url.includes("codeforces.com/problemset/problem/")) return true;
+  if (url.includes("gymproblem/")) return true;
+  if (/codeforces\.com\/edu\/.*\/practice\/.*\/problem\//.test(url)) return true;
+  return false;
+}
+
+function isSheetOrContestUrl(url: string, label: string): boolean {
+  if (label.includes("sheet")) return true;
+  if (/contest\s*#\s*\d/.test(label)) return true;
+  if (url.includes("codeforces.com/contests/")) return true;
+  if (/codeforces\.com\/group\/[^/]+\/contest\/\d+\/?$/.test(url)) return true;
+  if (/codeforces\.com\/gym\/\d+\/?$/.test(url)) return true;
+  if (url.includes("vjudge.net/contest/")) return true;
+  if (
+    label.includes("contest") &&
+    !isIndividualProblemUrl(url) &&
+    PROBLEM_HOSTS.some((h) => url.includes(h))
+  ) {
+    return true;
+  }
+  return false;
+}
+
 export function classifyLink(url: string, label: string): LinkType {
   const lower = url.toLowerCase();
   const labelLower = label.toLowerCase();
@@ -54,14 +87,8 @@ export function classifyLink(url: string, label: string): LinkType {
   if (lower.includes("github.com") && lower.includes("cp-templates")) {
     return "template";
   }
-  if (
-    labelLower.includes("sheet") ||
-    labelLower.includes("contest") ||
-    lower.includes("/contest/")
-  ) {
-    if (PROBLEM_HOSTS.some((h) => lower.includes(h))) return "sheet";
-  }
-  if (PROBLEM_HOSTS.some((h) => lower.includes(h))) return "problem";
+  if (isIndividualProblemUrl(lower)) return "problem";
+  if (isSheetOrContestUrl(lower, labelLower)) return "sheet";
   if (ARTICLE_HOSTS.some((h) => lower.includes(h))) return "article";
   if (labelLower.includes("session") || labelLower.includes("video")) {
     return "video";
@@ -85,11 +112,136 @@ export function extractLinks(line: string): ResourceLink[] {
 
 export function stripMarkdown(text: string): string {
   return text
+    .replace(/<br\s*\/?>/gi, " ")
     .replace(/<[^>]+>/g, "")
     .replace(/\*\*/g, "")
     .replace(/`/g, "")
     .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+    .replace(/\s+/g, " ")
     .trim();
+}
+
+export function preprocessMarkdownForDisplay(markdown: string): string {
+  return normalizeMarkdownForRender(markdown);
+}
+
+const EXTERNAL_EDUCATOR =
+  /adel|nassim|mostafa|errich|playlist|cpp\s*nuts|kacy\s*codes|pavel|affifi|solver\s*to\s*be|apna\s*college|4kids|elementary|arabic|edu\s*step/i;
+
+const SUPPLEMENTARY_TOPIC =
+  /^(priority[_\s]?queue|multiset|orderd[_\s]?set|ternary\s*search|binary\s*search)$/i;
+
+export function isSessionRecording(link: ResourceLink): boolean {
+  if (link.url.startsWith("#")) return false;
+
+  const lower = link.label.toLowerCase();
+  if (EXTERNAL_EDUCATOR.test(lower)) return false;
+  if (SUPPLEMENTARY_TOPIC.test(lower.replace(/_/g, " "))) return false;
+
+  if (link.type === "drive") return true;
+
+  const sessionPattern =
+    /session|part\s*#?\s*\d+|stl\s*-?\s*i|recursive|iterative|bitmask|application|function\s*session|\d+\s*pointers|part\s*\d+|23'/i;
+  if (sessionPattern.test(lower)) return true;
+
+  if (link.type === "youtube" || link.type === "video") {
+    const id = getYouTubeId(link.url);
+    if (id && Object.values(SESSION_YOUTUBE_MAP).flat().includes(id)) return true;
+  }
+
+  return false;
+}
+
+export function extractPartNumber(label: string): number | null {
+  const match = label.match(/part\s*#?\s*(\d+)/i);
+  return match ? Number.parseInt(match[1], 10) : null;
+}
+
+export function sortSessionRecordings(links: ResourceLink[]): ResourceLink[] {
+  const unique = [...new Map(links.map((l) => [l.url, l])).values()];
+  return unique.sort((a, b) => {
+    const partA = extractPartNumber(a.label);
+    const partB = extractPartNumber(b.label);
+    if (partA !== null && partB !== null) return partA - partB;
+    if (partA !== null) return 1;
+    if (partB !== null) return -1;
+    const aSession = /session/i.test(a.label);
+    const bSession = /session/i.test(b.label);
+    if (aSession && !bSession) return -1;
+    if (!aSession && bSession) return 1;
+    return 0;
+  });
+}
+
+export function getSessionRecordings(
+  sections: { title: string; links: ResourceLink[] }[],
+): ResourceLink[] {
+  const candidates: ResourceLink[] = [];
+  const videoSections = sections.filter((s) => /videos?|session/i.test(s.title));
+  const otherSections = sections.filter((s) => !videoSections.includes(s));
+
+  for (const section of [...videoSections, ...otherSections]) {
+    for (const link of section.links) {
+      if (isSessionRecording(link)) candidates.push(link);
+    }
+  }
+
+  return sortSessionRecordings(candidates);
+}
+
+export function getSupplementaryVideos(
+  allLinks: ResourceLink[],
+  sessionRecordings: ResourceLink[],
+): ResourceLink[] {
+  const recordingUrls = new Set(sessionRecordings.map((r) => r.url));
+  return allLinks.filter((link) => {
+    if (recordingUrls.has(link.url)) return false;
+    if (link.url.startsWith("#")) return false;
+    return (
+      link.type === "youtube" ||
+      link.type === "drive" ||
+      link.type === "video"
+    );
+  });
+}
+
+export function buildSessionDescription(
+  title: string,
+  sections: { title: string; links: ResourceLink[] }[],
+  markdown: string,
+  folder: string,
+): string {
+  const intro = extractIntroFromMarkdown(markdown);
+  if (intro) return intro;
+
+  const outlineSection = sections.find((s) => /outline/i.test(s.title));
+  if (outlineSection && outlineSection.links.length > 0) {
+    const topics = outlineSection.links.slice(0, 5).map((l) => l.label);
+    if (topics.length) {
+      const suffix = outlineSection.links.length > 5 ? ", and more" : "";
+      return `Covers ${topics.join(", ")}${suffix}.`;
+    }
+  }
+
+  const category = FOLDER_CATEGORY[folder];
+  if (category) return CATEGORY_META[category].description;
+
+  return `Curated problems, videos, and resources for ${title}.`;
+}
+
+function extractIntroFromMarkdown(markdown: string): string | null {
+  for (const rawLine of markdown.split(/\r?\n/)) {
+    const line = rawLine.trim();
+    if (!line) continue;
+    if (/^#{1,2}\s/.test(line)) break;
+    if (/^<h1/i.test(line)) continue;
+    if (line.startsWith("<") || line.startsWith("![") || line.startsWith("|")) continue;
+    if (line.startsWith("- ")) continue;
+
+    const cleaned = stripMarkdown(line);
+    if (cleaned.length >= 15 && cleaned.length <= 220) return cleaned;
+  }
+  return null;
 }
 
 export function getYouTubeId(url: string): string | null {
@@ -120,6 +272,31 @@ export function countByType(links: ResourceLink[]): Record<LinkType, number> {
   };
   for (const link of links) counts[link.type]++;
   return counts;
+}
+
+export function computeSessionStats(links: ResourceLink[]): SessionStats {
+  const unique = (items: ResourceLink[]) =>
+    new Set(items.map((l) => l.url)).size;
+
+  const problems = links.filter((l) => l.type === "problem");
+  const sheets = links.filter((l) => l.type === "sheet");
+  const videos = links.filter((l) =>
+    ["youtube", "drive", "video"].includes(l.type),
+  );
+  const articles = links.filter((l) => l.type === "article");
+
+  return {
+    problems: unique(problems),
+    sheets: unique(sheets),
+    videos: unique(videos),
+    articles: unique(articles),
+    total: unique(links),
+  };
+}
+
+export function formatPracticeLabel(count: number, kind: "problem" | "sheet"): string {
+  const word = kind === "problem" ? "problem" : "sheet";
+  return `${count} ${word}${count === 1 ? "" : "s"}`;
 }
 
 export function flattenLinks(
@@ -191,32 +368,44 @@ export function parseMarkdownSections(content: string) {
 
   let current: (typeof sections)[0] | null = null;
   let title = "";
-  const notes: string[] = [];
+
+  const htmlTitle = content.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i);
+  if (htmlTitle) title = stripMarkdown(htmlTitle[1]);
 
   for (const rawLine of lines) {
     const line = rawLine.trim();
-    if (!line || line.startsWith("<") || line.startsWith("![")) continue;
+    if (!line || line.startsWith("![") || line === "<br>" || /^<br\s*\/?>$/i.test(line))
+      continue;
+    if (line.startsWith("<") && !line.startsWith("<details")) continue;
 
     const headingMatch = line.match(HEADING_PATTERN);
     if (headingMatch) {
       const level = headingMatch[1].length;
-      const headingTitle = stripMarkdown(headingMatch[2]);
+      const headingContent = headingMatch[2];
+      const headingTitle = stripMarkdown(headingContent);
+      const headingLinks = extractLinks(headingContent);
+
       if (level === 1 && !title) {
         title = headingTitle;
+        if (headingLinks.length > 0) {
+          current = {
+            id: slugify(headingTitle || "session"),
+            title: headingTitle || "Session",
+            level,
+            links: headingLinks,
+          };
+          sections.push(current);
+        }
         continue;
       }
+
       current = {
         id: slugify(headingTitle),
         title: headingTitle,
         level,
-        links: [],
+        links: [...headingLinks],
       };
       sections.push(current);
-      continue;
-    }
-
-    if (line.startsWith("- ") && !line.includes("](")) {
-      notes.push(stripMarkdown(line.slice(2)));
       continue;
     }
 
@@ -235,7 +424,7 @@ export function parseMarkdownSections(content: string) {
     current.links.push(...links);
   }
 
-  return { title, sections, notes };
+  return { title, sections };
 }
 
 export function matchYouTubeVideos(
@@ -253,17 +442,6 @@ export function matchYouTubeVideos(
     const matches = significantWords.filter((w) => videoTitle.includes(w));
     return matches.length >= 2;
   });
-}
-
-export function getPrimaryVideos(links: ResourceLink[]): ResourceLink[] {
-  return links.filter(
-    (l) =>
-      l.type === "youtube" ||
-      l.type === "drive" ||
-      (l.type === "video" &&
-        (l.label.toLowerCase().includes("session") ||
-          l.label.toLowerCase().includes("part"))),
-  );
 }
 
 export function formatDate(iso: string): string {

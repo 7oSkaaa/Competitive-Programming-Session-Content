@@ -1,14 +1,13 @@
 import { Link, useParams } from "react-router-dom";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
-import { ArrowLeft, ExternalLink, Play } from "lucide-react";
+import MarkdownContent from "@/components/MarkdownContent";
+import { ArrowLeft, ExternalLink } from "lucide-react";
 import ResourceList from "@/components/ResourceList";
-import { YouTubeEmbed } from "@/components/YouTubeCard";
+import SessionRecordings from "@/components/SessionRecordings";
 import YouTubeCard from "@/components/YouTubeCard";
 import siteData from "@/data/site-data.json";
 import type { SiteData } from "@/types";
 import { CATEGORY_META } from "@/types";
-import { getYouTubeId } from "@/lib/utils";
+import { formatPracticeLabel } from "@/lib/utils";
 
 const data = siteData as SiteData;
 
@@ -29,18 +28,15 @@ export default function SessionPage() {
   }
 
   const category = CATEGORY_META[session.category];
-  const embedVideo = session.youtubeChannelVideos[0] ?? session.primaryVideos.find(
-    (v) => v.type === "youtube" && getYouTubeId(v.url),
-  );
-  const embedId =
-    session.youtubeChannelVideos[0]?.id ??
-    (embedVideo && "url" in embedVideo ? getYouTubeId(embedVideo.url) : null);
+  const recordingUrls = new Set(session.sessionRecordings.map((r) => r.url));
 
   const problemSections = session.sections.filter((s) =>
     s.links.some((l) => l.type === "problem" || l.type === "sheet"),
   );
   const resourceSections = session.sections.filter(
-    (s) => !problemSections.includes(s) && s.links.length > 0,
+    (s) =>
+      !problemSections.includes(s) &&
+      s.links.some((l) => !recordingUrls.has(l.url) && !l.url.startsWith("#")),
   );
 
   return (
@@ -65,43 +61,37 @@ export default function SessionPage() {
         <p className="mt-3 text-slate-400">{session.description}</p>
 
         <div className="mt-6 flex flex-wrap gap-3 text-sm">
-          <StatPill label={`${session.stats.problems} problems`} />
+          <StatPill label={formatPracticeLabel(session.stats.problems, "problem")} />
+          <StatPill label={formatPracticeLabel(session.stats.sheets, "sheet")} />
           <StatPill label={`${session.stats.videos} videos`} />
           <StatPill label={`${session.stats.articles} articles`} />
-          <StatPill label={`${session.stats.total} total links`} />
         </div>
       </header>
 
-      {embedId && (
-        <section className="mb-12">
-          <h2 className="mb-4 flex items-center gap-2 text-lg font-semibold text-white">
-            <Play className="h-5 w-5 text-red-400" />
-            Session Video
-          </h2>
-          <YouTubeEmbed
-            videoId={embedId}
-            title={session.youtubeChannelVideos[0]?.title ?? session.title}
-          />
-        </section>
-      )}
+      <SessionRecordings
+        recordings={session.sessionRecordings}
+        channelVideos={session.youtubeChannelVideos}
+        sessionTitle={session.title}
+      />
 
       {session.primaryVideos.length > 0 && (
         <section className="mb-12">
-          <h2 className="section-heading mb-4">Videos & Recordings</h2>
+          <h2 className="section-heading mb-4">Extra Videos & Resources</h2>
           <ResourceList links={session.primaryVideos} />
         </section>
       )}
 
-      {session.youtubeChannelVideos.length > 1 && (
-        <section className="mb-12">
-          <h2 className="section-heading mb-4">YouTube Channel</h2>
-          <div className="grid gap-4 sm:grid-cols-2">
-            {session.youtubeChannelVideos.map((video) => (
-              <YouTubeCard key={video.id} video={video} />
-            ))}
-          </div>
-        </section>
-      )}
+      {session.youtubeChannelVideos.length > 0 &&
+        session.sessionRecordings.every((r) => r.type === "drive") && (
+          <section className="mb-12">
+            <h2 className="section-heading mb-4">YouTube Channel</h2>
+            <div className="grid gap-4 sm:grid-cols-2">
+              {session.youtubeChannelVideos.map((video) => (
+                <YouTubeCard key={video.id} video={video} />
+              ))}
+            </div>
+          </section>
+        )}
 
       {problemSections.map((section) => (
         <section key={section.id} className="mb-10">
@@ -113,14 +103,18 @@ export default function SessionPage() {
       {resourceSections.map((section) => (
         <section key={section.id} className="mb-10">
           <h2 className="mb-4 text-xl font-semibold text-white">{section.title}</h2>
-          <ResourceList links={section.links} />
+          <ResourceList
+            links={section.links.filter(
+              (l) => !recordingUrls.has(l.url) && !l.url.startsWith("#"),
+            )}
+          />
         </section>
       ))}
 
       <section className="mt-16 rounded-2xl border border-white/10 bg-surface-overlay/50 p-6">
         <h2 className="mb-4 text-lg font-semibold text-white">Full Session Notes</h2>
         <div className="prose-session">
-          <ReactMarkdown remarkPlugins={[remarkGfm]}>{session.markdown}</ReactMarkdown>
+          <MarkdownContent content={session.markdown} />
         </div>
       </section>
 

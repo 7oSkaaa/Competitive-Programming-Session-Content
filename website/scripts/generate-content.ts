@@ -6,13 +6,17 @@ import {
   FOLDER_CATEGORY,
   FOLDER_ORDER,
   flattenLinks,
-  getPrimaryVideos,
+  buildSessionDescription,
+  computeSessionStats,
+  getSessionRecordings,
+  getSupplementaryVideos,
   getYouTubeId,
   matchYouTubeVideos,
   parseMarkdownSections,
   SESSION_YOUTUBE_MAP,
   slugify,
 } from "../src/lib/utils.ts";
+import { normalizeMarkdownForRender } from "../src/lib/markdown.ts";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "../..");
@@ -106,7 +110,7 @@ async function enrichYouTubeFromSessions(
   }
 
   for (const session of sessions) {
-    for (const link of session.primaryVideos) {
+    for (const link of session.sessionRecordings) {
       if (link.type !== "youtube") continue;
       const id = getYouTubeId(link.url);
       if (!id || known.has(id)) continue;
@@ -132,21 +136,14 @@ function decodeXml(text: string): string {
 function buildSession(folder: string, youtubeVideos: YouTubeVideo[]): Session {
   const readmePath = findReadme(folder)!;
   const markdown = fs.readFileSync(readmePath, "utf-8");
-  const { title, sections, notes } = parseMarkdownSections(markdown);
+  const { title, sections } = parseMarkdownSections(markdown);
   const id = slugify(title || folder);
   const allLinks = flattenLinks(sections);
-  const counts = {
-    videos: allLinks.filter((l) =>
-      ["youtube", "drive", "video"].includes(l.type),
-    ).length,
-    problems: allLinks.filter((l) => l.type === "problem").length,
-    articles: allLinks.filter((l) => l.type === "article").length,
-    sheets: allLinks.filter((l) => l.type === "sheet").length,
-    total: allLinks.length,
-  };
+  const sessionRecordings = getSessionRecordings(sections);
+  const primaryVideos = getSupplementaryVideos(allLinks, sessionRecordings);
+  const counts = computeSessionStats(allLinks);
 
   const matchedYoutube = matchYouTubeVideos(id, title || folder, youtubeVideos);
-  const primaryVideos = getPrimaryVideos(allLinks);
 
   return {
     id,
@@ -154,12 +151,13 @@ function buildSession(folder: string, youtubeVideos: YouTubeVideo[]): Session {
     folder,
     category: FOLDER_CATEGORY[folder] ?? "misc",
     tags: deriveTags(folder, sections),
-    description: notes.slice(0, 2).join(" ") || `Resources for ${title || folder}`,
+    description: buildSessionDescription(title || folder, sections, markdown, folder),
     sections,
+    sessionRecordings,
     primaryVideos,
     youtubeChannelVideos: matchedYoutube,
     stats: counts,
-    markdown,
+    markdown: normalizeMarkdownForRender(markdown),
   };
 }
 

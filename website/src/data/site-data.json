@@ -26,7 +26,7 @@
         "videos",
         "problems"
       ],
-      "description": "Resources for STL Session",
+      "description": "Core C++ concepts, STL, and building blocks",
       "sections": [
         {
           "id": "videos",
@@ -80,7 +80,7 @@
           ]
         }
       ],
-      "primaryVideos": [
+      "sessionRecordings": [
         {
           "label": "STL I (2023)",
           "url": "https://drive.google.com/file/d/1v7PIQ2z1VO6PssbGZW_I8mL2oal8ceHT/view?usp=sharing",
@@ -95,7 +95,9 @@
           "label": "Part #2",
           "url": "https://drive.google.com/file/d/1GsARMfhfsWo5VpKktf0t9YIymYNKinAm/view?usp=sharing",
           "type": "drive"
-        },
+        }
+      ],
+      "primaryVideos": [
         {
           "label": "STL - Playlist (Adel Nassim)",
           "url": "https://www.youtube.com/playlist?list=PLCInYL3l2AainAE4Xq2kdNGDfG0bys2xp",
@@ -109,13 +111,13 @@
       ],
       "youtubeChannelVideos": [],
       "stats": {
-        "videos": 5,
         "problems": 0,
-        "articles": 0,
         "sheets": 1,
+        "videos": 5,
+        "articles": 0,
         "total": 6
       },
-      "markdown": "# STL Session\r\n\r\nYou have to see the two parts of the session\r\n\r\n## Videos\r\n\r\n[STL I (2023)](https://drive.google.com/file/d/1v7PIQ2z1VO6PssbGZW_I8mL2oal8ceHT/view?usp=sharing)\r\n\r\n[Part #1](https://drive.google.com/file/d/1cI0qcBOWzEzqlbVSBxX-af3q-lC2r9oW/view?usp=sharing)\r\n\r\n[Part #2](https://drive.google.com/file/d/1GsARMfhfsWo5VpKktf0t9YIymYNKinAm/view?usp=sharing)\r\n\r\n## Problems\r\n\r\n[STL - Sheet](https://codeforces.com/contests/323462)\r\n\r\n## External links\r\n\r\n[STL - Playlist (Adel Nassim)](https://www.youtube.com/playlist?list=PLCInYL3l2AainAE4Xq2kdNGDfG0bys2xp)\r\n\r\n[STL - Playlist (Cpp Nuts)](https://www.youtube.com/playlist?list=PLk6CEY9XxSIA-xo3HRYC3M0Aitzdut7AA)\r\n"
+      "markdown": "# STL Session\n\nYou have to see the two parts of the session\n\n## Videos\n\n[STL I (2023)](https://drive.google.com/file/d/1v7PIQ2z1VO6PssbGZW_I8mL2oal8ceHT/view?usp=sharing)\n\n[Part #1](https://drive.google.com/file/d/1cI0qcBOWzEzqlbVSBxX-af3q-lC2r9oW/view?usp=sharing)\n\n[Part #2](https://drive.google.com/file/d/1GsARMfhfsWo5VpKktf0t9YIymYNKinAm/view?usp=sharing)\n\n## Problems\n\n[STL - Sheet](https://codeforces.com/contests/323462)\n\n## External links\n\n[STL - Playlist (Adel Nassim)](https://www.youtube.com/playlist?list=PLCInYL3l2AainAE4Xq2kdNGDfG0bys2xp)\n\n[STL - Playlist (Cpp Nuts)](https://www.youtube.com/playlist?list=PLk6CEY9XxSIA-xo3HRYC3M0Aitzdut7AA)"
     },
     {
       "id": "stl-application",
@@ -127,7 +129,7 @@
         "videos",
         "problems"
       ],
-      "description": "Resources for STL Application",
+      "description": "Core C++ concepts, STL, and building blocks",
       "sections": [
         {
           "id": "videos",
@@ -174,26 +176,27 @@
           ]
         }
       ],
-      "primaryVideos": [
+      "sessionRecordings": [
         {
           "label": "STL - Application",
           "url": "https://drive.google.com/file/d/1kiaR4Ix33EHHWEqic3iYLKacHXA1pxrT/view?usp=sharing",
           "type": "drive"
         }
       ],
+      "primaryVideos": [],
       "youtubeChannelVideos": [],
       "stats": {
-        "videos": 1,
         "problems": 5,
-        "articles": 0,
         "sheets": 0,
+        "videos": 1,
+        "articles": 0,
         "total": 6
       },
-      "markdown": "# STL Application\r\n\r\nYou have to solve the 5 Problems\r\n\r\n## Videos\r\n\r\n[STL - Application](https://drive.google.com/file/d/1kiaR4Ix33EHHWEqic3iYLKacHXA1pxrT/view?usp=sharing)\r\n\r\n## Problems\r\n\r\n[Distinct Numbers](https://codeforces.com/gym/323462/problem/A)\r\n\r\n[Unique Elements](https://codeforces.com/gym/323462/problem/B)\r\n\r\n[Letter](https://codeforces.com/gym/323462/problem/C)\r\n\r\n[Favorite Foods](https://codeforces.com/gym/323462/problem/H)\r\n\r\n[LLPS](https://codeforces.com/gym/323462/problem/M)\r\n"
+      "markdown": "# STL Application\n\nYou have to solve the 5 Problems\n\n## Videos\n\n[STL - Application](https://drive.google.com/file/d/1kiaR4Ix33EHHWEqic3iYLKacHXA1pxrT/view?usp=sharing)\n\n## Problems\n\n[Distinct Numbers](https://codeforces.com/gym/323462/problem/A)\n\n[Unique Elements](https://codeforces.com/gym/323462/problem/B)\n\n[Letter](https://codeforces.com/gym/323462/problem/C)\n\n[Favorite Foods](https://codeforces.com/gym/323462/problem/H)\n\n[LLPS](https://codeforces.com/gym/323462/problem/M)"
     },
     {
       "id": "advanced-stls",
-      "title": "Advanced STLS",
+      "title": "Advanced STLs",
       "folder": "Advanced STLS",
       "category": "fundamentals",
       "tags": [
@@ -203,7 +206,7 @@
         "videos",
         "articles"
       ],
-      "description": "An associative container, which is a variable size container that supports the efficient retrieval of element values based on an associated key value. Reversible, because it provides bidirectional iterators to access its elements.",
+      "description": "Covers Priority Queue, Multiset, Ordered Set, Additional Points, Monotonic Stack, and more.",
       "sections": [
         {
           "id": "outlines",
@@ -243,7 +246,7 @@
             {
               "label": "Sheet",
               "url": "#sheet-to-solve",
-              "type": "external"
+              "type": "sheet"
             },
             {
               "label": "Session",
@@ -364,7 +367,7 @@
             {
               "label": "policy based data structures",
               "url": "https://codeforces.com/blog/entry/11080",
-              "type": "problem"
+              "type": "external"
             }
           ]
         },
@@ -502,15 +505,23 @@
           "id": "session-video",
           "title": "Session Video",
           "level": 3,
-          "links": []
+          "links": [
+            {
+              "label": "Session Video",
+              "url": "https://drive.google.com/file/d/1RnYjB6KG96ftb5AcWRyAUQJrIgP-zxoT/view?usp=sharing",
+              "type": "drive"
+            }
+          ]
+        }
+      ],
+      "sessionRecordings": [
+        {
+          "label": "Session Video",
+          "url": "https://drive.google.com/file/d/1RnYjB6KG96ftb5AcWRyAUQJrIgP-zxoT/view?usp=sharing",
+          "type": "drive"
         }
       ],
       "primaryVideos": [
-        {
-          "label": "Session",
-          "url": "#session-video",
-          "type": "video"
-        },
         {
           "label": "Priority Queue",
           "url": "https://www.youtube.com/watch?v=0zr0JqSw7ic",
@@ -529,13 +540,13 @@
       ],
       "youtubeChannelVideos": [],
       "stats": {
-        "videos": 4,
-        "problems": 9,
+        "problems": 8,
+        "sheets": 2,
+        "videos": 5,
         "articles": 8,
-        "sheets": 1,
-        "total": 31
+        "total": 32
       },
-      "markdown": "<h1 align=\"center\"><I>Advanced STLs</I></h1>\r\n\r\n<br><br><br>\r\n\r\n## Outlines:\r\n- **[Priority Queue](#priority-queue)**\r\n- **[Multiset](#multiset)**\r\n- **[Ordered Set](#ordered-set)**\r\n- **[Additional Points](#additional-points)** (If we have time)\r\n  - [Monotonic Stack](#monotonic-stacks) \r\n  - [Deque](#deque)\r\n- [Sheet](#sheet-to-solve)\r\n- [Session](#session-video)\r\n \r\n<br>\r\n\r\n## Priority Queue\r\nA priority queue is a **special type of queue** in which each element is associated with a **priority value**. And, elements are served on the basis of their priority. That is, higher priority elements are served first.\r\n\r\nHowever, if elements with the same priority occur, they are served according to their order in the queue.\r\n\r\n### Assigning Priority Value\r\nGenerally, the value of the element itself is considered for assigning the priority. For example,\r\n\r\nThe element with the highest value is considered the highest priority element. However, in other cases, we can assume the element with the lowest value as the highest priority element.\r\n\r\nWe can also set priorities according to our needs.\r\n\r\n![the element with highest priority is removed from the priority queue](https://cdn.programiz.com/sites/tutorial2program/files/Introduction.png \"Priority Queue\")\r\n\r\n### Difference between Priority Queue and Normal Queue\r\nIn a queue, the **first-in-first-out rule** is implemented whereas, in a priority queue, the values are removed **on the basis of priority**. The element with the highest priority is removed first.\r\n\r\n### Implementation of Priority Queue\r\nA priority queue can be implemented using an array, a linked list, a heap data structure, or a binary search tree. Among these data structures, heap data structure provides an efficient implementation of priority queues.\r\n\r\nHence, we will be using the heap data structure to implement the priority queue in this tutorial. A max-heap is implemented in the following operations. If you want to learn more about it, please visit [max-heap and min-heap](https://www.programiz.com/dsa/heap-sort#heap).\r\n\r\nA comparative analysis of different implementations of priority queue is given below.\r\n\r\n### Complexity of different implementations\r\n| Operations | peek |insert|delete\r\n|--|--|--|--\r\n|Linked List| $O(1)$ | $O(1)$ | $O(1)$\r\n|Binary Heap|$O(1)$|$O(log n)$|$O(log n)$\r\n|Binary Search Tree|$O(1)$|$O(log n)$|$O(log n)$\r\n\r\n### Methods of Priority Queue are:\r\n| Operations | Definition\r\n|--|--\r\n|<code>priority_queue::empty()</code>| Returns whether the queue is empty.\r\n|<code>priority_queue::size()</code>| Returns the size of the queue.\r\n|<code>priority_queue::top()</code>| Returns a reference to the topmost element of the queue.\r\n|<code>priority_queue::push()</code>| Used to insert a new element into the priority queue container.\r\n|<code>priority_queue::pop()</code>| Deletes the first element of the queue.\r\n\r\n<br>\r\n\r\n#### Problems to Solve:\r\n- [Potions (Hard Version)](https://vjudge.net/problem/CodeForces-1526C2) -- Min Heap\r\n- [Epic Transformation](https://vjudge.net/problem/CodeForces-1506D) -- Max Heap\r\n\r\n<br><br>\r\n\r\n## Multiset\r\n### Remarks\r\nThe C++ Standard Library  `multiset`  class is:\r\n\r\n-   An associative container, which is a variable size container that supports the efficient retrieval of element values based on an associated key value.\r\n    \r\n-   Reversible, because it provides bidirectional iterators to access its elements.\r\n    \r\n-   Sorted, because its elements are ordered by key values within the container in accordance with a specified comparison function.\r\n    \r\n-   Multiple in the sense that its elements don't need to have unique keys, so that one key value can have many element values associated with it.\r\n    \r\n-   A simple associative container because its element values are its key values.\r\n    \r\n-   A class template, because the functionality it provides is generic and so independent of the specific type of data contained as elements. The data type to be used is, instead, specified as a parameter in the class template along with the comparison function and allocator.\r\nMultisets in C++ are containers that are very similar to sets. Unlike sets, multisets can store duplicate elements in a sorted manner. The elements inside the multiset cannot be changed, once they are added to the multiset, they can only be inserted or deleted. A multiset is present in  `#include<set>`  header file. The elements inside the multiset can be accessed using iterators.\r\n\r\n![STL Set and Multiset](http://conglang.github.io/img/sets_and_multisets.png)\r\n\r\n### Multiset Declaration\r\n\r\n**Syntax:**\r\n\r\n`multiset <data_type> name = { initial_values };`\r\n\r\n`data_type`: data type of the elements to be stored inside the multiset\r\n\r\n`initial_values`: optional parameter which initializes the multiset with the given values\r\n\r\n**Note:**  By default, the multiset stores values in non-decreasing order. To store the values in non-increasing order, we use an inbuilt comparator function\r\n\r\n`multiset <data_type, greater <data_type>> name;`\r\n\r\n### Functions on multisets\r\n\r\n-   `begin()`: Returns an iterator to the first element of the multiset.  \r\n    **Parameters**: None  \r\n    **Return type**: iterator  \r\n    \r\n-   `end()`: Returns an iterator to the element past the last element of the multiset.  \r\n    **Parameters**: None  \r\n    **Return type**: iterator  \r\n    \r\n-   `size()`: It tells us the size of the multiset.  \r\n    **Parameters**: None  \r\n    **Return type**: integer - total number of elements in the multiset  \r\n    \r\n-   `insert(element)`: Inserts an element in the multiset.  \r\n    **Time Complexity**: $O(logN)$ where $N$ is the size of the multiset  \r\n    **Parameters**: the element to be inserted  \r\n    **Return type**: void  \r\n    \r\n-   `erase(value)`  or  `erase(start_iterator,end_iterator)`: Delete elements from the multiset.  \r\n    **Time Complexity**: $O(logN)$ where $N$ is the size of the multiset  \r\n    **Parameters**: the value to be removed or iterators pointing to the position between which the value needs to be deleted  \r\n    **Return type**: void  \r\n    \r\n-   `find(element)`: Returns an iterator pointing to the element, if the element is found else returns an iterator pointing to the end of the multiset.  \r\n    **Parameters**: the element which needs to be found  \r\n    **Return type**: iterator  \r\n    \r\n-   `clear()`: It deletes all the elements from the multiset  \r\n    **Parameters**: None  \r\n    **Return type**: void  \r\n    \r\n-   `empty()`: It tells us whether the multiset is empty or not.  \r\n    **Parameters**: None  \r\n    **Return type**: Boolean, true if a multiset is empty else false\r\n\r\n### Problems to Solve:\r\n- [Bored Judge](https://vjudge.net/problem/Gym-101102C) -- Structure Idx\r\n- [Playing with Arrays](https://vjudge.net/problem/Gym-397687E) -- erase without find\r\n- [Reorder The Array](https://vjudge.net/problem/CodeForces-1007A) -- BS\r\n\r\n<br>\r\n\r\n## Ordered set\r\nOrdered set is a  [policy based data structure in g++](https://www.geeksforgeeks.org/policy-based-data-structures-g/)  that keeps the  **unique**  elements in sorted order. It performs all the operations as performed by the set data structure in STL in $log(n)$ complexity and performs two additional operations also in $log(n)$ complexity.\r\n\r\n-   **order_of_key (k)**  : Number of items, strictly smaller than $k$.\r\n-   **find_by_order(k)**  : $K_{th}$ element in a set (counting from zero).\r\n\r\nYou can read about [policy based data structures](https://codeforces.com/blog/entry/11080) with examples\r\n<br>\r\n\r\n### Problems to Solve:\r\n- [Playing With Houses V2 (hard-version)](https://vjudge.net/problem/Gym-397687D)\r\n- [Yet Another Problem About Pairs Satisfying an Inequality](https://vjudge.net/problem/CodeForces-1703F)\r\n\r\n\r\n## Additional Points\r\n\r\n### Monotonic Stacks\r\n- #### Articles to Read:\r\n\t- [Algo-en](https://labuladong.gitbook.io/algo-en/ii.-data-structure/monotonicstack)\r\n- #### Problems to Solve:\r\n\t- [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)\r\n\t- [Previous Smaller Element](https://www.interviewbit.com/problems/nearest-smaller-element/)\r\n\r\n### Deque\r\n- #### Articles to Read:\r\n\t- [GeeksforGeeks](https://www.geeksforgeeks.org/deque-cpp-stl/)\r\n\r\n\r\n## Templates\r\n\r\n- [Monotonic Stacks](https://github.com/7oSkaaa/CP-Templates/blob/main/Monotonic_Stacks.cpp)\r\n- [Ordered_Sets](https://github.com/7oSkaaa/CP-Templates/blob/main/Ordered_Set.cpp)\r\n\r\n\r\n\r\n## Sheet to Solve\r\n\r\n- [ICPC SCU Phase 2 --- Week #1](https://vjudge.net/contest/517904) \r\n\r\n\r\n<details>\r\n  <summary><h3>Additional Material to Study</h3></summary>\r\n\r\n### Videos:\r\n\r\n- [Priority_Queue](https://www.youtube.com/watch?v=0zr0JqSw7ic)\r\n- [Multiset](https://www.youtube.com/watch?v=iJCnqHrkPq8)\r\n- [Orderd_Set](https://www.youtube.com/watch?v=IWyIwLFucU4)\r\n\r\n### Articles:\r\n\r\n- [Priority_Queue](https://www.geeksforgeeks.org/priority-queue-in-cpp-stl/?ref=gcse)\r\n- [Multiset](https://www.geeksforgeeks.org/multiset-in-cpp-stl/?ref=gcse)\r\n- [Orderd_Set](https://www.geeksforgeeks.org/ordered-set-gnu-c-pbds/)\r\n\t\r\n</details>\r\n\r\n### [Session Video](https://drive.google.com/file/d/1RnYjB6KG96ftb5AcWRyAUQJrIgP-zxoT/view?usp=sharing)\r\n\r\n"
+      "markdown": "# *Advanced STLs*\n\n\n## Outlines:\n- **[Priority Queue](#priority-queue)**\n- **[Multiset](#multiset)**\n- **[Ordered Set](#ordered-set)**\n- **[Additional Points](#additional-points)** (If we have time)\n  - [Monotonic Stack](#monotonic-stacks) \n  - [Deque](#deque)\n- [Sheet](#sheet-to-solve)\n- [Session](#session-video)\n \n\n\n## Priority Queue\nA priority queue is a **special type of queue** in which each element is associated with a **priority value**. And, elements are served on the basis of their priority. That is, higher priority elements are served first.\n\nHowever, if elements with the same priority occur, they are served according to their order in the queue.\n\n### Assigning Priority Value\nGenerally, the value of the element itself is considered for assigning the priority. For example,\n\nThe element with the highest value is considered the highest priority element. However, in other cases, we can assume the element with the lowest value as the highest priority element.\n\nWe can also set priorities according to our needs.\n\n![the element with highest priority is removed from the priority queue](https://cdn.programiz.com/sites/tutorial2program/files/Introduction.png \"Priority Queue\")\n\n### Difference between Priority Queue and Normal Queue\nIn a queue, the **first-in-first-out rule** is implemented whereas, in a priority queue, the values are removed **on the basis of priority**. The element with the highest priority is removed first.\n\n### Implementation of Priority Queue\nA priority queue can be implemented using an array, a linked list, a heap data structure, or a binary search tree. Among these data structures, heap data structure provides an efficient implementation of priority queues.\n\nHence, we will be using the heap data structure to implement the priority queue in this tutorial. A max-heap is implemented in the following operations. If you want to learn more about it, please visit [max-heap and min-heap](https://www.programiz.com/dsa/heap-sort#heap).\n\nA comparative analysis of different implementations of priority queue is given below.\n\n### Complexity of different implementations\n| Operations | peek |insert|delete|\n| --- | --- | --- | --- |\n|Linked List| $O(1)$ | $O(1)$ | $O(1)$|\n|Binary Heap|$O(1)$|$O(log n)$|$O(log n)$|\n|Binary Search Tree|$O(1)$|$O(log n)$|$O(log n)$|\n\n### Methods of Priority Queue are:\n| Operations | Definition|\n| --- | --- |\n|`priority_queue::empty()`| Returns whether the queue is empty.|\n|`priority_queue::size()`| Returns the size of the queue.|\n|`priority_queue::top()`| Returns a reference to the topmost element of the queue.|\n|`priority_queue::push()`| Used to insert a new element into the priority queue container.|\n|`priority_queue::pop()`| Deletes the first element of the queue.|\n\n\n#### Problems to Solve:\n- [Potions (Hard Version)](https://vjudge.net/problem/CodeForces-1526C2) -- Min Heap\n- [Epic Transformation](https://vjudge.net/problem/CodeForces-1506D) -- Max Heap\n\n\n## Multiset\n### Remarks\nThe C++ Standard Library  `multiset`  class is:\n\n-   An associative container, which is a variable size container that supports the efficient retrieval of element values based on an associated key value.\n    \n-   Reversible, because it provides bidirectional iterators to access its elements.\n    \n-   Sorted, because its elements are ordered by key values within the container in accordance with a specified comparison function.\n    \n-   Multiple in the sense that its elements don't need to have unique keys, so that one key value can have many element values associated with it.\n    \n-   A simple associative container because its element values are its key values.\n    \n-   A class template, because the functionality it provides is generic and so independent of the specific type of data contained as elements. The data type to be used is, instead, specified as a parameter in the class template along with the comparison function and allocator.\nMultisets in C++ are containers that are very similar to sets. Unlike sets, multisets can store duplicate elements in a sorted manner. The elements inside the multiset cannot be changed, once they are added to the multiset, they can only be inserted or deleted. A multiset is present in  `#include<set>`  header file. The elements inside the multiset can be accessed using iterators.\n\n![STL Set and Multiset](http://conglang.github.io/img/sets_and_multisets.png)\n\n### Multiset Declaration\n\n**Syntax:**\n\n`multiset <data_type> name = { initial_values };`\n\n`data_type`: data type of the elements to be stored inside the multiset\n\n`initial_values`: optional parameter which initializes the multiset with the given values\n\n**Note:**  By default, the multiset stores values in non-decreasing order. To store the values in non-increasing order, we use an inbuilt comparator function\n\n`multiset <data_type, greater <data_type>> name;`\n\n### Functions on multisets\n\n-   `begin()`: Returns an iterator to the first element of the multiset.  \n    **Parameters**: None  \n    **Return type**: iterator  \n    \n-   `end()`: Returns an iterator to the element past the last element of the multiset.  \n    **Parameters**: None  \n    **Return type**: iterator  \n    \n-   `size()`: It tells us the size of the multiset.  \n    **Parameters**: None  \n    **Return type**: integer - total number of elements in the multiset  \n    \n-   `insert(element)`: Inserts an element in the multiset.  \n    **Time Complexity**: $O(logN)$ where $N$ is the size of the multiset  \n    **Parameters**: the element to be inserted  \n    **Return type**: void  \n    \n-   `erase(value)`  or  `erase(start_iterator,end_iterator)`: Delete elements from the multiset.  \n    **Time Complexity**: $O(logN)$ where $N$ is the size of the multiset  \n    **Parameters**: the value to be removed or iterators pointing to the position between which the value needs to be deleted  \n    **Return type**: void  \n    \n-   `find(element)`: Returns an iterator pointing to the element, if the element is found else returns an iterator pointing to the end of the multiset.  \n    **Parameters**: the element which needs to be found  \n    **Return type**: iterator  \n    \n-   `clear()`: It deletes all the elements from the multiset  \n    **Parameters**: None  \n    **Return type**: void  \n    \n-   `empty()`: It tells us whether the multiset is empty or not.  \n    **Parameters**: None  \n    **Return type**: Boolean, true if a multiset is empty else false\n\n### Problems to Solve:\n- [Bored Judge](https://vjudge.net/problem/Gym-101102C) -- Structure Idx\n- [Playing with Arrays](https://vjudge.net/problem/Gym-397687E) -- erase without find\n- [Reorder The Array](https://vjudge.net/problem/CodeForces-1007A) -- BS\n\n\n## Ordered set\nOrdered set is a  [policy based data structure in g++](https://www.geeksforgeeks.org/policy-based-data-structures-g/)  that keeps the  **unique**  elements in sorted order. It performs all the operations as performed by the set data structure in STL in $log(n)$ complexity and performs two additional operations also in $log(n)$ complexity.\n\n-   **order_of_key (k)**  : Number of items, strictly smaller than $k$.\n-   **find_by_order(k)**  : $K_{th}$ element in a set (counting from zero).\n\nYou can read about [policy based data structures](https://codeforces.com/blog/entry/11080) with examples\n\n\n### Problems to Solve:\n- [Playing With Houses V2 (hard-version)](https://vjudge.net/problem/Gym-397687D)\n- [Yet Another Problem About Pairs Satisfying an Inequality](https://vjudge.net/problem/CodeForces-1703F)\n\n\n## Additional Points\n\n### Monotonic Stacks\n- #### Articles to Read:\n\t- [Algo-en](https://labuladong.gitbook.io/algo-en/ii.-data-structure/monotonicstack)\n- #### Problems to Solve:\n\t- [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)\n\t- [Previous Smaller Element](https://www.interviewbit.com/problems/nearest-smaller-element/)\n\n### Deque\n- #### Articles to Read:\n\t- [GeeksforGeeks](https://www.geeksforgeeks.org/deque-cpp-stl/)\n\n\n## Templates\n\n- [Monotonic Stacks](https://github.com/7oSkaaa/CP-Templates/blob/main/Monotonic_Stacks.cpp)\n- [Ordered_Sets](https://github.com/7oSkaaa/CP-Templates/blob/main/Ordered_Set.cpp)\n\n\n## Sheet to Solve\n\n- [ICPC SCU Phase 2 --- Week #1](https://vjudge.net/contest/517904) \n\n\n<details>\n  <summary>Additional Material to Study</summary>\n\n### Videos:\n\n- [Priority_Queue](https://www.youtube.com/watch?v=0zr0JqSw7ic)\n- [Multiset](https://www.youtube.com/watch?v=iJCnqHrkPq8)\n- [Orderd_Set](https://www.youtube.com/watch?v=IWyIwLFucU4)\n\n### Articles:\n\n- [Priority_Queue](https://www.geeksforgeeks.org/priority-queue-in-cpp-stl/?ref=gcse)\n- [Multiset](https://www.geeksforgeeks.org/multiset-in-cpp-stl/?ref=gcse)\n- [Orderd_Set](https://www.geeksforgeeks.org/ordered-set-gnu-c-pbds/)\n\t\n</details>\n\n### [Session Video](https://drive.google.com/file/d/1RnYjB6KG96ftb5AcWRyAUQJrIgP-zxoT/view?usp=sharing)"
     },
     {
       "id": "function-session",
@@ -547,7 +558,7 @@
         "videos",
         "problems"
       ],
-      "description": "Resources for Function Session",
+      "description": "Core C++ concepts, STL, and building blocks",
       "sections": [
         {
           "id": "videos",
@@ -574,22 +585,23 @@
           ]
         }
       ],
-      "primaryVideos": [
+      "sessionRecordings": [
         {
           "label": "Function Session",
           "url": "https://drive.google.com/file/d/1s9Tat0tKTKbjZZgx8Z-HMDTfVwVuQCR7/view?usp=sharing",
           "type": "drive"
         }
       ],
+      "primaryVideos": [],
       "youtubeChannelVideos": [],
       "stats": {
-        "videos": 1,
         "problems": 0,
-        "articles": 0,
         "sheets": 1,
+        "videos": 1,
+        "articles": 0,
         "total": 2
       },
-      "markdown": "# Function Session\r\n\r\nYou have to solve the sheet with functions\r\n\r\n## Videos\r\n\r\n[**Function Session**](https://drive.google.com/file/d/1s9Tat0tKTKbjZZgx8Z-HMDTfVwVuQCR7/view?usp=sharing)\r\n\r\n## Problems\r\n\r\n[**Function Sheet**](https://codeforces.com/group/MWSDmqGsZm/contest/223205)\r\n"
+      "markdown": "# Function Session\n\nYou have to solve the sheet with functions\n\n## Videos\n\n[**Function Session**](https://drive.google.com/file/d/1s9Tat0tKTKbjZZgx8Z-HMDTfVwVuQCR7/view?usp=sharing)\n\n## Problems\n\n[**Function Sheet**](https://codeforces.com/group/MWSDmqGsZm/contest/223205)"
     },
     {
       "id": "recursion",
@@ -601,7 +613,7 @@
         "videos",
         "sheets"
       ],
-      "description": "Resources for Recursion",
+      "description": "Core C++ concepts, STL, and building blocks",
       "sections": [
         {
           "id": "videos",
@@ -648,12 +660,14 @@
           ]
         }
       ],
-      "primaryVideos": [
+      "sessionRecordings": [
         {
           "label": "Session Video",
           "url": "https://drive.google.com/file/d/1gfLOAVvNWwfjAVk6d2RIOpTA-ad5DZCq/view?usp=sharing",
           "type": "drive"
-        },
+        }
+      ],
+      "primaryVideos": [
         {
           "label": "Adel Nasim #1",
           "url": "https://www.youtube.com/watch?v=MMY077l9awA",
@@ -672,13 +686,13 @@
       ],
       "youtubeChannelVideos": [],
       "stats": {
-        "videos": 4,
         "problems": 0,
-        "articles": 0,
         "sheets": 2,
+        "videos": 4,
+        "articles": 0,
         "total": 6
       },
-      "markdown": "# Recursion\r\n\r\nSolve the 2 sheets and see the videos\r\n\r\n\r\n## **Videos:**\r\n\r\n[Session Video](https://drive.google.com/file/d/1gfLOAVvNWwfjAVk6d2RIOpTA-ad5DZCq/view?usp=sharing)\r\n\r\n[Adel Nasim #1](https://www.youtube.com/watch?v=MMY077l9awA)\r\n\r\n[Adel Nasim #2](https://www.youtube.com/watch?v=38v5dv7LNJU)\r\n\r\n[Mostafa Saad](https://www.youtube.com/watch?v=hyk46UmJPS4&list=PLPt2dINI2MIYmHYBSEdkdKMf_3nzFMveo)\r\n\r\n## Sheet\r\n\r\n[Recursion Basic](https://codeforces.com/group/MWSDmqGsZm/contest/223339)\r\n\r\n[Recursion Advanced](https://codeforces.com/group/gA8A93jony/contest/269931)\r\n"
+      "markdown": "# Recursion\n\nSolve the 2 sheets and see the videos\n\n\n## **Videos:**\n\n[Session Video](https://drive.google.com/file/d/1gfLOAVvNWwfjAVk6d2RIOpTA-ad5DZCq/view?usp=sharing)\n\n[Adel Nasim #1](https://www.youtube.com/watch?v=MMY077l9awA)\n\n[Adel Nasim #2](https://www.youtube.com/watch?v=38v5dv7LNJU)\n\n[Mostafa Saad](https://www.youtube.com/watch?v=hyk46UmJPS4&list=PLPt2dINI2MIYmHYBSEdkdKMf_3nzFMveo)\n\n## Sheet\n\n[Recursion Basic](https://codeforces.com/group/MWSDmqGsZm/contest/223339)\n\n[Recursion Advanced](https://codeforces.com/group/gA8A93jony/contest/269931)"
     },
     {
       "id": "2-pointers",
@@ -690,7 +704,7 @@
         "videos",
         "problems"
       ],
-      "description": "Resources for 2 Pointers",
+      "description": "Two pointers, bits, backtracking, and tricks",
       "sections": [
         {
           "id": "videos",
@@ -705,27 +719,27 @@
             {
               "label": "Merging Arrays",
               "url": "https://codeforces.com/edu/course/2/lesson/9/1",
-              "type": "problem"
+              "type": "external"
             },
             {
               "label": "Number of Smaller",
               "url": "https://codeforces.com/edu/course/2/lesson/9/1",
-              "type": "problem"
+              "type": "external"
             },
             {
               "label": "Segment with good sum",
               "url": "https://codeforces.com/edu/course/2/lesson/9/2",
-              "type": "problem"
+              "type": "external"
             },
             {
               "label": "Other Problem",
               "url": "https://codeforces.com/edu/course/2/lesson/9/2",
-              "type": "problem"
+              "type": "external"
             },
             {
               "label": "Segment with small set",
               "url": "https://codeforces.com/edu/course/2/lesson/9/2",
-              "type": "problem"
+              "type": "external"
             }
           ]
         },
@@ -767,62 +781,62 @@
             {
               "label": "Merging Arrays",
               "url": "https://codeforces.com/edu/course/2/lesson/9/1/practice/contest/307092/problem/A",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Number of Smallers",
               "url": "https://codeforces.com/edu/course/2/lesson/9/1/practice/contest/307092/problem/B",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Number of Equals",
               "url": "https://codeforces.com/edu/course/2/lesson/9/1/practice/contest/307092/problem/C",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Segment with Small Sum",
               "url": "https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/A",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Segment with Big Sum",
               "url": "https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/B",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Number of Segments with Small Sum",
               "url": "https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/C",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Number of Segments with Big Sum",
               "url": "https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/D",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Segments with Small Set",
               "url": "https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/E",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Is B a subsequence of A ?",
               "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/U",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Blanced Tunnel",
               "url": "https://codeforces.com/contest/1237/problem/B",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Blanced Team",
               "url": "https://codeforces.com/contest/1133/problem/C",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Books",
               "url": "https://codeforces.com/contest/279/problem/B",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Playlist",
@@ -832,7 +846,7 @@
             {
               "label": "Kefa and Companies",
               "url": "https://codeforces.com/contest/580/problem/B",
-              "type": "sheet"
+              "type": "problem"
             }
           ]
         },
@@ -849,12 +863,14 @@
           ]
         }
       ],
-      "primaryVideos": [
+      "sessionRecordings": [
         {
           "label": "2 Pointers Session",
           "url": "https://drive.google.com/file/d/1-_O-xlBTA478gi3DXHPo8ZcNTSXuT_RO/view?usp=sharing",
           "type": "drive"
-        },
+        }
+      ],
+      "primaryVideos": [
         {
           "label": "Mostafa Saad",
           "url": "https://www.youtube.com/watch?v=n-Xwrr8RFQ0&ab_channel=ArabicCompetitiveProgramming",
@@ -863,13 +879,13 @@
       ],
       "youtubeChannelVideos": [],
       "stats": {
+        "problems": 20,
+        "sheets": 0,
         "videos": 2,
-        "problems": 12,
         "articles": 0,
-        "sheets": 13,
-        "total": 27
+        "total": 24
       },
-      "markdown": "# 2 Pointers\r\n\r\n## Videos\r\n\r\n[2 Pointers Session](https://drive.google.com/file/d/1-_O-xlBTA478gi3DXHPo8ZcNTSXuT_RO/view?usp=sharing)\r\n\r\n[Merging Arrays](https://codeforces.com/edu/course/2/lesson/9/1)\r\n\r\n[Number of Smaller](https://codeforces.com/edu/course/2/lesson/9/1)\r\n\r\n[Segment with good sum](https://codeforces.com/edu/course/2/lesson/9/2)\r\n\r\n[Other Problem](https://codeforces.com/edu/course/2/lesson/9/2)\r\n\r\n[Segment with small set](https://codeforces.com/edu/course/2/lesson/9/2)\r\n\r\n## Problems\r\n\r\n[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)\r\n\r\n[Merge sorted array](https://leetcode.com/problems/merge-sorted-array/)\r\n\r\n[Two Sum](https://leetcode.com/problems/two-sum/)\r\n\r\n[Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)\r\n\r\n[Sum of three Values](https://cses.fi/problemset/task/1641/)\r\n\r\n[Reverse Vowels](https://leetcode.com/problems/reverse-vowels-of-a-string/)\r\n\r\n[Merging Arrays](https://codeforces.com/edu/course/2/lesson/9/1/practice/contest/307092/problem/A)\r\n\r\n[Number of Smallers](https://codeforces.com/edu/course/2/lesson/9/1/practice/contest/307092/problem/B)\r\n\r\n[Number of Equals](https://codeforces.com/edu/course/2/lesson/9/1/practice/contest/307092/problem/C)\r\n\r\n[Segment with Small Sum](https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/A)\r\n\r\n[Segment with Big Sum](https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/B)\r\n\r\n[Number of Segments with Small Sum](https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/C)\r\n\r\n[Number of Segments with Big Sum](https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/D)\r\n\r\n[Segments with Small Set](https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/E)\r\n\r\n[Is B a subsequence of A ?](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/U)\r\n\r\n[Blanced Tunnel](https://codeforces.com/contest/1237/problem/B)\r\n\r\n[Blanced Team](https://codeforces.com/contest/1133/problem/C)\r\n\r\n[Books](https://codeforces.com/contest/279/problem/B)\r\n\r\n[Playlist](https://cses.fi/problemset/task/1141)\r\n\r\n[Kefa and Companies](https://codeforces.com/contest/580/problem/B)\r\n\r\n## External links\r\n\r\n[Mostafa Saad](https://www.youtube.com/watch?v=n-Xwrr8RFQ0&ab_channel=ArabicCompetitiveProgramming)\r\n"
+      "markdown": "# 2 Pointers\n\n## Videos\n\n[2 Pointers Session](https://drive.google.com/file/d/1-_O-xlBTA478gi3DXHPo8ZcNTSXuT_RO/view?usp=sharing)\n\n[Merging Arrays](https://codeforces.com/edu/course/2/lesson/9/1)\n\n[Number of Smaller](https://codeforces.com/edu/course/2/lesson/9/1)\n\n[Segment with good sum](https://codeforces.com/edu/course/2/lesson/9/2)\n\n[Other Problem](https://codeforces.com/edu/course/2/lesson/9/2)\n\n[Segment with small set](https://codeforces.com/edu/course/2/lesson/9/2)\n\n## Problems\n\n[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)\n\n[Merge sorted array](https://leetcode.com/problems/merge-sorted-array/)\n\n[Two Sum](https://leetcode.com/problems/two-sum/)\n\n[Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)\n\n[Sum of three Values](https://cses.fi/problemset/task/1641/)\n\n[Reverse Vowels](https://leetcode.com/problems/reverse-vowels-of-a-string/)\n\n[Merging Arrays](https://codeforces.com/edu/course/2/lesson/9/1/practice/contest/307092/problem/A)\n\n[Number of Smallers](https://codeforces.com/edu/course/2/lesson/9/1/practice/contest/307092/problem/B)\n\n[Number of Equals](https://codeforces.com/edu/course/2/lesson/9/1/practice/contest/307092/problem/C)\n\n[Segment with Small Sum](https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/A)\n\n[Segment with Big Sum](https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/B)\n\n[Number of Segments with Small Sum](https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/C)\n\n[Number of Segments with Big Sum](https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/D)\n\n[Segments with Small Set](https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/E)\n\n[Is B a subsequence of A ?](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/U)\n\n[Blanced Tunnel](https://codeforces.com/contest/1237/problem/B)\n\n[Blanced Team](https://codeforces.com/contest/1133/problem/C)\n\n[Books](https://codeforces.com/contest/279/problem/B)\n\n[Playlist](https://cses.fi/problemset/task/1141)\n\n[Kefa and Companies](https://codeforces.com/contest/580/problem/B)\n\n## External links\n\n[Mostafa Saad](https://www.youtube.com/watch?v=n-Xwrr8RFQ0&ab_channel=ArabicCompetitiveProgramming)"
     },
     {
       "id": "binary-search",
@@ -881,7 +897,7 @@
         "videos",
         "problems"
       ],
-      "description": "Resources for Binary Search",
+      "description": "DP, binary search, recursion, and more",
       "sections": [
         {
           "id": "videos",
@@ -906,12 +922,12 @@
             {
               "label": "EDU Step 1",
               "url": "https://codeforces.com/edu/course/2/lesson/6/1",
-              "type": "problem"
+              "type": "external"
             },
             {
               "label": "EDU Step 2",
               "url": "https://codeforces.com/edu/course/2/lesson/6/2",
-              "type": "problem"
+              "type": "external"
             }
           ]
         },
@@ -929,37 +945,37 @@
             {
               "label": "Binary Search",
               "url": "https://codeforces.com/edu/course/2/lesson/6/1/practice/contest/283911/problem/A",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Closest to the Left",
               "url": "https://codeforces.com/edu/course/2/lesson/6/1/practice/contest/283911/problem/B",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Closest to the Right",
               "url": "https://codeforces.com/edu/course/2/lesson/6/1/practice/contest/283911/problem/C",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Fast Search",
               "url": "https://codeforces.com/edu/course/2/lesson/6/1/practice/contest/283911/problem/D",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Maximum Distinct Numbers",
               "url": "https://codeforces.com/group/MWSDmqGsZm/contest/223338/problem/E",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "The Da Vinci Code",
               "url": "https://codeforces.com/group/u3Ii79X3NY/contest/272628/problem/Y",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Game",
               "url": "https://codeforces.com/group/u3Ii79X3NY/contest/272628/problem/U",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Sum of Cubes",
@@ -1004,7 +1020,7 @@
             {
               "label": "Different Divisors",
               "url": "https://codeforces.com/contest/1474/submission/104842449",
-              "type": "sheet"
+              "type": "external"
             },
             {
               "label": "Friends and Cookies",
@@ -1021,22 +1037,24 @@
             {
               "label": "Approximation",
               "url": "https://codeforces.com/group/MEqF8b6wBT/contest/324245/problem/V",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Make It Equal",
               "url": "https://codeforces.com/group/j4lXgaEjc3/contest/299910/problem/D",
-              "type": "sheet"
+              "type": "problem"
             }
           ]
         }
       ],
-      "primaryVideos": [
+      "sessionRecordings": [
         {
           "label": "Session Video",
           "url": "https://cisuezedu-my.sharepoint.com/:v:/g/personal/ugs_140699_ci_suez_edu_eg/Ee0dkb5NzP9NqNqWaANq8BgBqXQ2-7e7IvtIYP8P2_J4DA?e=NGR78Z",
           "type": "drive"
-        },
+        }
+      ],
+      "primaryVideos": [
         {
           "label": "Ternary Search",
           "url": "https://www.youtube.com/watch?v=Z-1Z-1utYuI&t=676s",
@@ -1050,13 +1068,13 @@
       ],
       "youtubeChannelVideos": [],
       "stats": {
+        "problems": 18,
+        "sheets": 0,
         "videos": 3,
-        "problems": 11,
         "articles": 0,
-        "sheets": 10,
         "total": 24
       },
-      "markdown": "# Binary Search\r\n\r\n## Videos\r\n\r\n**[Session Video](https://cisuezedu-my.sharepoint.com/:v:/g/personal/ugs_140699_ci_suez_edu_eg/Ee0dkb5NzP9NqNqWaANq8BgBqXQ2-7e7IvtIYP8P2_J4DA?e=NGR78Z)**\r\n\r\n[**Ternary Search**](https://www.youtube.com/watch?v=Z-1Z-1utYuI&t=676s)\r\n\r\n[**Binary Search**](https://www.youtube.com/watch?v=qxhfkoDGGZc)\r\n\r\n[**EDU Step 1**](https://codeforces.com/edu/course/2/lesson/6/1)\r\n\r\n[**EDU Step 2**](https://codeforces.com/edu/course/2/lesson/6/2)\r\n\r\n## Problems\r\n\r\n### Binary Search Problems\r\n\r\n[Binary Search](https://codeforces.com/edu/course/2/lesson/6/1/practice/contest/283911/problem/A)\r\n\r\n[Closest to the Left](https://codeforces.com/edu/course/2/lesson/6/1/practice/contest/283911/problem/B)\r\n\r\n[Closest to the Right](https://codeforces.com/edu/course/2/lesson/6/1/practice/contest/283911/problem/C)\r\n\r\n[Fast Search](https://codeforces.com/edu/course/2/lesson/6/1/practice/contest/283911/problem/D)\r\n\r\n[Maximum Distinct Numbers](https://codeforces.com/group/MWSDmqGsZm/contest/223338/problem/E)\r\n\r\n[The Da Vinci Code](https://codeforces.com/group/u3Ii79X3NY/contest/272628/problem/Y)\r\n\r\n[Game](https://codeforces.com/group/u3Ii79X3NY/contest/272628/problem/U)\r\n\r\n[Sum of Cubes](https://codeforces.com/problemset/problem/1490/C)\r\n\r\n[Queries about less or equal elements](https://codeforces.com/problemset/problem/600/B)\r\n\r\n[Steps](https://codeforces.com/problemset/problem/152/B)\r\n\r\n[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)\r\n\r\n[Find K The Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)\r\n\r\n[Factory Machines](https://cses.fi/problemset/task/1620)\r\n\r\n[Pair of Topics](https://codeforces.com/problemset/problem/1324/D)\r\n\r\n[Deadline](https://codeforces.com/problemset/problem/1288/A)\r\n\r\n[Different Divisors](https://codeforces.com/contest/1474/submission/104842449)\r\n\r\n[Friends and Cookies](https://codeforces.com/gym/101810/problem/B)\r\n\r\n\r\n### Ternary Search Problems\r\n\r\n[Approximation](https://codeforces.com/group/MEqF8b6wBT/contest/324245/problem/V)\r\n\r\n[Make It Equal](https://codeforces.com/group/j4lXgaEjc3/contest/299910/problem/D)\r\n"
+      "markdown": "# Binary Search\n\n## Videos\n\n**[Session Video](https://cisuezedu-my.sharepoint.com/:v:/g/personal/ugs_140699_ci_suez_edu_eg/Ee0dkb5NzP9NqNqWaANq8BgBqXQ2-7e7IvtIYP8P2_J4DA?e=NGR78Z)**\n\n[**Ternary Search**](https://www.youtube.com/watch?v=Z-1Z-1utYuI&t=676s)\n\n[**Binary Search**](https://www.youtube.com/watch?v=qxhfkoDGGZc)\n\n[**EDU Step 1**](https://codeforces.com/edu/course/2/lesson/6/1)\n\n[**EDU Step 2**](https://codeforces.com/edu/course/2/lesson/6/2)\n\n## Problems\n\n### Binary Search Problems\n\n[Binary Search](https://codeforces.com/edu/course/2/lesson/6/1/practice/contest/283911/problem/A)\n\n[Closest to the Left](https://codeforces.com/edu/course/2/lesson/6/1/practice/contest/283911/problem/B)\n\n[Closest to the Right](https://codeforces.com/edu/course/2/lesson/6/1/practice/contest/283911/problem/C)\n\n[Fast Search](https://codeforces.com/edu/course/2/lesson/6/1/practice/contest/283911/problem/D)\n\n[Maximum Distinct Numbers](https://codeforces.com/group/MWSDmqGsZm/contest/223338/problem/E)\n\n[The Da Vinci Code](https://codeforces.com/group/u3Ii79X3NY/contest/272628/problem/Y)\n\n[Game](https://codeforces.com/group/u3Ii79X3NY/contest/272628/problem/U)\n\n[Sum of Cubes](https://codeforces.com/problemset/problem/1490/C)\n\n[Queries about less or equal elements](https://codeforces.com/problemset/problem/600/B)\n\n[Steps](https://codeforces.com/problemset/problem/152/B)\n\n[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)\n\n[Find K The Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)\n\n[Factory Machines](https://cses.fi/problemset/task/1620)\n\n[Pair of Topics](https://codeforces.com/problemset/problem/1324/D)\n\n[Deadline](https://codeforces.com/problemset/problem/1288/A)\n\n[Different Divisors](https://codeforces.com/contest/1474/submission/104842449)\n\n[Friends and Cookies](https://codeforces.com/gym/101810/problem/B)\n\n\n### Ternary Search Problems\n\n[Approximation](https://codeforces.com/group/MEqF8b6wBT/contest/324245/problem/V)\n\n[Make It Equal](https://codeforces.com/group/j4lXgaEjc3/contest/299910/problem/D)"
     },
     {
       "id": "bits",
@@ -1069,7 +1087,7 @@
         "problems",
         "articles"
       ],
-      "description": "Resources for Bits",
+      "description": "Two pointers, bits, backtracking, and tricks",
       "sections": [
         {
           "id": "videos",
@@ -1256,12 +1274,12 @@
             {
               "label": "Fedor and New Game",
               "url": "https://codeforces.com/group/u3Ii79X3NY/contest/274952/problem/B",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "The Child and Set",
               "url": "https://codeforces.com/group/u3Ii79X3NY/contest/274952/problem/E",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Flip the Bits",
@@ -1286,7 +1304,7 @@
             {
               "label": "Raising Bacteria",
               "url": "https://codeforces.com/contest/579/problem/A",
-              "type": "sheet"
+              "type": "problem"
             }
           ]
         },
@@ -1318,7 +1336,7 @@
           ]
         }
       ],
-      "primaryVideos": [
+      "sessionRecordings": [
         {
           "label": "Session Video",
           "url": "https://drive.google.com/file/d/1pEvS8ZUyBdjIRtEtv4Qr8e5dSE5iGSTb/view?usp=sharing",
@@ -1328,7 +1346,9 @@
           "label": "Session Video 23'",
           "url": "https://youtu.be/wmq4XA2VBhU",
           "type": "youtube"
-        },
+        }
+      ],
+      "primaryVideos": [
         {
           "label": "Erricho",
           "url": "https://www.youtube.com/watch?v=xXKL9YBWgCY&t=1s&ab_channel=Errichto",
@@ -1350,13 +1370,13 @@
         }
       ],
       "stats": {
+        "problems": 37,
+        "sheets": 0,
         "videos": 4,
-        "problems": 34,
         "articles": 4,
-        "sheets": 3,
         "total": 45
       },
-      "markdown": "# Bits\r\n\r\n## Videos\r\n\r\n[**Session Video**](https://drive.google.com/file/d/1pEvS8ZUyBdjIRtEtv4Qr8e5dSE5iGSTb/view?usp=sharing)\r\n\r\n[**Session Video 23'**](https://youtu.be/wmq4XA2VBhU)\r\n\r\n[**Erricho**](https://www.youtube.com/watch?v=xXKL9YBWgCY&t=1s&ab_channel=Errichto)\r\n\r\n[Apna College](https://www.youtube.com/watch?v=MiJdgxTWaFs&ab_channel=ApnaCollege)\r\n\r\n## Problems\r\n\r\n[Decode XORed Array](https://leetcode.com/problems/decode-xored-array)\r\n\r\n[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero)\r\n\r\n[XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array)\r\n\r\n[Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings)\r\n\r\n[Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals)\r\n\r\n[Hamming Distance](https://leetcode.com/problems/hamming-distance)\r\n\r\n[Counting Bits](https://leetcode.com/problems/counting-bits)\r\n\r\n[Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits)\r\n\r\n[Single Number](https://leetcode.com/problems/single-number)\r\n\r\n[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation)\r\n\r\n[Number Complement](https://leetcode.com/problems/number-complement)\r\n\r\n[Binary Gap](https://leetcode.com/problems/binary-gap)\r\n\r\n[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer)\r\n\r\n[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits)\r\n\r\n[Find the Difference](https://leetcode.com/problems/find-the-difference)\r\n\r\n[Missing Number](https://leetcode.com/problems/missing-number)\r\n\r\n[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits)\r\n\r\n[Binary Watch](https://leetcode.com/problems/binary-watch)\r\n\r\n[Add Binary](https://leetcode.com/problems/add-binary)\r\n\r\n[Reverse Bits](https://leetcode.com/problems/reverse-bits)\r\n\r\n[Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal)\r\n\r\n[Power of Two](https://leetcode.com/problems/power-of-two)\r\n\r\n[Power of Four](https://leetcode.com/problems/power-of-four)\r\n\r\n[Set Mismatch](https://leetcode.com/problems/set-mismatch)\r\n\r\n[Maximum XOR for Each Query](https://leetcode.com/problems/maximum-xor-for-each-query)\r\n\r\n[XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray)\r\n\r\n[Subsets](https://leetcode.com/problems/subsets)\r\n\r\n[Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c)\r\n\r\n[Subsets II](https://leetcode.com/problems/subsets-ii)\r\n\r\n[Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range)\r\n\r\n[Fedor and New Game](https://codeforces.com/group/u3Ii79X3NY/contest/274952/problem/B)\r\n\r\n[The Child and Set](https://codeforces.com/group/u3Ii79X3NY/contest/274952/problem/E)\r\n\r\n[Flip the Bits](https://codeforces.com/gym/101810/problem/C)\r\n\r\n[Special Numbers](https://codeforces.com/problemset/problem/1594/B)\r\n\r\n[MEXor Mixup](https://codeforces.com/problemset/problem/1567/B)\r\n\r\n[XORwice](https://codeforces.com/problemset/problem/1421/A)\r\n\r\n[Raising Bacteria](https://codeforces.com/contest/579/problem/A)\r\n\r\n## Articles\r\n\r\n[Bitset](https://www.geeksforgeeks.org/c-bitset-and-its-application/)\r\n\r\n[Bitset Facts](https://www.geeksforgeeks.org/c-bitset-interesting-facts/)\r\n\r\n[Bitset Functions](https://www.tutorialspoint.com/cpp_standard_library/bitset.htm)\r\n\r\n[Bit Manipulation](https://www.geeksforgeeks.org/bits-manipulation-important-tactics/)\r\n"
+      "markdown": "# Bits\n\n## Videos\n\n[**Session Video**](https://drive.google.com/file/d/1pEvS8ZUyBdjIRtEtv4Qr8e5dSE5iGSTb/view?usp=sharing)\n\n[**Session Video 23'**](https://youtu.be/wmq4XA2VBhU)\n\n[**Erricho**](https://www.youtube.com/watch?v=xXKL9YBWgCY&t=1s&ab_channel=Errichto)\n\n[Apna College](https://www.youtube.com/watch?v=MiJdgxTWaFs&ab_channel=ApnaCollege)\n\n## Problems\n\n[Decode XORed Array](https://leetcode.com/problems/decode-xored-array)\n\n[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero)\n\n[XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array)\n\n[Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings)\n\n[Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals)\n\n[Hamming Distance](https://leetcode.com/problems/hamming-distance)\n\n[Counting Bits](https://leetcode.com/problems/counting-bits)\n\n[Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits)\n\n[Single Number](https://leetcode.com/problems/single-number)\n\n[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation)\n\n[Number Complement](https://leetcode.com/problems/number-complement)\n\n[Binary Gap](https://leetcode.com/problems/binary-gap)\n\n[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer)\n\n[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits)\n\n[Find the Difference](https://leetcode.com/problems/find-the-difference)\n\n[Missing Number](https://leetcode.com/problems/missing-number)\n\n[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits)\n\n[Binary Watch](https://leetcode.com/problems/binary-watch)\n\n[Add Binary](https://leetcode.com/problems/add-binary)\n\n[Reverse Bits](https://leetcode.com/problems/reverse-bits)\n\n[Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal)\n\n[Power of Two](https://leetcode.com/problems/power-of-two)\n\n[Power of Four](https://leetcode.com/problems/power-of-four)\n\n[Set Mismatch](https://leetcode.com/problems/set-mismatch)\n\n[Maximum XOR for Each Query](https://leetcode.com/problems/maximum-xor-for-each-query)\n\n[XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray)\n\n[Subsets](https://leetcode.com/problems/subsets)\n\n[Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c)\n\n[Subsets II](https://leetcode.com/problems/subsets-ii)\n\n[Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range)\n\n[Fedor and New Game](https://codeforces.com/group/u3Ii79X3NY/contest/274952/problem/B)\n\n[The Child and Set](https://codeforces.com/group/u3Ii79X3NY/contest/274952/problem/E)\n\n[Flip the Bits](https://codeforces.com/gym/101810/problem/C)\n\n[Special Numbers](https://codeforces.com/problemset/problem/1594/B)\n\n[MEXor Mixup](https://codeforces.com/problemset/problem/1567/B)\n\n[XORwice](https://codeforces.com/problemset/problem/1421/A)\n\n[Raising Bacteria](https://codeforces.com/contest/579/problem/A)\n\n## Articles\n\n[Bitset](https://www.geeksforgeeks.org/c-bitset-and-its-application/)\n\n[Bitset Facts](https://www.geeksforgeeks.org/c-bitset-interesting-facts/)\n\n[Bitset Functions](https://www.tutorialspoint.com/cpp_standard_library/bitset.htm)\n\n[Bit Manipulation](https://www.geeksforgeeks.org/bits-manipulation-important-tactics/)"
     },
     {
       "id": "backtracking",
@@ -1368,7 +1388,7 @@
         "videos",
         "problems"
       ],
-      "description": "Resources for Backtracking",
+      "description": "Two pointers, bits, backtracking, and tricks",
       "sections": [
         {
           "id": "videos",
@@ -1405,7 +1425,7 @@
             {
               "label": "Reverse String",
               "url": "https://codeforces.com/contest/1553/problem/B",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Combination Sum",
@@ -1425,9 +1445,16 @@
             {
               "label": "Tavas and SaDDas",
               "url": "https://codeforces.com/contest/535/problem/B",
-              "type": "sheet"
+              "type": "problem"
             }
           ]
+        }
+      ],
+      "sessionRecordings": [
+        {
+          "label": "Session Video",
+          "url": "https://drive.google.com/file/d/1OYZ2tdZxXnIRYJbwCrdl1YaHmyOkXlqM/view?usp=sharing",
+          "type": "drive"
         }
       ],
       "primaryVideos": [
@@ -1435,22 +1462,17 @@
           "label": "Mostafa Saad",
           "url": "https://www.youtube.com/watch?v=hLXVhRzqq18&t=23s&ab_channel=ArabicCompetitiveProgramming",
           "type": "youtube"
-        },
-        {
-          "label": "Session Video",
-          "url": "https://drive.google.com/file/d/1OYZ2tdZxXnIRYJbwCrdl1YaHmyOkXlqM/view?usp=sharing",
-          "type": "drive"
         }
       ],
       "youtubeChannelVideos": [],
       "stats": {
+        "problems": 6,
+        "sheets": 1,
         "videos": 2,
-        "problems": 4,
         "articles": 0,
-        "sheets": 3,
         "total": 9
       },
-      "markdown": "# Backtracking\r\n\r\n## Videos\r\n\r\n[Mostafa Saad](https://www.youtube.com/watch?v=hLXVhRzqq18&t=23s&ab_channel=ArabicCompetitiveProgramming)\r\n\r\n[Session Video](https://drive.google.com/file/d/1OYZ2tdZxXnIRYJbwCrdl1YaHmyOkXlqM/view?usp=sharing)\r\n\r\n## Problems\r\n\r\n[Backtracking Sheet](https://codeforces.com/group/gA8A93jony/contest/270592)\r\n\r\n[Penalty](https://codeforces.com/problemset/problem/1553/C)\r\n\r\n[Reverse String](https://codeforces.com/contest/1553/problem/B)\r\n\r\n[Combination Sum](https://leetcode.com/problems/combination-sum/)\r\n\r\n[Sum Xor](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)\r\n\r\n[Lucky Number](https://codeforces.com/problemset/problem/96/B)\r\n\r\n[Tavas and SaDDas](https://codeforces.com/contest/535/problem/B)\r\n"
+      "markdown": "# Backtracking\n\n## Videos\n\n[Mostafa Saad](https://www.youtube.com/watch?v=hLXVhRzqq18&t=23s&ab_channel=ArabicCompetitiveProgramming)\n\n[Session Video](https://drive.google.com/file/d/1OYZ2tdZxXnIRYJbwCrdl1YaHmyOkXlqM/view?usp=sharing)\n\n## Problems\n\n[Backtracking Sheet](https://codeforces.com/group/gA8A93jony/contest/270592)\n\n[Penalty](https://codeforces.com/problemset/problem/1553/C)\n\n[Reverse String](https://codeforces.com/contest/1553/problem/B)\n\n[Combination Sum](https://leetcode.com/problems/combination-sum/)\n\n[Sum Xor](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)\n\n[Lucky Number](https://codeforces.com/problemset/problem/96/B)\n\n[Tavas and SaDDas](https://codeforces.com/contest/535/problem/B)"
     },
     {
       "id": "dp-dynammic-programming",
@@ -1461,7 +1483,7 @@
         "algorithms",
         "problems"
       ],
-      "description": "Resources for DP (Dynammic Programming)",
+      "description": "DP, binary search, recursion, and more",
       "sections": [
         {
           "id": "session",
@@ -1603,12 +1625,12 @@
             {
               "label": "Broke Collector",
               "url": "https://codeforces.com/group/Gb7ARsml3C/contest/339111/problem/H",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Playing with Sequences",
               "url": "https://codeforces.com/group/Gb7ARsml3C/contest/339111/problem/F",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Choose Elements",
@@ -1618,7 +1640,7 @@
             {
               "label": "By Elevator or Stairs?",
               "url": "https://codeforces.com/contest/1249/problem/E",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "1111gal password",
@@ -1628,7 +1650,7 @@
             {
               "label": "Minimum White Tiles After Covering With Carpets",
               "url": "https://leetcode.com/contest/biweekly-contest-74/problems/minimum-white-tiles-after-covering-with-carpets/",
-              "type": "sheet"
+              "type": "external"
             },
             {
               "label": "Distance Sequence",
@@ -1658,7 +1680,7 @@
           ]
         }
       ],
-      "primaryVideos": [
+      "sessionRecordings": [
         {
           "label": "Recursive",
           "url": "https://drive.google.com/file/d/1gC2brzWeWhrKQrLoTfrNBodoIyPzaeqB/view?usp=sharing",
@@ -1675,19 +1697,20 @@
           "type": "youtube"
         }
       ],
+      "primaryVideos": [],
       "youtubeChannelVideos": [],
       "stats": {
+        "problems": 32,
+        "sheets": 0,
         "videos": 3,
-        "problems": 29,
         "articles": 0,
-        "sheets": 4,
         "total": 36
       },
-      "markdown": "# DP (Dynammic Programming)\r\n\r\n## Session:\r\n\r\n- [Recursive](https://drive.google.com/file/d/1gC2brzWeWhrKQrLoTfrNBodoIyPzaeqB/view?usp=sharing)\r\n- [Iterative](https://drive.google.com/file/d/1Ko9Kwaf0yzZ5uKQp34wNO90Nv4Q0C_dy/view?usp=sharing)\r\n- [BitMask & Iteretaive with Prefix Sum](https://youtu.be/DmtGtp8hBas)\r\n\r\n## Problems:\r\n- [Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a)\r\n- [Frog 2](https://atcoder.jp/contests/dp/tasks/dp_b)\r\n- [Vacation](https://atcoder.jp/contests/dp/tasks/dp_c)\r\n- [Knapsack 1](https://atcoder.jp/contests/dp/tasks/dp_d)\r\n- [Knapsack 2](https://atcoder.jp/contests/dp/tasks/dp_e)\r\n- [LCS](https://atcoder.jp/contests/dp/tasks/dp_f)\r\n- [Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g)\r\n- [Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h)\r\n- [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)\r\n- [Jump Game](https://leetcode.com/problems/jump-game/)\r\n- [LIS](https://leetcode.com/problems/longest-increasing-subsequence/)\r\n- [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)\r\n- [X and Beasts](https://codeforces.com/gym/101028/problem/J)\r\n- [The Crazy Jumper](https://codeforces.com/problemset/gymProblem/101532/I)\r\n- [House Robber](https://leetcode.com/problems/house-robber/)\r\n- [Dice Combination](https://cses.fi/problemset/task/1633)\r\n- [Coin Combination 1](https://cses.fi/problemset/task/1635)\r\n- [Coin Combination 2](https://cses.fi/problemset/task/1636)\r\n- [Removing Digits](https://cses.fi/problemset/task/1637)\r\n- [Money Sums](https://cses.fi/problemset/task/1745)\r\n- [Jumping Takahashi](https://atcoder.jp/contests/abc240/tasks/abc240_c)\r\n- [FG operation](https://atcoder.jp/contests/abc220/tasks/abc220_d)\r\n- [Broke Collector](https://codeforces.com/group/Gb7ARsml3C/contest/339111/problem/H)\r\n- [Playing with Sequences](https://codeforces.com/group/Gb7ARsml3C/contest/339111/problem/F)\r\n- [Choose Elements](https://atcoder.jp/contests/abc245/tasks/abc245_c)\r\n- [By Elevator or Stairs?](https://codeforces.com/contest/1249/problem/E)\r\n- [1111gal password](https://atcoder.jp/contests/abc242/tasks/abc242_c)\r\n- [Minimum White Tiles After Covering With Carpets](https://leetcode.com/contest/biweekly-contest-74/problems/minimum-white-tiles-after-covering-with-carpets/)\r\n-----------\r\n- [Distance Sequence](https://atcoder.jp/contests/abc253/tasks/abc253_e)\r\n- [Candies](https://atcoder.jp/contests/dp/tasks/dp_m)\r\n- [Matching](https://atcoder.jp/contests/dp/tasks/dp_o)\r\n- [Booster](https://atcoder.jp/contests/abc274/tasks/abc274_e)\r\n- [Elevator Rides](https://cses.fi/problemset/task/1653)\r\n"
+      "markdown": "# DP (Dynammic Programming)\n\n## Session:\n\n- [Recursive](https://drive.google.com/file/d/1gC2brzWeWhrKQrLoTfrNBodoIyPzaeqB/view?usp=sharing)\n- [Iterative](https://drive.google.com/file/d/1Ko9Kwaf0yzZ5uKQp34wNO90Nv4Q0C_dy/view?usp=sharing)\n- [BitMask & Iteretaive with Prefix Sum](https://youtu.be/DmtGtp8hBas)\n\n## Problems:\n- [Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a)\n- [Frog 2](https://atcoder.jp/contests/dp/tasks/dp_b)\n- [Vacation](https://atcoder.jp/contests/dp/tasks/dp_c)\n- [Knapsack 1](https://atcoder.jp/contests/dp/tasks/dp_d)\n- [Knapsack 2](https://atcoder.jp/contests/dp/tasks/dp_e)\n- [LCS](https://atcoder.jp/contests/dp/tasks/dp_f)\n- [Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g)\n- [Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h)\n- [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)\n- [Jump Game](https://leetcode.com/problems/jump-game/)\n- [LIS](https://leetcode.com/problems/longest-increasing-subsequence/)\n- [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)\n- [X and Beasts](https://codeforces.com/gym/101028/problem/J)\n- [The Crazy Jumper](https://codeforces.com/problemset/gymProblem/101532/I)\n- [House Robber](https://leetcode.com/problems/house-robber/)\n- [Dice Combination](https://cses.fi/problemset/task/1633)\n- [Coin Combination 1](https://cses.fi/problemset/task/1635)\n- [Coin Combination 2](https://cses.fi/problemset/task/1636)\n- [Removing Digits](https://cses.fi/problemset/task/1637)\n- [Money Sums](https://cses.fi/problemset/task/1745)\n- [Jumping Takahashi](https://atcoder.jp/contests/abc240/tasks/abc240_c)\n- [FG operation](https://atcoder.jp/contests/abc220/tasks/abc220_d)\n- [Broke Collector](https://codeforces.com/group/Gb7ARsml3C/contest/339111/problem/H)\n- [Playing with Sequences](https://codeforces.com/group/Gb7ARsml3C/contest/339111/problem/F)\n- [Choose Elements](https://atcoder.jp/contests/abc245/tasks/abc245_c)\n- [By Elevator or Stairs?](https://codeforces.com/contest/1249/problem/E)\n- [1111gal password](https://atcoder.jp/contests/abc242/tasks/abc242_c)\n- [Minimum White Tiles After Covering With Carpets](https://leetcode.com/contest/biweekly-contest-74/problems/minimum-white-tiles-after-covering-with-carpets/)\n| --- |\n- [Distance Sequence](https://atcoder.jp/contests/abc253/tasks/abc253_e)\n- [Candies](https://atcoder.jp/contests/dp/tasks/dp_m)\n- [Matching](https://atcoder.jp/contests/dp/tasks/dp_o)\n- [Booster](https://atcoder.jp/contests/abc274/tasks/abc274_e)\n- [Elevator Rides](https://cses.fi/problemset/task/1653)"
     },
     {
-      "id": "dsu",
-      "title": "DSU",
+      "id": "disjoint-set-union",
+      "title": "Disjoint Set Union",
       "folder": "DSU",
       "category": "data-structures",
       "tags": [
@@ -1697,7 +1720,7 @@
         "videos",
         "articles"
       ],
-      "description": "Resources for DSU",
+      "description": "*Extra Resources If you want*",
       "sections": [
         {
           "id": "session",
@@ -1741,17 +1764,17 @@
             {
               "label": "Books Exchange (hard version)",
               "url": "https://codeforces.com/contest/1249/problem/B2",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Cutting a graph",
               "url": "https://codeforces.com/edu/course/2/lesson/7/1/practice/contest/289390/problem/D",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Spanning Tree",
               "url": "https://codeforces.com/edu/course/2/lesson/7/2/practice/contest/289391/problem/E",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Redundant Connection",
@@ -1827,12 +1850,14 @@
           ]
         }
       ],
-      "primaryVideos": [
+      "sessionRecordings": [
         {
           "label": "Session Video",
           "url": "https://youtu.be/TODdUeifThQ",
           "type": "youtube"
-        },
+        }
+      ],
+      "primaryVideos": [
         {
           "label": "Affifi",
           "url": "https://www.youtube.com/watch?v=-jWBvgMw44U",
@@ -1854,13 +1879,13 @@
         }
       ],
       "stats": {
+        "problems": 9,
+        "sheets": 2,
         "videos": 3,
-        "problems": 6,
         "articles": 2,
-        "sheets": 5,
         "total": 17
       },
-      "markdown": "<h1 align=\"center\"> Disjoint Set Union </h1>\r\n\r\n<br><br><br>\r\n\r\n### Session\r\n- [Session Video](https://youtu.be/TODdUeifThQ)\r\n\r\n<br><br><br>\r\n\r\n### Template\r\n- [DSU](https://github.com/7oSkaaa/CP-Templates/blob/main/DSU.cpp)\r\n\r\n<br><br><br>\r\n\r\n\r\n### Problems\r\n- [Unicyclic Components](https://atcoder.jp/contests/abc292/tasks/abc292_d)\r\n- [Tying Rope](https://atcoder.jp/contests/abc293/tasks/abc293_d)\r\n- [Books Exchange (hard version)](https://codeforces.com/contest/1249/problem/B2)\r\n- [Cutting a graph](https://codeforces.com/edu/course/2/lesson/7/1/practice/contest/289390/problem/D)\r\n- [Spanning Tree](https://codeforces.com/edu/course/2/lesson/7/2/practice/contest/289391/problem/E)\r\n- [Redundant Connection](https://leetcode.com/problems/redundant-connection/description/)\r\n- [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/description/)\r\n- [Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/description/)\r\n- [Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor/)\r\n\r\n<br><br><br>\r\n\r\n### Sheets\r\n- [Assiut Sheet 1](https://vjudge.net/contest/463563)\r\n- [Assiut Sheet 2](https://vjudge.net/contest/463564)\r\n\r\n<br><br><br>\r\n\r\n\r\n### Videos\r\n***Extra Resources If you want***\r\n- [Affifi](https://www.youtube.com/watch?v=-jWBvgMw44U)\r\n- [Pavel Marvin](https://www.youtube.com/watch?v=vq5u09x2Kzo)\r\n\r\n<br><br><br>\r\n\r\n### Articles\r\n- [CP Algorithms](https://cp-algorithms.com/data_structures/disjoint_set_union.html)\r\n- [GeekForGeeks](https://www.geeksforgeeks.org/disjoint-set-data-structures/)\r\n"
+      "markdown": "#  Disjoint Set Union \n\n\n### Session\n- [Session Video](https://youtu.be/TODdUeifThQ)\n\n\n### Template\n- [DSU](https://github.com/7oSkaaa/CP-Templates/blob/main/DSU.cpp)\n\n\n### Problems\n- [Unicyclic Components](https://atcoder.jp/contests/abc292/tasks/abc292_d)\n- [Tying Rope](https://atcoder.jp/contests/abc293/tasks/abc293_d)\n- [Books Exchange (hard version)](https://codeforces.com/contest/1249/problem/B2)\n- [Cutting a graph](https://codeforces.com/edu/course/2/lesson/7/1/practice/contest/289390/problem/D)\n- [Spanning Tree](https://codeforces.com/edu/course/2/lesson/7/2/practice/contest/289391/problem/E)\n- [Redundant Connection](https://leetcode.com/problems/redundant-connection/description/)\n- [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/description/)\n- [Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/description/)\n- [Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor/)\n\n\n### Sheets\n- [Assiut Sheet 1](https://vjudge.net/contest/463563)\n- [Assiut Sheet 2](https://vjudge.net/contest/463564)\n\n\n### Videos\n***Extra Resources If you want***\n- [Affifi](https://www.youtube.com/watch?v=-jWBvgMw44U)\n- [Pavel Marvin](https://www.youtube.com/watch?v=vq5u09x2Kzo)\n\n\n### Articles\n- [CP Algorithms](https://cp-algorithms.com/data_structures/disjoint_set_union.html)\n- [GeekForGeeks](https://www.geeksforgeeks.org/disjoint-set-data-structures/)"
     },
     {
       "id": "segment-tree",
@@ -1873,7 +1898,7 @@
         "videos",
         "articles"
       ],
-      "description": "Resources for Segment Tree",
+      "description": "*Extra Resources If you want*",
       "sections": [
         {
           "id": "session",
@@ -1927,7 +1952,7 @@
             {
               "label": "Codeforces EDU",
               "url": "https://codeforces.com/edu/course/2/lesson/4/1/practice",
-              "type": "problem"
+              "type": "external"
             },
             {
               "label": "K-query",
@@ -1967,7 +1992,7 @@
             {
               "label": "Queue",
               "url": "https://codeforces.com/contest/92/problem/D",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "String and Queries",
@@ -2031,7 +2056,7 @@
           ]
         }
       ],
-      "primaryVideos": [
+      "sessionRecordings": [
         {
           "label": "Session Video",
           "url": "https://drive.google.com/file/d/1RWP4vxw1cpTmIfFfbrBSrFTf-eh9p5_I/view?usp=sharing",
@@ -2041,7 +2066,9 @@
           "label": "Khaled Rezk Session",
           "url": "https://drive.google.com/drive/folders/1iogpBTyltQyWeNGmrn2JkxkfnFZ2yuED?usp=sharing",
           "type": "drive"
-        },
+        }
+      ],
+      "primaryVideos": [
         {
           "label": "Solver To Be",
           "url": "https://www.youtube.com/watch?v=7B9Fqtft4zM",
@@ -2075,13 +2102,13 @@
         }
       ],
       "stats": {
-        "videos": 5,
         "problems": 14,
+        "sheets": 0,
+        "videos": 5,
         "articles": 3,
-        "sheets": 1,
         "total": 24
       },
-      "markdown": "<h1 align=\"center\"> Segment Tree </h1>\r\n\r\n<br><br><br>\r\n\r\n### Session\r\n- [Session Video](https://drive.google.com/file/d/1RWP4vxw1cpTmIfFfbrBSrFTf-eh9p5_I/view?usp=sharing)\r\n\r\n<br><br><br>\r\n\r\n### Template\r\n- [Segment Tree](https://github.com/7oSkaaa/CP-Templates/blob/main/Seg_Tree.cpp)\r\n\r\n<br><br><br>\r\n\r\n\r\n### Problems\r\n- [Dynamic Range Sum Queries](https://cses.fi/problemset/task/1648)\r\n- [Dynamic Range Minimum Queries](https://cses.fi/problemset/task/1649)\r\n- [Range Xor Queries](https://cses.fi/problemset/task/1650)\r\n- [Can you answer these queries III](https://www.spoj.com/problems/GSS3/en/)\r\n- [Codeforces EDU](https://codeforces.com/edu/course/2/lesson/4/1/practice)\r\n- [K-query](https://www.spoj.com/problems/KQUERY/en/)\r\n- [Range Update Queries](https://cses.fi/problemset/task/1651)\r\n- [Prefix Sum Query](https://cses.fi/problemset/task/2166)\r\n- [Subarray Sum Queries](https://cses.fi/problemset/task/1190)\r\n- [Ant colony](https://codeforces.com/problemset/problem/474/F)\r\n- [Inversion Count](https://www.spoj.com/problems/INVCNT/)\r\n- [Counting Primes](https://www.spoj.com/problems/CNTPRIME/en/)\r\n- [Queue](https://codeforces.com/contest/92/problem/D)\r\n- [String and Queries](https://codeforces.com/gym/101532/problem/F)\r\n- [Distinct Characters Queries](https://codeforces.com/problemset/problem/1234/D)\r\n\r\n<br><br><br>\r\n\r\n### Videos\r\n***Extra Resources If you want***\r\n- [Khaled Rezk Session](https://drive.google.com/drive/folders/1iogpBTyltQyWeNGmrn2JkxkfnFZ2yuED?usp=sharing)\r\n- [Solver To Be](https://www.youtube.com/watch?v=7B9Fqtft4zM)\r\n- [Erricho](https://www.youtube.com/watch?v=wFqKgrW1IMQ)\r\n- [Pavel Marvin](https://www.youtube.com/watch?v=7JmBP-RqzlI&list=PLrS21S1jm43igE57Ye_edwds_iL7ZOAG4&index=19)\r\n\r\n<br><br><br>\r\n\r\n### Articles\r\n- [CP Algorithms](https://cp-algorithms.com/data_structures/segment_tree.html)\r\n- [GeekForGeeks](https://www.geeksforgeeks.org/segment-tree-sum-of-given-range/)\r\n- [Educative](https://www.educative.io/answers/what-is-a-segment-tree)\r\n"
+      "markdown": "#  Segment Tree \n\n\n### Session\n- [Session Video](https://drive.google.com/file/d/1RWP4vxw1cpTmIfFfbrBSrFTf-eh9p5_I/view?usp=sharing)\n\n\n### Template\n- [Segment Tree](https://github.com/7oSkaaa/CP-Templates/blob/main/Seg_Tree.cpp)\n\n\n### Problems\n- [Dynamic Range Sum Queries](https://cses.fi/problemset/task/1648)\n- [Dynamic Range Minimum Queries](https://cses.fi/problemset/task/1649)\n- [Range Xor Queries](https://cses.fi/problemset/task/1650)\n- [Can you answer these queries III](https://www.spoj.com/problems/GSS3/en/)\n- [Codeforces EDU](https://codeforces.com/edu/course/2/lesson/4/1/practice)\n- [K-query](https://www.spoj.com/problems/KQUERY/en/)\n- [Range Update Queries](https://cses.fi/problemset/task/1651)\n- [Prefix Sum Query](https://cses.fi/problemset/task/2166)\n- [Subarray Sum Queries](https://cses.fi/problemset/task/1190)\n- [Ant colony](https://codeforces.com/problemset/problem/474/F)\n- [Inversion Count](https://www.spoj.com/problems/INVCNT/)\n- [Counting Primes](https://www.spoj.com/problems/CNTPRIME/en/)\n- [Queue](https://codeforces.com/contest/92/problem/D)\n- [String and Queries](https://codeforces.com/gym/101532/problem/F)\n- [Distinct Characters Queries](https://codeforces.com/problemset/problem/1234/D)\n\n\n### Videos\n***Extra Resources If you want***\n- [Khaled Rezk Session](https://drive.google.com/drive/folders/1iogpBTyltQyWeNGmrn2JkxkfnFZ2yuED?usp=sharing)\n- [Solver To Be](https://www.youtube.com/watch?v=7B9Fqtft4zM)\n- [Erricho](https://www.youtube.com/watch?v=wFqKgrW1IMQ)\n- [Pavel Marvin](https://www.youtube.com/watch?v=7JmBP-RqzlI&list=PLrS21S1jm43igE57Ye_edwds_iL7ZOAG4&index=19)\n\n\n### Articles\n- [CP Algorithms](https://cp-algorithms.com/data_structures/segment_tree.html)\n- [GeekForGeeks](https://www.geeksforgeeks.org/segment-tree-sum-of-given-range/)\n- [Educative](https://www.educative.io/answers/what-is-a-segment-tree)"
     },
     {
       "id": "number-theory",
@@ -2094,13 +2121,19 @@
         "articles",
         "problems"
       ],
-      "description": "Resources for Number Theory",
+      "description": "Number theory and mathematical foundations",
       "sections": [
         {
           "id": "session-video",
           "title": "Session Video",
           "level": 2,
-          "links": []
+          "links": [
+            {
+              "label": "Session Video",
+              "url": "https://drive.google.com/file/d/1E7RQEr2p07RlE3UmRcwYiAxmzCzL81WN/view?usp=sharing",
+              "type": "drive"
+            }
+          ]
         },
         {
           "id": "modular-arithmetic",
@@ -2145,22 +2178,22 @@
             {
               "label": "Last 2 Digits",
               "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/Y",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Player and time",
               "url": "https://codeforces.com/group/p6hc42ieQe/contest/296868/problem/B",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Player and Sum",
               "url": "https://codeforces.com/group/p6hc42ieQe/contest/296868/problem/C",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Module Sum",
               "url": "https://codeforces.com/group/p6hc42ieQe/contest/297904/problem/F",
-              "type": "sheet"
+              "type": "problem"
             }
           ]
         },
@@ -2190,7 +2223,7 @@
             {
               "label": "Divisible",
               "url": "https://codeforces.com/group/MWSDmqGsZm/contest/223338/problem/M",
-              "type": "sheet"
+              "type": "problem"
             }
           ]
         },
@@ -2220,7 +2253,7 @@
             {
               "label": "Anas and Divisible",
               "url": "https://codeforces.com/group/XGW5NIn8kq/contest/326459/problem/C",
-              "type": "sheet"
+              "type": "problem"
             }
           ]
         },
@@ -2314,17 +2347,17 @@
             {
               "label": "One Prime",
               "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/H",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Primes from 1 to n",
               "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/J",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Prime checking",
               "url": "https://codeforces.com/group/MWSDmqGsZm/contest/223338/problem/B",
-              "type": "sheet"
+              "type": "problem"
             }
           ]
         },
@@ -2371,7 +2404,7 @@
             {
               "label": "Primes from 1 to n",
               "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/J",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Printing some primes",
@@ -2381,7 +2414,7 @@
             {
               "label": "T-primes",
               "url": "https://codeforces.com/contest/230/problem/B",
-              "type": "sheet"
+              "type": "problem"
             }
           ]
         },
@@ -2429,6 +2462,13 @@
               "type": "problem"
             }
           ]
+        }
+      ],
+      "sessionRecordings": [
+        {
+          "label": "Session Video",
+          "url": "https://drive.google.com/file/d/1E7RQEr2p07RlE3UmRcwYiAxmzCzL81WN/view?usp=sharing",
+          "type": "drive"
         }
       ],
       "primaryVideos": [
@@ -2480,13 +2520,13 @@
       ],
       "youtubeChannelVideos": [],
       "stats": {
+        "problems": 15,
+        "sheets": 0,
         "videos": 9,
-        "problems": 5,
         "articles": 7,
-        "sheets": 11,
-        "total": 32
+        "total": 31
       },
-      "markdown": "# Number Theory\r\n\r\n## **[Session Video](https://drive.google.com/file/d/1E7RQEr2p07RlE3UmRcwYiAxmzCzL81WN/view?usp=sharing)**\r\n\r\n## **Modular Arithmetic**\r\n\r\n### Videos\r\n\r\n[Mostafa Saad](https://www.youtube.com/watch?v=9sqvjnvuLtY&list=PLPt2dINI2MIY7l5zyFd1W28rei3b-AXaJ&index=2)\r\n\r\n[Erricho](https://www.youtube.com/watch?v=-OPohCQqi_E)\r\n\r\n### Article\r\n\r\n[GeeksforGeeks](https://www.geeksforgeeks.org/modular-arithmetic/)\r\n\r\n### Problems\r\n\r\n[Last 2 Digits](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/Y)\r\n\r\n[Player and time](https://codeforces.com/group/p6hc42ieQe/contest/296868/problem/B)\r\n\r\n[Player and Sum](https://codeforces.com/group/p6hc42ieQe/contest/296868/problem/C)\r\n\r\n[Module Sum](https://codeforces.com/group/p6hc42ieQe/contest/297904/problem/F)\r\n\r\n## Big integer mod m\r\n\r\n### Article\r\n\r\n[GeeksforGeeks](https://www.geeksforgeeks.org/how-to-compute-mod-of-a-big-number/)\r\n\r\n### Problems\r\n\r\n[Divisible](https://codeforces.com/group/MWSDmqGsZm/contest/223338/problem/M)\r\n\r\n# Divisible rules and tests\r\n\r\n### Article\r\n\r\n[Math House](https://www.mathwarehouse.com/arithmetic/numbers/divisibility-rules-and-tests.php)\r\n\r\n### Problems\r\n\r\n[Anas and Divisible](https://codeforces.com/group/XGW5NIn8kq/contest/326459/problem/C)\r\n\r\n# Pow, gcd, lcm\r\n\r\n### Videos\r\n\r\n[Mostafa Saad](https://www.youtube.com/watch?v=YklnFXpq0ZE&list=PLPt2dINI2MIY7l5zyFd1W28rei3b-AXaJ&index=7)\r\n\r\n[Erricho](https://www.youtube.com/watch?v=L-Wzglnm4dM&t=2s)\r\n\r\n### Article\r\n\r\n[CP Algorithms](https://cp-algorithms.com/algebra/euclid-algorithm.html)\r\n\r\n### Problems\r\n\r\n[GCD and LCM](https://www.codechef.com/problems/FLOW016)\r\n\r\n[Exponentiation](https://cses.fi/problemset/task/1095)\r\n\r\n# Primes\r\n\r\n### Videos\r\n\r\n[Mostafa Saad](https://www.youtube.com/watch?v=VZBfW08ECgA&list=PLPt2dINI2MIY7l5zyFd1W28rei3b-AXaJ&index=4)\r\n\r\n### Article\r\n\r\n[GeeksforGeeks](https://www.geeksforgeeks.org/primality-test-set-1-introduction-and-school-method/)\r\n\r\n### Problems\r\n\r\n[One Prime](https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/H)\r\n\r\n[Primes from 1 to n](https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/J)\r\n\r\n[Prime checking](https://codeforces.com/group/MWSDmqGsZm/contest/223338/problem/B)\r\n\r\n# Sieve\r\n\r\n### Videos\r\n\r\n[Mostafa Saad](https://www.youtube.com/watch?v=VZBfW08ECgA&list=PLPt2dINI2MIY7l5zyFd1W28rei3b-AXaJ&index=4)\r\n\r\n### Article\r\n\r\n[GeeksforGeeks](https://www.geeksforgeeks.org/sieve-of-eratosthenes/)\r\n\r\n[CP Algorithms](https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html)\r\n\r\n### Problems\r\n\r\n[Primes from 1 to n](https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/J)\r\n\r\n[Printing some primes](https://www.spoj.com/problems/TDPRIMES/)\r\n\r\n[T-primes](https://codeforces.com/contest/230/problem/B)\r\n\r\n# Factorization & Divisors\r\n\r\n### Videos\r\n\r\n[Factorization](https://www.youtube.com/watch?v=geLyvdjxQNg&list=PL2q4fbVm1Ik4liHX78IRslXzUr8z5QxsG&index=8&t=12s)\r\n\r\n[Factorization](https://www.youtube.com/watch?v=-5ApOQDhBtU&list=PLPt2dINI2MIY7l5zyFd1W28rei3b-AXaJ&index=5)\r\n\r\n[Divisors](https://www.youtube.com/watch?v=yXkFgpKi1-E)\r\n\r\n### Problems\r\n\r\n[Counting Divisors](https://cses.fi/problemset/task/1713)\r\n\r\n[Integer Factorization](https://www.spoj.com/problems/FACT0/)\r\n"
+      "markdown": "# Number Theory\n\n## **[Session Video](https://drive.google.com/file/d/1E7RQEr2p07RlE3UmRcwYiAxmzCzL81WN/view?usp=sharing)**\n\n## **Modular Arithmetic**\n\n### Videos\n\n[Mostafa Saad](https://www.youtube.com/watch?v=9sqvjnvuLtY&list=PLPt2dINI2MIY7l5zyFd1W28rei3b-AXaJ&index=2)\n\n[Erricho](https://www.youtube.com/watch?v=-OPohCQqi_E)\n\n### Article\n\n[GeeksforGeeks](https://www.geeksforgeeks.org/modular-arithmetic/)\n\n### Problems\n\n[Last 2 Digits](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/Y)\n\n[Player and time](https://codeforces.com/group/p6hc42ieQe/contest/296868/problem/B)\n\n[Player and Sum](https://codeforces.com/group/p6hc42ieQe/contest/296868/problem/C)\n\n[Module Sum](https://codeforces.com/group/p6hc42ieQe/contest/297904/problem/F)\n\n## Big integer mod m\n\n### Article\n\n[GeeksforGeeks](https://www.geeksforgeeks.org/how-to-compute-mod-of-a-big-number/)\n\n### Problems\n\n[Divisible](https://codeforces.com/group/MWSDmqGsZm/contest/223338/problem/M)\n\n# Divisible rules and tests\n\n### Article\n\n[Math House](https://www.mathwarehouse.com/arithmetic/numbers/divisibility-rules-and-tests.php)\n\n### Problems\n\n[Anas and Divisible](https://codeforces.com/group/XGW5NIn8kq/contest/326459/problem/C)\n\n# Pow, gcd, lcm\n\n### Videos\n\n[Mostafa Saad](https://www.youtube.com/watch?v=YklnFXpq0ZE&list=PLPt2dINI2MIY7l5zyFd1W28rei3b-AXaJ&index=7)\n\n[Erricho](https://www.youtube.com/watch?v=L-Wzglnm4dM&t=2s)\n\n### Article\n\n[CP Algorithms](https://cp-algorithms.com/algebra/euclid-algorithm.html)\n\n### Problems\n\n[GCD and LCM](https://www.codechef.com/problems/FLOW016)\n\n[Exponentiation](https://cses.fi/problemset/task/1095)\n\n# Primes\n\n### Videos\n\n[Mostafa Saad](https://www.youtube.com/watch?v=VZBfW08ECgA&list=PLPt2dINI2MIY7l5zyFd1W28rei3b-AXaJ&index=4)\n\n### Article\n\n[GeeksforGeeks](https://www.geeksforgeeks.org/primality-test-set-1-introduction-and-school-method/)\n\n### Problems\n\n[One Prime](https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/H)\n\n[Primes from 1 to n](https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/J)\n\n[Prime checking](https://codeforces.com/group/MWSDmqGsZm/contest/223338/problem/B)\n\n# Sieve\n\n### Videos\n\n[Mostafa Saad](https://www.youtube.com/watch?v=VZBfW08ECgA&list=PLPt2dINI2MIY7l5zyFd1W28rei3b-AXaJ&index=4)\n\n### Article\n\n[GeeksforGeeks](https://www.geeksforgeeks.org/sieve-of-eratosthenes/)\n\n[CP Algorithms](https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html)\n\n### Problems\n\n[Primes from 1 to n](https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/J)\n\n[Printing some primes](https://www.spoj.com/problems/TDPRIMES/)\n\n[T-primes](https://codeforces.com/contest/230/problem/B)\n\n# Factorization & Divisors\n\n### Videos\n\n[Factorization](https://www.youtube.com/watch?v=geLyvdjxQNg&list=PL2q4fbVm1Ik4liHX78IRslXzUr8z5QxsG&index=8&t=12s)\n\n[Factorization](https://www.youtube.com/watch?v=-5ApOQDhBtU&list=PLPt2dINI2MIY7l5zyFd1W28rei3b-AXaJ&index=5)\n\n[Divisors](https://www.youtube.com/watch?v=yXkFgpKi1-E)\n\n### Problems\n\n[Counting Divisors](https://cses.fi/problemset/task/1713)\n\n[Integer Factorization](https://www.spoj.com/problems/FACT0/)"
     },
     {
       "id": "some-math",
@@ -2499,7 +2539,7 @@
         "problems",
         "articles"
       ],
-      "description": "Resources for Some Math",
+      "description": "Number theory and mathematical foundations",
       "sections": [
         {
           "id": "videos",
@@ -2536,32 +2576,32 @@
             {
               "label": "Last 2 Digits",
               "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/Y",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Module Sum",
               "url": "https://codeforces.com/group/p6hc42ieQe/contest/297904/problem/F",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Player and Time",
               "url": "https://codeforces.com/group/p6hc42ieQe/contest/296868/problem/B",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Power Of 2",
               "url": "https://codeforces.com/group/MWSDmqGsZm/contest/223338/problem/A",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Hard Compare",
               "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/Z",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Two Numbers",
               "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/H",
-              "type": "sheet"
+              "type": "problem"
             }
           ]
         },
@@ -2593,12 +2633,14 @@
           ]
         }
       ],
-      "primaryVideos": [
+      "sessionRecordings": [
         {
           "label": "Session Video",
           "url": "https://drive.google.com/file/d/1S1uq4X2utieRIdlRAlPRWaLhDQYkXVeL/view?usp=sharing",
           "type": "drive"
-        },
+        }
+      ],
+      "primaryVideos": [
         {
           "label": "Modular Arithmetic (4Kids Playlist)",
           "url": "https://www.youtube.com/watch?v=jJVaDl_dePk&ab_channel=ArabicCompetitiveProgramming",
@@ -2617,13 +2659,13 @@
       ],
       "youtubeChannelVideos": [],
       "stats": {
+        "problems": 6,
+        "sheets": 0,
         "videos": 4,
-        "problems": 0,
         "articles": 4,
-        "sheets": 6,
         "total": 14
       },
-      "markdown": "# Some Math\r\n\r\n## Videos\r\n\r\n[Session Video](https://drive.google.com/file/d/1S1uq4X2utieRIdlRAlPRWaLhDQYkXVeL/view?usp=sharing)\r\n\r\n[Modular Arithmetic (4Kids Playlist)](https://www.youtube.com/watch?v=jJVaDl_dePk&ab_channel=ArabicCompetitiveProgramming)\r\n\r\n[Number Theory - Modular Arithmetic](https://www.youtube.com/watch?v=9sqvjnvuLtY&t=1s&ab_channel=ArabicCompetitiveProgramming)\r\n\r\n[Elementary Math (Mostafa Saad)](https://www.youtube.com/watch?v=Syx2qDjj7TE&t=17s&ab_channel=ArabicCompetitiveProgramming)\r\n\r\n## Problem\r\n\r\n[Last 2 Digits](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/Y)\r\n\r\n[Module Sum](https://codeforces.com/group/p6hc42ieQe/contest/297904/problem/F)\r\n\r\n[Player and Time](https://codeforces.com/group/p6hc42ieQe/contest/296868/problem/B)\r\n\r\n[Power Of 2](https://codeforces.com/group/MWSDmqGsZm/contest/223338/problem/A)\r\n\r\n[Hard Compare](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/Z)\r\n\r\n[Two Numbers](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/H)\r\n\r\n## Articles\r\n\r\n[Geeks for Geeks Modular Arithmetic](https://www.geeksforgeeks.org/modular-arithmetic/)\r\n\r\n[Geeks for Geeks Mathematics Functions](https://www.geeksforgeeks.org/c-mathematical-functions/)\r\n\r\n[Summation Rules](https://brilliant.org/wiki/sum-of-n-n2-or-n3/)\r\n\r\n[Geeks for Geeks Log Function](https://www.geeksforgeeks.org/log-function-cpp/)\r\n"
+      "markdown": "# Some Math\n\n## Videos\n\n[Session Video](https://drive.google.com/file/d/1S1uq4X2utieRIdlRAlPRWaLhDQYkXVeL/view?usp=sharing)\n\n[Modular Arithmetic (4Kids Playlist)](https://www.youtube.com/watch?v=jJVaDl_dePk&ab_channel=ArabicCompetitiveProgramming)\n\n[Number Theory - Modular Arithmetic](https://www.youtube.com/watch?v=9sqvjnvuLtY&t=1s&ab_channel=ArabicCompetitiveProgramming)\n\n[Elementary Math (Mostafa Saad)](https://www.youtube.com/watch?v=Syx2qDjj7TE&t=17s&ab_channel=ArabicCompetitiveProgramming)\n\n## Problem\n\n[Last 2 Digits](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/Y)\n\n[Module Sum](https://codeforces.com/group/p6hc42ieQe/contest/297904/problem/F)\n\n[Player and Time](https://codeforces.com/group/p6hc42ieQe/contest/296868/problem/B)\n\n[Power Of 2](https://codeforces.com/group/MWSDmqGsZm/contest/223338/problem/A)\n\n[Hard Compare](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/Z)\n\n[Two Numbers](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/H)\n\n## Articles\n\n[Geeks for Geeks Modular Arithmetic](https://www.geeksforgeeks.org/modular-arithmetic/)\n\n[Geeks for Geeks Mathematics Functions](https://www.geeksforgeeks.org/c-mathematical-functions/)\n\n[Summation Rules](https://brilliant.org/wiki/sum-of-n-n2-or-n3/)\n\n[Geeks for Geeks Log Function](https://www.geeksforgeeks.org/log-function-cpp/)"
     },
     {
       "id": "miscellaneous",
@@ -2636,7 +2678,7 @@
         "articles",
         "problems"
       ],
-      "description": "Resources for Miscellaneous",
+      "description": "Covers Monotonic Stacks, Coordinate Compression, Mod Inverse, Meet in Middle.",
       "sections": [
         {
           "id": "session",
@@ -2767,7 +2809,7 @@
             {
               "label": "Number of Flowers in Full Bloom",
               "url": "https://leetcode.com/contest/weekly-contest-290/problems/number-of-flowers-in-full-bloom",
-              "type": "sheet"
+              "type": "external"
             }
           ]
         },
@@ -2861,7 +2903,7 @@
           ]
         }
       ],
-      "primaryVideos": [
+      "sessionRecordings": [
         {
           "label": "Part 1",
           "url": "https://youtu.be/CAkMhaNr47U",
@@ -2871,7 +2913,9 @@
           "label": "Part 2",
           "url": "https://youtu.be/vtcEK6k_u_E",
           "type": "youtube"
-        },
+        }
+      ],
+      "primaryVideos": [
         {
           "label": "Kacy Codes",
           "url": "https://www.youtube.com/@KacyCodes",
@@ -2910,13 +2954,13 @@
         }
       ],
       "stats": {
-        "videos": 6,
         "problems": 5,
+        "sheets": 0,
+        "videos": 6,
         "articles": 4,
-        "sheets": 1,
         "total": 20
       },
-      "markdown": "<h1 align=center> Miscellaneous\r\n\r\n<br><br><br>\r\n\r\n## Session:\r\n- [Part 1](https://youtu.be/CAkMhaNr47U)\r\n- [Part 2](https://youtu.be/vtcEK6k_u_E)\r\n\r\n<br><br><br>\r\n\r\n## Outlines:\r\n- ***[Monotonic Stacks](#monotonic-stacks)***\r\n- ***[Coordinate Compression](#coordinate-compression)***\r\n- ***[Mod Inverse](#mod-inverse)***\r\n- ***[Meet in Middle](#meet-in-middle)***\r\n\r\n<br><br>\r\n\r\n## Monotonic Stacks\r\n\r\n###  Videos\r\n-\t[Kacy Codes](https://www.youtube.com/@KacyCodes)\r\n\r\n### Articles\r\n- [Enjoy Algorithms](https://www.enjoyalgorithms.com/blog/find-next-greater-element)\r\n\r\n### Problems\r\n- [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii)\r\n- [Nearest Smaller Values](https://codeforces.com/gym/102961/problem/Z)\r\n\r\n---\r\n\r\n<br><br>\r\n\r\n## Coordinate Compression\r\n\r\n###  Videos\r\n-\t[Mostafa Saad](https://www.youtube.com/watch?v=nqJIXtfs7p4&t)\r\n\r\n### Articles\r\n- [Algorithms Digest](https://medium.com/algorithms-digest/coordinate-compression-2fff95326fb#:~:text=Coordinate%20compression%20is%20a%20technique,save%20considerable%20time%20and%20memory.)\r\n\r\n### Problems\r\n- [Number of Flowers in Full Bloom](https://leetcode.com/contest/weekly-contest-290/problems/number-of-flowers-in-full-bloom)\r\n\r\n---\r\n\r\n<br><br>\r\n\r\n## Mod Inverse\r\n\r\n###  Videos\r\n-\t[Mostafa Saad](https://www.youtube.com/watch?v=O81POzCvC3M&t)\r\n\r\n### Articles\r\n- [GeeksForGeeks](https://www.geeksforgeeks.org/multiplicative-inverse-under-modulo-m/)\r\n\r\n### Problems\r\n- [Binomial Coefficients](https://cses.fi/problemset/task/1079)\r\n\r\n---\r\n\r\n<br><br>\r\n\r\n## Meet in Middle\r\n\r\n###  Videos\r\n-\t[Meet In The Middle Technique | Leetcode Partition Array Into Two Arrays to Minimize Sum Difference](https://www.youtube.com/watch?v=JUFHwaZjO_M)\r\n\r\n### Articles\r\n- [GeeksForGeeks](https://www.geeksforgeeks.org/meet-in-the-middle/)\r\n\r\n### Problems\r\n- [Meet in the Middle](https://cses.fi/problemset/task/1628/)\r\n- [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/)\r\n"
+      "markdown": "<h1 align=center> Miscellaneous\n\n\n## Session:\n- [Part 1](https://youtu.be/CAkMhaNr47U)\n- [Part 2](https://youtu.be/vtcEK6k_u_E)\n\n\n## Outlines:\n- ***[Monotonic Stacks](#monotonic-stacks)***\n- ***[Coordinate Compression](#coordinate-compression)***\n- ***[Mod Inverse](#mod-inverse)***\n- ***[Meet in Middle](#meet-in-middle)***\n\n\n## Monotonic Stacks\n\n###  Videos\n-\t[Kacy Codes](https://www.youtube.com/@KacyCodes)\n\n### Articles\n- [Enjoy Algorithms](https://www.enjoyalgorithms.com/blog/find-next-greater-element)\n\n### Problems\n- [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii)\n- [Nearest Smaller Values](https://codeforces.com/gym/102961/problem/Z)\n\n| --- |\n\n\n## Coordinate Compression\n\n###  Videos\n-\t[Mostafa Saad](https://www.youtube.com/watch?v=nqJIXtfs7p4&t)\n\n### Articles\n- [Algorithms Digest](https://medium.com/algorithms-digest/coordinate-compression-2fff95326fb#:~:text=Coordinate%20compression%20is%20a%20technique,save%20considerable%20time%20and%20memory.)\n\n### Problems\n- [Number of Flowers in Full Bloom](https://leetcode.com/contest/weekly-contest-290/problems/number-of-flowers-in-full-bloom)\n\n| --- |\n\n\n## Mod Inverse\n\n###  Videos\n-\t[Mostafa Saad](https://www.youtube.com/watch?v=O81POzCvC3M&t)\n\n### Articles\n- [GeeksForGeeks](https://www.geeksforgeeks.org/multiplicative-inverse-under-modulo-m/)\n\n### Problems\n- [Binomial Coefficients](https://cses.fi/problemset/task/1079)\n\n| --- |\n\n\n## Meet in Middle\n\n###  Videos\n|-\t[Meet In The Middle Technique | Leetcode Partition Array Into Two Arrays to Minimize Sum Difference](https://www.youtube.com/watch?v=JUFHwaZjO_M)|\n\n### Articles\n- [GeeksForGeeks](https://www.geeksforgeeks.org/meet-in-the-middle/)\n\n### Problems\n- [Meet in the Middle](https://cses.fi/problemset/task/1628/)\n- [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/)"
     },
     {
       "id": "revision-tips",
@@ -2926,7 +2970,7 @@
       "tags": [
         "misc"
       ],
-      "description": "Resources for Revision & Tips",
+      "description": "Thinking sessions, revision, and extras",
       "sections": [
         {
           "id": "resources",
@@ -2948,17 +2992,17 @@
             {
               "label": "Cutting",
               "url": "https://codeforces.com/group/dfmvO0RN41/contest/227601/problem/A",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Permutation",
               "url": "https://codeforces.com/group/u3Ii79X3NY/contest/270254/problem/L",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Pure Oxygen",
               "url": "https://codeforces.com/group/9PTNrhBNKn/contest/337624/problem/F",
-              "type": "sheet"
+              "type": "problem"
             }
           ]
         },
@@ -2975,7 +3019,7 @@
             {
               "label": "Number of Equal",
               "url": "https://codeforces.com/edu/course/2/lesson/9/1/practice/contest/307092/problem/C",
-              "type": "sheet"
+              "type": "problem"
             }
           ]
         },
@@ -2987,12 +3031,12 @@
             {
               "label": "count a's",
               "url": "https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/H",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Hard Bits",
               "url": "https://codeforces.com/group/p6hc42ieQe/contest/324287/problem/G",
-              "type": "sheet"
+              "type": "problem"
             }
           ]
         },
@@ -3004,12 +3048,12 @@
             {
               "label": "Letter",
               "url": "https://codeforces.com/group/u3Ii79X3NY/contest/270254/problem/D",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Frequency Array",
               "url": "https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/V",
-              "type": "sheet"
+              "type": "problem"
             }
           ]
         },
@@ -3021,7 +3065,7 @@
             {
               "label": "update range",
               "url": "https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/F",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Stickers on the wall (Easy)",
@@ -3043,7 +3087,7 @@
             {
               "label": "Approximation",
               "url": "https://codeforces.com/group/MEqF8b6wBT/contest/324245/problem/V",
-              "type": "sheet"
+              "type": "problem"
             }
           ]
         },
@@ -3055,7 +3099,7 @@
             {
               "label": "Semi palindrome",
               "url": "https://codeforces.com/group/2ia6U65GWG/contest/335066/problem/B",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Breaking the Curse",
@@ -3072,27 +3116,28 @@
             {
               "label": "Sorting pairs",
               "url": "https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/K",
-              "type": "sheet"
+              "type": "problem"
             }
           ]
         }
       ],
-      "primaryVideos": [
+      "sessionRecordings": [
         {
           "label": "Session Video",
           "url": "https://drive.google.com/file/d/1NO1X4g381iT18PdbO8pk1_4_vLx72XXw/view?usp=sharing",
           "type": "drive"
         }
       ],
+      "primaryVideos": [],
       "youtubeChannelVideos": [],
       "stats": {
+        "problems": 16,
+        "sheets": 0,
         "videos": 1,
-        "problems": 4,
         "articles": 0,
-        "sheets": 12,
         "total": 17
       },
-      "markdown": "# Revision & Tips\r\n\r\n- [**Session Video**](https://drive.google.com/file/d/1NO1X4g381iT18PdbO8pk1_4_vLx72XXw/view?usp=sharing)\r\n\r\n## **Postfix & Prefix**\r\n\r\n- **[Cutting](https://codeforces.com/group/dfmvO0RN41/contest/227601/problem/A)**\r\n- **[Permutation](https://codeforces.com/group/u3Ii79X3NY/contest/270254/problem/L)**\r\n- **[Pure Oxygen](https://codeforces.com/group/9PTNrhBNKn/contest/337624/problem/F)**\r\n\r\n## **Two Pointers**\r\n\r\n- **[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array)**\r\n- **[Number of Equal](https://codeforces.com/edu/course/2/lesson/9/1/practice/contest/307092/problem/C)**\r\n\r\n## **Prefix Sum**\r\n\r\n- **[count a's](https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/H)**\r\n- **[Hard Bits](https://codeforces.com/group/p6hc42ieQe/contest/324287/problem/G)**\r\n\r\n## **Frequency Array**\r\n\r\n**when we use frequency array and when we use map ?!**\r\n\r\n- **[Letter](https://codeforces.com/group/u3Ii79X3NY/contest/270254/problem/D)**\r\n- **[Frequency Array](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/V)**\r\n\r\n## **Partial Sum**\r\n\r\n- **[update range](https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/F)**\r\n- **[Stickers on the wall (Easy)](https://codeforces.com/gym/302587/problem/E)**\r\n\r\n## **Median**\r\n\r\n- **[Similar Arrays](https://codeforces.com/gym/102873/problem/C)**\r\n- **[Approximation](https://codeforces.com/group/MEqF8b6wBT/contest/324245/problem/V)**\r\n\r\n## **Substring**\r\n\r\n- **[Semi palindrome](https://codeforces.com/group/2ia6U65GWG/contest/335066/problem/B)**\r\n- **[Breaking the Curse](https://codeforces.com/gym/101840/problem/B)**\r\n\r\n## **Sort By Second**\r\n\r\n- **[Sorting pairs](https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/K)**\r\n"
+      "markdown": "# Revision & Tips\n\n- [**Session Video**](https://drive.google.com/file/d/1NO1X4g381iT18PdbO8pk1_4_vLx72XXw/view?usp=sharing)\n\n## **Postfix & Prefix**\n\n- **[Cutting](https://codeforces.com/group/dfmvO0RN41/contest/227601/problem/A)**\n- **[Permutation](https://codeforces.com/group/u3Ii79X3NY/contest/270254/problem/L)**\n- **[Pure Oxygen](https://codeforces.com/group/9PTNrhBNKn/contest/337624/problem/F)**\n\n## **Two Pointers**\n\n- **[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array)**\n- **[Number of Equal](https://codeforces.com/edu/course/2/lesson/9/1/practice/contest/307092/problem/C)**\n\n## **Prefix Sum**\n\n- **[count a's](https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/H)**\n- **[Hard Bits](https://codeforces.com/group/p6hc42ieQe/contest/324287/problem/G)**\n\n## **Frequency Array**\n\n**when we use frequency array and when we use map ?!**\n\n- **[Letter](https://codeforces.com/group/u3Ii79X3NY/contest/270254/problem/D)**\n- **[Frequency Array](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/V)**\n\n## **Partial Sum**\n\n- **[update range](https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/F)**\n- **[Stickers on the wall (Easy)](https://codeforces.com/gym/302587/problem/E)**\n\n## **Median**\n\n- **[Similar Arrays](https://codeforces.com/gym/102873/problem/C)**\n- **[Approximation](https://codeforces.com/group/MEqF8b6wBT/contest/324245/problem/V)**\n\n## **Substring**\n\n- **[Semi palindrome](https://codeforces.com/group/2ia6U65GWG/contest/335066/problem/B)**\n- **[Breaking the Curse](https://codeforces.com/gym/101840/problem/B)**\n\n## **Sort By Second**\n\n- **[Sorting pairs](https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/K)**"
     },
     {
       "id": "tips-tricks-assiut-contest",
@@ -3104,7 +3149,7 @@
         "videos",
         "problems"
       ],
-      "description": "Resources for Tips & Tricks & Assiut contest",
+      "description": "Thinking sessions, revision, and extras",
       "sections": [
         {
           "id": "videos",
@@ -3141,7 +3186,7 @@
           ]
         }
       ],
-      "primaryVideos": [
+      "sessionRecordings": [
         {
           "label": "Part #1",
           "url": "https://drive.google.com/file/d/1QdP26YQ14Y2TOcH02AJIbthbKqfrvXIC/view?usp=sharing",
@@ -3153,15 +3198,16 @@
           "type": "drive"
         }
       ],
+      "primaryVideos": [],
       "youtubeChannelVideos": [],
       "stats": {
-        "videos": 2,
         "problems": 0,
-        "articles": 0,
         "sheets": 2,
+        "videos": 2,
+        "articles": 0,
         "total": 4
       },
-      "markdown": "# Tips & Tricks & Assiut contest\r\n\r\nSolve the contest again and solve the function sheet\r\n\r\n## Videos\r\n\r\n[Part #1](https://drive.google.com/file/d/1QdP26YQ14Y2TOcH02AJIbthbKqfrvXIC/view?usp=sharing)\r\n\r\n[Part #2](https://drive.google.com/file/d/1fddrPR24t6F_Bh9xqsckZ44XREg26AOb/view?usp=sharing)\r\n\r\n## Problems\r\n\r\n[Contest #2](https://codeforces.com/group/MWSDmqGsZm/contest/326907)\r\n\r\n[Function Sheet](https://codeforces.com/group/MWSDmqGsZm/contest/223205)\r\n"
+      "markdown": "# Tips & Tricks & Assiut contest\n\nSolve the contest again and solve the function sheet\n\n## Videos\n\n[Part #1](https://drive.google.com/file/d/1QdP26YQ14Y2TOcH02AJIbthbKqfrvXIC/view?usp=sharing)\n\n[Part #2](https://drive.google.com/file/d/1fddrPR24t6F_Bh9xqsckZ44XREg26AOb/view?usp=sharing)\n\n## Problems\n\n[Contest #2](https://codeforces.com/group/MWSDmqGsZm/contest/326907)\n\n[Function Sheet](https://codeforces.com/group/MWSDmqGsZm/contest/223205)"
     },
     {
       "id": "thinking-session-notes",
@@ -3173,7 +3219,7 @@
         "videos",
         "problems"
       ],
-      "description": "[ ] Problems we face [ ] Solutions for these problems",
+      "description": "Thinking sessions, revision, and extras",
       "sections": [
         {
           "id": "videos",
@@ -3260,17 +3306,17 @@
             {
               "label": "Two Subsequences",
               "url": "https://codeforces.com/contest/1602/problem/A",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Luntik and Subsequences",
               "url": "https://codeforces.com/contest/1582/problem/B",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Fair Number",
               "url": "https://codeforces.com/contest/1411/problem/B",
-              "type": "sheet"
+              "type": "problem"
             },
             {
               "label": "Max Increase",
@@ -3285,12 +3331,14 @@
           ]
         }
       ],
-      "primaryVideos": [
+      "sessionRecordings": [
         {
           "label": "Session Video",
           "url": "https://www.youtube.com/watch?v=UA9-CaD3758&t=3s",
           "type": "youtube"
-        },
+        }
+      ],
+      "primaryVideos": [
         {
           "label": "Playlist Mostafa Saad",
           "url": "https://www.youtube.com/playlist?list=PLPt2dINI2MIa3AdNEfMlWS-RXqkpMdUC3",
@@ -3307,13 +3355,13 @@
         }
       ],
       "stats": {
+        "problems": 5,
+        "sheets": 0,
         "videos": 2,
-        "problems": 2,
         "articles": 0,
-        "sheets": 3,
         "total": 7
       },
-      "markdown": "# Thinking session notes\r\n\r\n## Videos\r\n\r\n[Session Video](https://www.youtube.com/watch?v=UA9-CaD3758&t=3s)\r\n\r\n[Playlist Mostafa Saad](https://www.youtube.com/playlist?list=PLPt2dINI2MIa3AdNEfMlWS-RXqkpMdUC3)\r\n\r\n## Content\r\n\r\n- [ ] Problems we face\r\n- [ ] Solutions for these problems\r\n- [ ] Plans for practicing\r\n- [ ] Solve some sub-problems\r\n\r\n## Problems\r\n\r\n### Thinking Problems\r\n\r\n1. Stuck in thinking\r\n2. Panic\r\n3. Rush\r\n4. Distraction (Whats app, Mobile,..., etc)\r\n\r\n### Solving Problems\r\n\r\n1. Ir-responsive reading\r\n2. Not paying attention to constrains\r\n3. Lack of knowledge (Algorithms)\r\n4. Not enough practicing\r\n5. Can't debug or maintain code after wrong answer\r\n6. Not paying attention to tricky test cases, corner testcases and overflow.\r\n7. Wrong training plan\r\n8. Slow writing\r\n9. Doesn't know enough syntax for the language\r\n10. Stuck on a single algorithm or idea\r\n11. Reading the problem once\r\n12. Not focusing on the main idea of the problem\r\n13. Overthinking the problem\r\n\r\n### Training Problems\r\n\r\n1. No priorities\r\n2. Random practicing\r\n3. Solve problems not your level\r\n4. Not asking for help\r\n5. Solving problems without studying algorithms/topics\r\n6. Little practice\r\n7. Give the problem much time than it deserves\r\n\r\n## Solution for these problems\r\n\r\n1. Set your priorities\r\n2. Make plans that suits your goals\r\n3. Be convinced by your level\r\n4. Don't rush\r\n5. Read the statement carefully more than one time\r\n6. Focus on the constraints (there are a problems solve by it's constraints)\r\n7. **Think on paper not PC!**\r\n8. Write Clean Code\r\n9. Test your code (tricky test - corner test - overflow test)\r\n10. Practice typing on keyboard\r\n11. Compete yourself not others\r\n12. **Never Give Up!**\r\n13. Study more algorithms\r\n14. Practice a lot, it's worth it\r\n\r\n## Plans for practicing\r\n\r\n### Speed\r\n\r\n- Solve a lot of problems with rate less than your level on a predetermined time.\r\n- Use timer to maintain your speed\r\n- Practice typing speed\r\n- Practice on getting the main point from the problem faster every time\r\n  \r\n### Increase your level\r\n\r\n- Study and practice more algorithms\r\n- Solve hard problems, read its editorial\r\n- Read the editorial of the problems\r\n- Read the solutions of others after solving the problem\r\n- Up-solve the problems that you stuck in during the contest\r\n\r\n### Increase your rate\r\n\r\n- Take part in a lot of contests\r\n- Enter a lot of virtual contests\r\n- Focus on speed and don't panic\r\n- Increasing your typing speed\r\n- Up-solve the problems that you stuck in the contest\r\n- Solve problems with rate higher than your rate\r\n- Train on solving the problem you couldn't solve during live contests (e.g. div2 B problems)\r\n- Study common algorithms\r\n- Practice more on algorithms\r\n- Solve hard ad-hoc problems (implementation, math, greedy, brute-force)\r\n- Be faster, Be faster, and Be faster\r\n\r\n### Sub Problems\r\n\r\n- [Two Subsequences](https://codeforces.com/contest/1602/problem/A)\r\n- [Luntik and Subsequences](https://codeforces.com/contest/1582/problem/B)\r\n- [Fair Number](https://codeforces.com/contest/1411/problem/B)\r\n- [Max Increase](https://codeforces.com/problemset/problem/702/A)\r\n- [Substring Sort](https://codeforces.com/problemset/problem/988/B)\r\n"
+      "markdown": "# Thinking session notes\n\n## Videos\n\n[Session Video](https://www.youtube.com/watch?v=UA9-CaD3758&t=3s)\n\n[Playlist Mostafa Saad](https://www.youtube.com/playlist?list=PLPt2dINI2MIa3AdNEfMlWS-RXqkpMdUC3)\n\n## Content\n\n- [ ] Problems we face\n- [ ] Solutions for these problems\n- [ ] Plans for practicing\n- [ ] Solve some sub-problems\n\n## Problems\n\n### Thinking Problems\n\n1. Stuck in thinking\n2. Panic\n3. Rush\n4. Distraction (Whats app, Mobile,..., etc)\n\n### Solving Problems\n\n1. Ir-responsive reading\n2. Not paying attention to constrains\n3. Lack of knowledge (Algorithms)\n4. Not enough practicing\n5. Can't debug or maintain code after wrong answer\n6. Not paying attention to tricky test cases, corner testcases and overflow.\n7. Wrong training plan\n8. Slow writing\n9. Doesn't know enough syntax for the language\n10. Stuck on a single algorithm or idea\n11. Reading the problem once\n12. Not focusing on the main idea of the problem\n13. Overthinking the problem\n\n### Training Problems\n\n1. No priorities\n2. Random practicing\n3. Solve problems not your level\n4. Not asking for help\n5. Solving problems without studying algorithms/topics\n6. Little practice\n7. Give the problem much time than it deserves\n\n## Solution for these problems\n\n1. Set your priorities\n2. Make plans that suits your goals\n3. Be convinced by your level\n4. Don't rush\n5. Read the statement carefully more than one time\n6. Focus on the constraints (there are a problems solve by it's constraints)\n7. **Think on paper not PC!**\n8. Write Clean Code\n9. Test your code (tricky test - corner test - overflow test)\n10. Practice typing on keyboard\n11. Compete yourself not others\n12. **Never Give Up!**\n13. Study more algorithms\n14. Practice a lot, it's worth it\n\n## Plans for practicing\n\n### Speed\n\n- Solve a lot of problems with rate less than your level on a predetermined time.\n- Use timer to maintain your speed\n- Practice typing speed\n- Practice on getting the main point from the problem faster every time\n  \n### Increase your level\n\n- Study and practice more algorithms\n- Solve hard problems, read its editorial\n- Read the editorial of the problems\n- Read the solutions of others after solving the problem\n- Up-solve the problems that you stuck in during the contest\n\n### Increase your rate\n\n- Take part in a lot of contests\n- Enter a lot of virtual contests\n- Focus on speed and don't panic\n- Increasing your typing speed\n- Up-solve the problems that you stuck in the contest\n- Solve problems with rate higher than your rate\n- Train on solving the problem you couldn't solve during live contests (e.g. div2 B problems)\n- Study common algorithms\n- Practice more on algorithms\n- Solve hard ad-hoc problems (implementation, math, greedy, brute-force)\n- Be faster, Be faster, and Be faster\n\n### Sub Problems\n\n- [Two Subsequences](https://codeforces.com/contest/1602/problem/A)\n- [Luntik and Subsequences](https://codeforces.com/contest/1582/problem/B)\n- [Fair Number](https://codeforces.com/contest/1411/problem/B)\n- [Max Increase](https://codeforces.com/problemset/problem/702/A)\n- [Substring Sort](https://codeforces.com/problemset/problem/988/B)"
     }
   ],
   "youtubeVideos": [
