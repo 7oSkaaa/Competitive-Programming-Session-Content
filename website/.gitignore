@@ -1,4 +1,5 @@
-website/node_modules/
-website/dist/
-website/.env
-website/.env.*
+node_modules/
+dist/
+.env
+.env.*
+*.tsbuildinfo
