@@ -84,7 +84,10 @@ export function classifyLink(url: string, label: string): LinkType {
   if (lower.includes("drive.google.com") || lower.includes("sharepoint.com")) {
     return "drive";
   }
-  if (lower.includes("github.com") && lower.includes("cp-templates")) {
+  if (
+    (lower.includes("github.com") && lower.includes("cp-templates")) ||
+    lower.includes("7oskaaa.github.io/cp-templates")
+  ) {
     return "template";
   }
   if (isIndividualProblemUrl(lower)) return "problem";
