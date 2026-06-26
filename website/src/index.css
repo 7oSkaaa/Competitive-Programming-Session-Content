@@ -38,11 +38,11 @@
 
 @layer components {
   .glass {
-    @apply border border-white/10 bg-white/5 backdrop-blur-xl;
+    @apply border border-white/10 bg-surface-raised/90 backdrop-blur-xl;
   }
 
   .glass-hover {
-    @apply glass transition-all duration-300 hover:border-accent/30 hover:bg-white/[0.07] hover:shadow-lg hover:shadow-accent/5;
+    @apply border border-white/10 bg-surface-raised shadow-lg shadow-black/25 transition-all duration-300 hover:border-accent/40 hover:bg-surface-overlay hover:shadow-xl hover:shadow-accent/10;
   }
 
   .gradient-text {
@@ -67,15 +67,26 @@
 }
 
 @layer utilities {
-  .animate-stagger > * {
-    animation: slideUp 0.5s ease-out forwards;
-    opacity: 0;
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 
-  .animate-stagger > *:nth-child(1) { animation-delay: 0.05s; }
-  .animate-stagger > *:nth-child(2) { animation-delay: 0.1s; }
-  .animate-stagger > *:nth-child(3) { animation-delay: 0.15s; }
-  .animate-stagger > *:nth-child(4) { animation-delay: 0.2s; }
-  .animate-stagger > *:nth-child(5) { animation-delay: 0.25s; }
-  .animate-stagger > *:nth-child(6) { animation-delay: 0.3s; }
+  .animate-stagger > * {
+    animation: slideUp 0.45s ease-out forwards;
+  }
+
+  .animate-stagger > *:nth-child(1) { animation-delay: 0.03s; }
+  .animate-stagger > *:nth-child(2) { animation-delay: 0.06s; }
+  .animate-stagger > *:nth-child(3) { animation-delay: 0.09s; }
+  .animate-stagger > *:nth-child(4) { animation-delay: 0.12s; }
+  .animate-stagger > *:nth-child(5) { animation-delay: 0.15s; }
+  .animate-stagger > *:nth-child(6) { animation-delay: 0.18s; }
+  .animate-stagger > *:nth-child(n + 7) { animation-delay: 0.21s; }
 }

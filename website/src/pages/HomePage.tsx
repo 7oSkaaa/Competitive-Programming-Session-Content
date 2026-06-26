@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 import Hero from "@/components/Hero";
+import YouTubeSection from "@/components/YouTubeSection";
 import SearchBar from "@/components/SearchBar";
 import CategoryFilter from "@/components/CategoryFilter";
 import SessionCard from "@/components/SessionCard";
@@ -49,8 +50,9 @@ export default function HomePage() {
   return (
     <>
       <Hero />
+      <YouTubeSection />
 
-      <section id="sessions" className="mx-auto max-w-7xl px-4 pb-24 sm:px-6 lg:px-8">
+      <section id="sessions" className="mx-auto max-w-7xl border-t border-white/5 px-4 pb-24 pt-16 sm:px-6 lg:px-8">
         <div className="mb-8 space-y-6">
           <div>
             <h2 className="section-heading">All Sessions</h2>

@@ -59,7 +59,7 @@ export default function SessionCard({ session }: SessionCardProps) {
         </span>
       </div>
 
-      <div className="mt-4 flex items-center gap-1 text-sm font-medium text-accent-light opacity-0 transition-opacity group-hover:opacity-100">
+      <div className="mt-4 flex items-center gap-1 text-sm font-medium text-accent-light">
         View session
         <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
       </div>

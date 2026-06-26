@@ -38,13 +38,16 @@ export default function Hero() {
               videos, problem sheets, articles, and everything you need to level up.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
-              <a href="#sessions" className="btn-primary">
+              <a href="#youtube-sessions" className="btn-primary">
+                <Play className="h-4 w-4" />
+                YouTube Sessions
+              </a>
+              <a href="#sessions" className="btn-ghost">
                 Browse Sessions
                 <ArrowRight className="h-4 w-4" />
               </a>
               <Link to="/youtube" className="btn-ghost">
-                <Play className="h-4 w-4 text-red-400" />
-                Watch on YouTube
+                All Videos
               </Link>
             </div>
           </div>

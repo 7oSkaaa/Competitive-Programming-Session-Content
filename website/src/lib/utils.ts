@@ -267,7 +267,10 @@ export function getPrimaryVideos(links: ResourceLink[]): ResourceLink[] {
 }
 
 export function formatDate(iso: string): string {
-  return new Date(iso).toLocaleDateString("en-US", {
+  if (!iso) return "Session recording";
+  const date = new Date(iso);
+  if (Number.isNaN(date.getTime())) return "Session recording";
+  return date.toLocaleDateString("en-US", {
     year: "numeric",
     month: "short",
     day: "numeric",
