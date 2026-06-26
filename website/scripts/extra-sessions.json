@@ -1,0 +1,62 @@
+[
+  {
+    "id": "newcomers-intro-programming",
+    "title": "Newcomers: Introduction to Programming",
+    "folder": "ICPC SCU / Newcomers",
+    "category": "fundamentals",
+    "description": "ICPC SCU newcomers session — introduction to programming, part 1.",
+    "order": 0,
+    "recordings": [
+      {
+        "label": "Part 1 — Introduction to Programming",
+        "url": "https://youtu.be/FU0IyvmFi_c"
+      }
+    ],
+    "youtubeIds": ["FU0IyvmFi_c"]
+  },
+  {
+    "id": "setup-environment-stress-testing",
+    "title": "Setup Environment & Stress Testing",
+    "folder": "ICPC SCU / Newcomers",
+    "category": "fundamentals",
+    "description": "How to set up your competitive programming environment and use stress testing.",
+    "order": 1,
+    "recordings": [
+      {
+        "label": "Session — Setup & Stress Testing",
+        "url": "https://www.youtube.com/watch?v=8UvUyVjpWdU"
+      }
+    ],
+    "youtubeIds": ["8UvUyVjpWdU"]
+  },
+  {
+    "id": "time-complexity-discussion",
+    "title": "Time Complexity Discussion",
+    "folder": "ICPC SCU / Newcomers",
+    "category": "fundamentals",
+    "description": "Understanding time complexity and why it matters in competitive programming.",
+    "order": 2,
+    "recordings": [
+      {
+        "label": "Session — Time Complexity",
+        "url": "https://www.youtube.com/watch?v=Xio3CYdXmLM"
+      }
+    ],
+    "youtubeIds": ["Xio3CYdXmLM"]
+  },
+  {
+    "id": "newcomers-session-4-strings",
+    "title": "Newcomers Session #4 (Strings)",
+    "folder": "ICPC SCU / Newcomers",
+    "category": "fundamentals",
+    "description": "ICPC SCU newcomers session covering strings.",
+    "order": 3,
+    "recordings": [
+      {
+        "label": "Session #4 — Strings",
+        "url": "https://youtu.be/5jzsNkviJjI"
+      }
+    ],
+    "youtubeIds": ["5jzsNkviJjI"]
+  }
+]

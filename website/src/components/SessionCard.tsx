@@ -41,6 +41,11 @@ export default function SessionCard({ session }: SessionCardProps) {
               Drive
             </span>
           )}
+          {session.folder.includes("ICPC SCU") && (
+            <span className="rounded-md bg-emerald-500/10 px-2 py-0.5 text-[10px] font-medium text-emerald-400">
+              ICPC SCU
+            </span>
+          )}
           {partCount > 1 && (
             <span className="rounded-md bg-violet-500/10 px-2 py-0.5 text-[10px] font-medium text-violet-400">
               {partCount} parts

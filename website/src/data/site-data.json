@@ -17,6 +17,210 @@
   },
   "sessions": [
     {
+      "id": "newcomers-intro-programming",
+      "title": "Newcomers: Introduction to Programming",
+      "folder": "ICPC SCU / Newcomers",
+      "category": "fundamentals",
+      "tags": [
+        "fundamentals",
+        "videos",
+        "youtube-only"
+      ],
+      "description": "ICPC SCU newcomers session — introduction to programming, part 1.",
+      "sections": [
+        {
+          "id": "session-video",
+          "title": "Session Video",
+          "level": 2,
+          "links": [
+            {
+              "label": "Part 1 — Introduction to Programming",
+              "url": "https://youtu.be/FU0IyvmFi_c",
+              "type": "youtube"
+            }
+          ]
+        }
+      ],
+      "sessionRecordings": [
+        {
+          "label": "Part 1 — Introduction to Programming",
+          "url": "https://youtu.be/FU0IyvmFi_c",
+          "type": "youtube"
+        }
+      ],
+      "primaryVideos": [],
+      "youtubeChannelVideos": [
+        {
+          "id": "FU0IyvmFi_c",
+          "title": "Newcomers Introduction to programming part1",
+          "url": "https://www.youtube.com/watch?v=FU0IyvmFi_c",
+          "thumbnail": "https://i.ytimg.com/vi/FU0IyvmFi_c/hqdefault.jpg",
+          "publishedAt": ""
+        }
+      ],
+      "stats": {
+        "problems": 0,
+        "sheets": 0,
+        "videos": 1,
+        "articles": 0,
+        "total": 1
+      },
+      "markdown": "# Newcomers: Introduction to Programming\n\nICPC SCU newcomers session — introduction to programming, part 1.\n\n## Session Video\n\n[Part 1 — Introduction to Programming](https://youtu.be/FU0IyvmFi_c)"
+    },
+    {
+      "id": "setup-environment-stress-testing",
+      "title": "Setup Environment & Stress Testing",
+      "folder": "ICPC SCU / Newcomers",
+      "category": "fundamentals",
+      "tags": [
+        "fundamentals",
+        "videos",
+        "youtube-only"
+      ],
+      "description": "How to set up your competitive programming environment and use stress testing.",
+      "sections": [
+        {
+          "id": "session-video",
+          "title": "Session Video",
+          "level": 2,
+          "links": [
+            {
+              "label": "Session — Setup & Stress Testing",
+              "url": "https://www.youtube.com/watch?v=8UvUyVjpWdU",
+              "type": "youtube"
+            }
+          ]
+        }
+      ],
+      "sessionRecordings": [
+        {
+          "label": "Session — Setup & Stress Testing",
+          "url": "https://www.youtube.com/watch?v=8UvUyVjpWdU",
+          "type": "youtube"
+        }
+      ],
+      "primaryVideos": [],
+      "youtubeChannelVideos": [
+        {
+          "id": "8UvUyVjpWdU",
+          "title": "Setup Environment & Stress Testing",
+          "url": "https://www.youtube.com/watch?v=8UvUyVjpWdU",
+          "thumbnail": "https://i.ytimg.com/vi/8UvUyVjpWdU/hqdefault.jpg",
+          "publishedAt": ""
+        }
+      ],
+      "stats": {
+        "problems": 0,
+        "sheets": 0,
+        "videos": 1,
+        "articles": 0,
+        "total": 1
+      },
+      "markdown": "# Setup Environment & Stress Testing\n\nHow to set up your competitive programming environment and use stress testing.\n\n## Session Video\n\n[Session — Setup & Stress Testing](https://www.youtube.com/watch?v=8UvUyVjpWdU)"
+    },
+    {
+      "id": "time-complexity-discussion",
+      "title": "Time Complexity Discussion",
+      "folder": "ICPC SCU / Newcomers",
+      "category": "fundamentals",
+      "tags": [
+        "fundamentals",
+        "videos",
+        "youtube-only"
+      ],
+      "description": "Understanding time complexity and why it matters in competitive programming.",
+      "sections": [
+        {
+          "id": "session-video",
+          "title": "Session Video",
+          "level": 2,
+          "links": [
+            {
+              "label": "Session — Time Complexity",
+              "url": "https://www.youtube.com/watch?v=Xio3CYdXmLM",
+              "type": "youtube"
+            }
+          ]
+        }
+      ],
+      "sessionRecordings": [
+        {
+          "label": "Session — Time Complexity",
+          "url": "https://www.youtube.com/watch?v=Xio3CYdXmLM",
+          "type": "youtube"
+        }
+      ],
+      "primaryVideos": [],
+      "youtubeChannelVideos": [
+        {
+          "id": "Xio3CYdXmLM",
+          "title": "Time Complexity Discussion",
+          "url": "https://www.youtube.com/watch?v=Xio3CYdXmLM",
+          "thumbnail": "https://i.ytimg.com/vi/Xio3CYdXmLM/hqdefault.jpg",
+          "publishedAt": ""
+        }
+      ],
+      "stats": {
+        "problems": 0,
+        "sheets": 0,
+        "videos": 1,
+        "articles": 0,
+        "total": 1
+      },
+      "markdown": "# Time Complexity Discussion\n\nUnderstanding time complexity and why it matters in competitive programming.\n\n## Session Video\n\n[Session — Time Complexity](https://www.youtube.com/watch?v=Xio3CYdXmLM)"
+    },
+    {
+      "id": "newcomers-session-4-strings",
+      "title": "Newcomers Session #4 (Strings)",
+      "folder": "ICPC SCU / Newcomers",
+      "category": "fundamentals",
+      "tags": [
+        "fundamentals",
+        "videos",
+        "youtube-only"
+      ],
+      "description": "ICPC SCU newcomers session covering strings.",
+      "sections": [
+        {
+          "id": "session-video",
+          "title": "Session Video",
+          "level": 2,
+          "links": [
+            {
+              "label": "Session #4 — Strings",
+              "url": "https://youtu.be/5jzsNkviJjI",
+              "type": "youtube"
+            }
+          ]
+        }
+      ],
+      "sessionRecordings": [
+        {
+          "label": "Session #4 — Strings",
+          "url": "https://youtu.be/5jzsNkviJjI",
+          "type": "youtube"
+        }
+      ],
+      "primaryVideos": [],
+      "youtubeChannelVideos": [
+        {
+          "id": "5jzsNkviJjI",
+          "title": "Newcomers Session #4 (String)",
+          "url": "https://www.youtube.com/watch?v=5jzsNkviJjI",
+          "thumbnail": "https://i.ytimg.com/vi/5jzsNkviJjI/hqdefault.jpg",
+          "publishedAt": ""
+        }
+      ],
+      "stats": {
+        "problems": 0,
+        "sheets": 0,
+        "videos": 1,
+        "articles": 0,
+        "total": 1
+      },
+      "markdown": "# Newcomers Session #4 (Strings)\n\nICPC SCU newcomers session covering strings.\n\n## Session Video\n\n[Session #4 — Strings](https://youtu.be/5jzsNkviJjI)"
+    },
+    {
       "id": "stl-session",
       "title": "STL Session",
       "folder": "STLS Session",
@@ -1698,7 +1902,15 @@
         }
       ],
       "primaryVideos": [],
-      "youtubeChannelVideos": [],
+      "youtubeChannelVideos": [
+        {
+          "id": "DmtGtp8hBas",
+          "title": "DP Bitmasking & DP with Prefix Sum",
+          "url": "https://www.youtube.com/watch?v=DmtGtp8hBas",
+          "thumbnail": "https://i.ytimg.com/vi/DmtGtp8hBas/hqdefault.jpg",
+          "publishedAt": ""
+        }
+      ],
       "stats": {
         "problems": 32,
         "sheets": 0,
@@ -2061,14 +2273,14 @@
           "label": "Session Video",
           "url": "https://drive.google.com/file/d/1RWP4vxw1cpTmIfFfbrBSrFTf-eh9p5_I/view?usp=sharing",
           "type": "drive"
-        },
+        }
+      ],
+      "primaryVideos": [
         {
           "label": "Khaled Rezk Session",
           "url": "https://drive.google.com/drive/folders/1iogpBTyltQyWeNGmrn2JkxkfnFZ2yuED?usp=sharing",
           "type": "drive"
-        }
-      ],
-      "primaryVideos": [
+        },
         {
           "label": "Solver To Be",
           "url": "https://www.youtube.com/watch?v=7B9Fqtft4zM",
@@ -3482,6 +3694,34 @@
       "title": "Thinking Discussion Session",
       "url": "https://www.youtube.com/watch?v=UA9-CaD3758",
       "thumbnail": "https://i.ytimg.com/vi/UA9-CaD3758/hqdefault.jpg",
+      "publishedAt": ""
+    },
+    {
+      "id": "FU0IyvmFi_c",
+      "title": "Newcomers Introduction to programming part1",
+      "url": "https://www.youtube.com/watch?v=FU0IyvmFi_c",
+      "thumbnail": "https://i.ytimg.com/vi/FU0IyvmFi_c/hqdefault.jpg",
+      "publishedAt": ""
+    },
+    {
+      "id": "8UvUyVjpWdU",
+      "title": "Setup Environment & Stress Testing",
+      "url": "https://www.youtube.com/watch?v=8UvUyVjpWdU",
+      "thumbnail": "https://i.ytimg.com/vi/8UvUyVjpWdU/hqdefault.jpg",
+      "publishedAt": ""
+    },
+    {
+      "id": "Xio3CYdXmLM",
+      "title": "Time Complexity Discussion",
+      "url": "https://www.youtube.com/watch?v=Xio3CYdXmLM",
+      "thumbnail": "https://i.ytimg.com/vi/Xio3CYdXmLM/hqdefault.jpg",
+      "publishedAt": ""
+    },
+    {
+      "id": "5jzsNkviJjI",
+      "title": "Newcomers Session #4 (String)",
+      "url": "https://www.youtube.com/watch?v=5jzsNkviJjI",
+      "thumbnail": "https://i.ytimg.com/vi/5jzsNkviJjI/hqdefault.jpg",
       "publishedAt": ""
     }
   ],

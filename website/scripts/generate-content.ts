@@ -19,6 +19,22 @@ import {
 import { normalizeMarkdownForRender } from "../src/lib/markdown.ts";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+interface ExtraSessionEntry {
+  id: string;
+  title: string;
+  folder: string;
+  category: Session["category"];
+  description: string;
+  order: number;
+  recordings: { label: string; url: string }[];
+  youtubeIds: string[];
+}
+
+const EXTRA_SESSIONS: ExtraSessionEntry[] = JSON.parse(
+  fs.readFileSync(path.join(__dirname, "extra-sessions.json"), "utf-8"),
+);
+
 const ROOT = path.resolve(__dirname, "../..");
 const OUTPUT = path.resolve(__dirname, "../src/data/site-data.json");
 
@@ -101,7 +117,10 @@ async function enrichYouTubeFromSessions(
   rssVideos: YouTubeVideo[],
 ): Promise<YouTubeVideo[]> {
   const known = new Map(rssVideos.map((v) => [v.id, v]));
-  const mappedIds = new Set(Object.values(SESSION_YOUTUBE_MAP).flat());
+  const mappedIds = new Set([
+    ...Object.values(SESSION_YOUTUBE_MAP).flat(),
+    ...EXTRA_SESSIONS.flatMap((s) => s.youtubeIds),
+  ]);
 
   for (const id of mappedIds) {
     if (known.has(id)) continue;
@@ -161,6 +180,56 @@ function buildSession(folder: string, youtubeVideos: YouTubeVideo[]): Session {
   };
 }
 
+function buildExtraSession(
+  entry: ExtraSessionEntry,
+  youtubeCatalog: YouTubeVideo[],
+): Session {
+  const sessionRecordings = entry.recordings.map((r) => ({
+    label: r.label,
+    url: r.url,
+    type: "youtube" as const,
+  }));
+
+  const matchedYoutube = youtubeCatalog.filter((v) => entry.youtubeIds.includes(v.id));
+
+  const markdown = `# ${entry.title}
+
+${entry.description}
+
+## Session Video
+
+${entry.recordings.map((r) => `[${r.label}](${r.url})`).join("\n\n")}
+`;
+
+  return {
+    id: entry.id,
+    title: entry.title,
+    folder: entry.folder,
+    category: entry.category,
+    tags: [entry.category, "videos", "youtube-only"],
+    description: entry.description,
+    sections: [
+      {
+        id: "session-video",
+        title: "Session Video",
+        level: 2,
+        links: sessionRecordings,
+      },
+    ],
+    sessionRecordings,
+    primaryVideos: [],
+    youtubeChannelVideos: matchedYoutube,
+    stats: {
+      problems: 0,
+      sheets: 0,
+      videos: sessionRecordings.length,
+      articles: 0,
+      total: sessionRecordings.length,
+    },
+    markdown: normalizeMarkdownForRender(markdown),
+  };
+}
+
 function deriveTags(folder: string, sections: { title: string }[]): string[] {
   const tags = new Set<string>();
   const category = FOLDER_CATEGORY[folder];
@@ -187,14 +256,19 @@ async function main() {
     ...SESSION_DIRS.filter((f) => !FOLDER_ORDER.includes(f)).sort(),
   ];
 
-  const sessions = orderedFolders
+  const readmeSessions = orderedFolders
     .filter((folder) => findReadme(folder))
     .map((folder) => buildSession(folder, youtubeRss));
 
-  const youtubeVideos = await enrichYouTubeFromSessions(sessions, youtubeRss);
+  const youtubeVideos = await enrichYouTubeFromSessions(readmeSessions, youtubeRss);
   console.log(`Total YouTube videos after enrichment: ${youtubeVideos.length}`);
 
-  // Re-match sessions with full video list
+  const extraSessions = EXTRA_SESSIONS.sort((a, b) => a.order - b.order).map((entry) =>
+    buildExtraSession(entry, youtubeVideos),
+  );
+
+  const sessions = [...extraSessions, ...readmeSessions];
+
   for (const session of sessions) {
     session.youtubeChannelVideos = matchYouTubeVideos(
       session.id,

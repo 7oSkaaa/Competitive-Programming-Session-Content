@@ -8,6 +8,7 @@ import {
   ExternalLink,
 } from "lucide-react";
 import { useState } from "react";
+import ScrollRestoration from "@/components/ScrollRestoration";
 import siteData from "@/data/site-data.json";
 import type { SiteData } from "@/types";
 
@@ -24,6 +25,7 @@ export default function Layout() {
 
   return (
     <div className="relative min-h-screen">
+      <ScrollRestoration />
       <div
         className="pointer-events-none fixed inset-0 bg-grid-pattern bg-grid opacity-40"
         aria-hidden

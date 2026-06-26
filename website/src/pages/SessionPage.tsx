@@ -1,6 +1,7 @@
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import MarkdownContent from "@/components/MarkdownContent";
-import { ArrowLeft, ExternalLink } from "lucide-react";
+import { ExternalLink } from "lucide-react";
+import BackLink from "@/components/BackLink";
 import ResourceList from "@/components/ResourceList";
 import SessionRecordings from "@/components/SessionRecordings";
 import YouTubeCard from "@/components/YouTubeCard";
@@ -19,10 +20,7 @@ export default function SessionPage() {
     return (
       <div className="mx-auto max-w-3xl px-4 py-24 text-center">
         <h1 className="font-display text-2xl font-bold text-white">Session not found</h1>
-        <Link to="/" className="btn-primary mt-6 inline-flex">
-          <ArrowLeft className="h-4 w-4" />
-          Back to sessions
-        </Link>
+        <BackLink label="Back to sessions" className="btn-primary mt-6 inline-flex" />
       </div>
     );
   }
@@ -41,13 +39,10 @@ export default function SessionPage() {
 
   return (
     <article className="mx-auto max-w-5xl px-4 py-10 sm:px-6 lg:px-8">
-      <Link
-        to="/"
+      <BackLink
+        label="All sessions"
         className="mb-8 inline-flex items-center gap-2 text-sm text-slate-400 transition-colors hover:text-white"
-      >
-        <ArrowLeft className="h-4 w-4" />
-        All sessions
-      </Link>
+      />
 
       <header className="mb-10">
         <span
@@ -71,6 +66,7 @@ export default function SessionPage() {
       <SessionRecordings
         recordings={session.sessionRecordings}
         channelVideos={session.youtubeChannelVideos}
+        sessionId={session.id}
         sessionTitle={session.title}
       />
 

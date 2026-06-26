@@ -126,22 +126,36 @@ export function preprocessMarkdownForDisplay(markdown: string): string {
 }
 
 const EXTERNAL_EDUCATOR =
-  /adel|nassim|mostafa|errich|playlist|cpp\s*nuts|kacy\s*codes|pavel|affifi|solver\s*to\s*be|apna\s*college|4kids|elementary|arabic|edu\s*step/i;
+  /adel|nassim|mostafa|errich|playlist|cpp\s*nuts|kacy\s*codes|pavel|affifi|solver\s*to\s*be|apna\s*college|4kids|elementary|arabic|edu\s*step|khaled\s*rezk|erricho|pavel\s*marvin|solver/i;
+
+const SUPPLEMENTARY_SECTION =
+  /extra\s*resources|additional\s*material|external\s*links|if you want/i;
 
 const SUPPLEMENTARY_TOPIC =
   /^(priority[_\s]?queue|multiset|orderd[_\s]?set|ternary\s*search|binary\s*search)$/i;
 
 export function isSessionRecording(link: ResourceLink): boolean {
   if (link.url.startsWith("#")) return false;
+  if (
+    link.type === "problem" ||
+    link.type === "sheet" ||
+    link.type === "article" ||
+    link.type === "template"
+  ) {
+    return false;
+  }
 
   const lower = link.label.toLowerCase();
   if (EXTERNAL_EDUCATOR.test(lower)) return false;
   if (SUPPLEMENTARY_TOPIC.test(lower.replace(/_/g, " "))) return false;
 
-  if (link.type === "drive") return true;
+  if (link.type === "drive") {
+    if (EXTERNAL_EDUCATOR.test(lower)) return false;
+    return true;
+  }
 
   const sessionPattern =
-    /session|part\s*#?\s*\d+|stl\s*-?\s*i|recursive|iterative|bitmask|application|function\s*session|\d+\s*pointers|part\s*\d+|23'/i;
+    /session|part\s*#?\s*\d+|stl\s*-?\s*i|recursive|iterative|bitmask|application|function\s*session|\d+\s*pointers|part\s*\d+|23'|newcomers|setup|stress|complexity|introduction/i;
   if (sessionPattern.test(lower)) return true;
 
   if (link.type === "youtube" || link.type === "video") {
@@ -152,6 +166,21 @@ export function isSessionRecording(link: ResourceLink): boolean {
   return false;
 }
 
+function recordingSortOrder(link: ResourceLink): number {
+  const label = link.label.toLowerCase();
+  const part = extractPartNumber(link.label);
+
+  if (/^session\s*video/i.test(label)) return 0;
+  if (/session/i.test(label) && part === null && !/\bpart\b/.test(label)) return 1;
+  if (/stl\s*-?\s*i/i.test(label)) return 2;
+  if (/recursive/i.test(label)) return 10;
+  if (/iterative/i.test(label)) return 11;
+  if (/bitmask/i.test(label)) return 12;
+  if (/application/i.test(label) && /stl/i.test(label)) return 3;
+  if (part !== null) return 100 + part;
+  return 50;
+}
+
 export function extractPartNumber(label: string): number | null {
   const match = label.match(/part\s*#?\s*(\d+)/i);
   return match ? Number.parseInt(match[1], 10) : null;
@@ -159,34 +188,68 @@ export function extractPartNumber(label: string): number | null {
 
 export function sortSessionRecordings(links: ResourceLink[]): ResourceLink[] {
   const unique = [...new Map(links.map((l) => [l.url, l])).values()];
-  return unique.sort((a, b) => {
-    const partA = extractPartNumber(a.label);
-    const partB = extractPartNumber(b.label);
-    if (partA !== null && partB !== null) return partA - partB;
-    if (partA !== null) return 1;
-    if (partB !== null) return -1;
-    const aSession = /session/i.test(a.label);
-    const bSession = /session/i.test(b.label);
-    if (aSession && !bSession) return -1;
-    if (!aSession && bSession) return 1;
-    return 0;
-  });
+  return unique.sort((a, b) => recordingSortOrder(a) - recordingSortOrder(b));
+}
+
+function isSupplementarySection(title: string): boolean {
+  return SUPPLEMENTARY_SECTION.test(title);
 }
 
 export function getSessionRecordings(
   sections: { title: string; links: ResourceLink[] }[],
 ): ResourceLink[] {
   const candidates: ResourceLink[] = [];
-  const videoSections = sections.filter((s) => /videos?|session/i.test(s.title));
-  const otherSections = sections.filter((s) => !videoSections.includes(s));
+  const sessionSections = sections.filter((s) => /^session$/i.test(s.title.trim()));
+  const videoSections = sections.filter(
+    (s) =>
+      !isSupplementarySection(s.title) &&
+      /videos?/i.test(s.title) &&
+      !sessionSections.includes(s),
+  );
+  const otherSections = sections.filter(
+    (s) =>
+      !sessionSections.includes(s) &&
+      !videoSections.includes(s) &&
+      !isSupplementarySection(s.title),
+  );
 
-  for (const section of [...videoSections, ...otherSections]) {
+  for (const section of [...sessionSections, ...videoSections, ...otherSections]) {
     for (const link of section.links) {
       if (isSessionRecording(link)) candidates.push(link);
     }
   }
 
   return sortSessionRecordings(candidates);
+}
+
+export function getPrimaryYouTubeEmbed(
+  recordings: ResourceLink[],
+  channelVideos: { id: string; title: string }[],
+  sessionId: string,
+): { id: string; title: string } | null {
+  if (recordings.some((r) => r.type === "drive")) return null;
+
+  const mappedIds = SESSION_YOUTUBE_MAP[sessionId] ?? [];
+
+  for (const recording of recordings) {
+    const id = getYouTubeId(recording.url);
+    if (!id) continue;
+    if (
+      mappedIds.includes(id) ||
+      /session|part|recursive|iterative|bitmask|23'|newcomers|setup|complexity|introduction/i.test(
+        recording.label,
+      )
+    ) {
+      return { id, title: recording.label };
+    }
+  }
+
+  for (const id of mappedIds) {
+    const match = channelVideos.find((v) => v.id === id);
+    if (match) return { id: match.id, title: match.title };
+  }
+
+  return null;
 }
 
 export function getSupplementaryVideos(
@@ -349,11 +412,16 @@ export const FOLDER_ORDER = [
 
 export const SESSION_YOUTUBE_MAP: Record<string, string[]> = {
   "segment-tree": ["EM7WxB6ekl8", "IN2mYScTTbg"],
-  dp: ["DmtGtp8hBas", "V98fvNaiLog", "HpQXM3_kXx8"],
-  dsu: ["TODdUeifThQ"],
+  "dp-dynammic-programming": ["DmtGtp8hBas"],
+  "disjoint-set-union": ["TODdUeifThQ"],
   bits: ["wmq4XA2VBhU"],
   miscellaneous: ["CAkMhaNr47U", "vtcEK6k_u_E"],
   "thinking-discussion": ["UA9-CaD3758"],
+  "thinking-session-notes": ["UA9-CaD3758"],
+  "newcomers-intro-programming": ["FU0IyvmFi_c"],
+  "setup-environment-stress-testing": ["8UvUyVjpWdU"],
+  "time-complexity-discussion": ["Xio3CYdXmLM"],
+  "newcomers-session-4-strings": ["5jzsNkviJjI"],
 };
 
 export function parseMarkdownSections(content: string) {
@@ -429,19 +497,11 @@ export function parseMarkdownSections(content: string) {
 
 export function matchYouTubeVideos(
   sessionId: string,
-  sessionTitle: string,
+  _sessionTitle: string,
   allVideos: { id: string; title: string; url: string; thumbnail: string; publishedAt: string }[],
 ): typeof allVideos {
   const explicitIds = SESSION_YOUTUBE_MAP[sessionId] ?? [];
-  const titleWords = sessionTitle.toLowerCase().split(/\s+/);
-
-  return allVideos.filter((video) => {
-    if (explicitIds.includes(video.id)) return true;
-    const videoTitle = video.title.toLowerCase();
-    const significantWords = titleWords.filter((w) => w.length > 3);
-    const matches = significantWords.filter((w) => videoTitle.includes(w));
-    return matches.length >= 2;
-  });
+  return allVideos.filter((video) => explicitIds.includes(video.id));
 }
 
 export function formatDate(iso: string): string {
