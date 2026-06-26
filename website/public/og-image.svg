@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0a0e17"/>
+      <stop offset="0.55" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0a0e17"/>
+    </linearGradient>
+    <linearGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 280 -520 0 900 -80)">
+      <stop stop-color="#6366f1" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 220 -400 0 180 40)">
+      <stop stop-color="#22d3ee" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="icon" x1="120" y1="120" x2="320" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#6366f1" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect x="120" y="165" width="180" height="180" rx="36" fill="url(#icon)"/>
+  <path d="M175 225 150 255l25 30M245 225l25 30-25 30" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M228 210 192 300" stroke="#fff" stroke-width="11" stroke-linecap="round"/>
+  <text x="360" y="250" fill="#fff" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="72" font-weight="700">CP Sessions Hub</text>
+  <text x="360" y="320" fill="#94a3b8" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="34" font-weight="500">Competitive Programming sessions by 7oSkaa</text>
+  <text x="360" y="380" fill="#64748b" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="26">Videos · Problems · Articles · Resources</text>
+  <rect x="360" y="420" width="130" height="44" rx="22" fill="#6366f1" fill-opacity="0.18" stroke="#818cf8" stroke-opacity="0.35"/>
+  <text x="425" y="449" fill="#c7d2fe" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="18" font-weight="600" text-anchor="middle">Sessions</text>
+  <rect x="505" y="420" width="120" height="44" rx="22" fill="#22d3ee" fill-opacity="0.12" stroke="#22d3ee" stroke-opacity="0.28"/>
+  <text x="565" y="449" fill="#a5f3fc" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="18" font-weight="600" text-anchor="middle">YouTube</text>
+  <rect x="640" y="420" width="130" height="44" rx="22" fill="#10b981" fill-opacity="0.12" stroke="#10b981" stroke-opacity="0.28"/>
+  <text x="705" y="449" fill="#6ee7b7" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="18" font-weight="600" text-anchor="middle">Practice</text>
+</svg>

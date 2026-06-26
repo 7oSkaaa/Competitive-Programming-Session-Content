@@ -1,6 +1,5 @@
 import { Link, Outlet, useLocation } from "react-router-dom";
 import {
-  Code2,
   Github,
   Menu,
   X,
@@ -34,9 +33,11 @@ export default function Layout() {
       <header className="sticky top-0 z-50 border-b border-white/5 bg-surface/80 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
           <Link to="/" className="group flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-accent to-cyan-500 shadow-lg shadow-accent/30 transition-transform group-hover:scale-105">
-              <Code2 className="h-5 w-5 text-white" />
-            </div>
+            <img
+              src={`${import.meta.env.BASE_URL}favicon.svg`}
+              alt=""
+              className="h-10 w-10 rounded-xl shadow-lg shadow-accent/30 transition-transform group-hover:scale-105"
+            />
             <div>
               <p className="font-display text-lg font-bold leading-tight text-white">
                 CP Sessions
